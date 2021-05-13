@@ -79,7 +79,7 @@ pop_iuc <- merge(pop_iuc, z[,c ("Cluster Hierarchy", "Cluster Group", "weight")]
                  by.x = c("IUC_GRP_CD", "IUC_GRP_LABEL"), by.y = c("Cluster Hierarchy", "Cluster Group"))
 cent <- merge(cent, pop_iuc, by = c("SA_CD", "SA_NM"))
 
-### Point in Polygon
+### Point in Polygon - get list of LSOAs/DZs in each catchment
 pip <- st_join(cent, catch, join = st_within)
 pip <- pip %>%
   mutate_if(is.character, as.factor) %>%
@@ -117,9 +117,17 @@ zsub <- z[, c("Cluster Hierarchy", "Cluster Group", "weight")]
 group_pop <- merge(group_pop, zsub, by.x = c("IUC_GRP_CD", "IUC_GRP_LABEL"), by.y = c("Cluster Hierarchy", "Cluster Group"), all.x = TRUE)
 group_pop$w_IUC_Population_2019 <- group_pop$IUC_Population_Proportion * group_pop$weight
 
-### Get total weighted pop per Centre
+### Get total weighted pop per Retail Centre
 online_exposure <- group_pop %>%
   select(RC_ID, RC_Name, w_IUC_Population_2019) %>%
   group_by(RC_ID, RC_Name) %>%
   summarise(OE = sum(w_IUC_Population_2019))
+
+## Print Top & Bottom 10
+top_10 <- online_exposure %>%
+  arrange(desc(OE)) 
+top_10[1:10,]
+bottom_10 <- online_exposure %>%
+  arrange(OE)
+bottom_10[1:10,]
   
