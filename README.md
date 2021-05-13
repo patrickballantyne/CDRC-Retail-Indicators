@@ -20,3 +20,12 @@ Indicators are developed for a subset of the 6,423 Retail Centres. The indicator
 - Online Vulnerability - online shopping propensity in catchment of centres.
 - E-Resilience of Centres.
 - Catchments - drive-time catchments, varying in size by centre classification (e.g. Regional Centre 20mins, Local Centre 10 mins).
+
+## Code
+
+Code is available for some of the indicators:
+
+- Online Vulnerability / E-Resilience
+- Catchments
+
+Code for the other variables is not open, as these indicators were constructed using the secure LDC dataset, in a secure environment. 
