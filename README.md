@@ -2,7 +2,7 @@
 
 ## Data
 
-2021 Retail Centres are avialable to download for free from the Consumer Data Research Centre (CDRC) [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries).
+2021 Retail Centres are available to download for free from the Consumer Data Research Centre (CDRC) [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries).
 
 We also utilise a series of other datasets to assist in development of indicators for the centres:
 
