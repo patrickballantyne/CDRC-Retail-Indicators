@@ -2,13 +2,13 @@
 
 ## Data
 
-2021 Retail Centres are avialable to download for free from the Consumer Data Research Centre (CDRC) at: https://data.cdrc.ac.uk/dataset/retail-centre-boundaries.
+2021 Retail Centres are avialable to download for free from the Consumer Data Research Centre (CDRC) [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries).
 
 We also utilise a series of other datasets to assist in development of indicators for the centres:
 
-- Local Data Company (LDC) Retail Type & Vacancy dataset [SECURE], from 2018-2020, available at:
-- Internet User Classification (IUC) from 2018, available at:
-- Population Estimates for England/Wales (LSOA) & Scotland (DataZone), available at: 
+- Local Data Company (LDC) Retail Type & Vacancy dataset [SECURE], from 2018-2020, available [HERE](https://data.cdrc.ac.uk/dataset/local-data-company-retail-type-or-vacancy-classification).
+- Internet User Classification (IUC) from 2018, available [HERE](https://data.cdrc.ac.uk/dataset/internet-user-classification).
+- Population Estimates for England/Wales (LSOA) & Scotland (DataZone), available [HERE](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates) and [HERE](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/2011-based-special-area-population-estimates/small-area-population-estimates/mid-2019).
 
 ## Indicators
 
