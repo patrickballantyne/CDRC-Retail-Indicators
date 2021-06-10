@@ -130,4 +130,7 @@ top_10[1:10,]
 bottom_10 <- online_exposure %>%
   arrange(OE)
 bottom_10[1:10,]
+
+### Write out
+write.csv(online_exposure, "Output Data/CDRC_Retail_Centre_2021_OnlineExposure.csv")
   
