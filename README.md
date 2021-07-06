@@ -14,19 +14,24 @@ We also utilise a series of other datasets to develop the indicators for the cen
 
 ## Indicators
 
-Indicators are developed for a subset of the 6,423 Retail Centres, with sufficient LDC coverage and those larger than 'Small, Local Centres'. The indicators are:
+Indicators are developed for a subset of the 6,423 Retail Centres, with sufficient LDC coverage and those larger than 'Small, Local Centres'.
 
-- Retail Centre Composition - proportions of different types of retail (e.g. Comparison, Service).
-- Retail Centre Vacancy - proportions of vacant units, short and longer term change in vacancy rates.
-- Retail Centre Diversity - proportions of independents and national chains, 'clone town' score.
-- Online Exposure -  exposure to neighbourhoods with high/low internet engagement.
-- Catchments - drive-time catchments, varying in size by centre classification (e.g. Regional Centre 20mins, Local Centre 10 mins).
+For 823 of the centres, we provide:
+- Composition indicators: proportions of different types of retail (e.g. Comparison, Service).
+- Diversity indicators: ownership (independent, chains), clone town likelihood score.
+- Vacancy indicators: proportions of vacant units, short & long-term vacancy rates
+
+For 1,620 of the centres we provide:
+- Updated E-Resilience score: supply vulnerability, online exposure
+- Catchments - drive-time and walking catchments, varying in size by centre classification (e.g. Regional Centre).
+- Deprivation Exposure - exposure to neighbourhoods with high/low deprivation.
 
 ## Code
 
 Code is available for some of the indicators:
 
-- [Online Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Calculating%20Online-Exposure.R).
+- [E-Resilience Score, Part A: Online Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Calculating%20Online-Exposure.R).
 - [Catchments](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Drive-Time%20Catchments.R). 
+- [Deprivation Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Calculating%20Deprivation-Exposure.R).
 
-Code for the other variables is unfortunately not available, as these indicators were derived using the secure LDC dataset.
+Code for the other variables is unfortunately not available, as these indicators were derived using the secure LDC dataset in the UCL Data Safe Haven.
