@@ -30,7 +30,7 @@ For 1,620 of the centres we provide:
 
 Code is available for some of the indicators:
 
-- [E-Resilience Score, Part A: Online Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Calculating%20Online-Exposure.R).
+- [E-Resilience Score: Calculating Online Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Calculating%20Online-Exposure.R).
 - [Catchments](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Drive-Time%20Catchments.R). 
 - [Deprivation Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Calculating%20Deprivation-Exposure.R).
 
