@@ -8,9 +8,20 @@ library(readxl)
 # 1. Data -----------------------------------------------------------------
 
 ## Retail Centres & Catchments #############################################
+
+### Read in centres and drop Northern Irish ones
 rc <- st_read("Input Data/Retail_Centres_UK_Final.gpkg")
-rc <- rc %>% filter(Classification != "Small Local Centre")
+rc <- rc %>% 
+  filter(Classification != "Small Local Centre") %>%
+  filter(RC_Name != "Banbridge Village Outlet; Armagh City, Banbridge and Craigavon (Northern Ireland)") %>%
+  filter(RC_Name != "Belfast City. Belfast (Northern Ireland)")
+
+### Read in catchments and drop Northern Irish ones
 catch <- st_transform(st_read("Output Data/CDRC_RetailCentre_2021_DriveTimes.gpkg"), 27700)
+catch <- catch %>%
+  filter(RC_Name != "Banbridge Village Outlet; Armagh City, Banbridge and Craigavon (Northern Ireland)") %>%
+  filter(RC_Name != "Belfast City. Belfast (Northern Ireland)")
+
 
 ################################################################################
 
@@ -38,6 +49,7 @@ eng_wal <- eng_wal %>%
 
 ### Scotland
 scot <- read_excel("Input Data/2019_S_estimates.xlsx", sheet = 1,  skip = 5)
+
 scot <- scot %>%
   select(1:2, 4) %>%
   setNames(c("SA_CD", "SA_NM", "Total_Population_2019")) %>%
@@ -46,7 +58,7 @@ scot <- scot %>%
 
 ### UK Population
 pop <- rbind(eng_wal, scot)
-
+head(pop)
 ################################################################################
 
 ## Population Weighted Centroids
@@ -67,20 +79,32 @@ cent_dz <- cent_dz %>%
 
 ### Compile
 cent <- rbind(cent_lsoa, cent_dz)
+cent <- cent %>% select(-c(SA_NM))
 
 #############################################################################
 
 
 # 2. Calculating Online Exposure ------------------------------------------
 
-### Joining data
-pop_iuc <- merge(pop, iuc, by = c("SA_CD", "SA_NM"))
-pop_iuc <- merge(pop_iuc, z[,c ("Cluster Hierarchy", "Cluster Group", "weight")],
-                 by.x = c("IUC_GRP_CD", "IUC_GRP_LABEL"), by.y = c("Cluster Hierarchy", "Cluster Group"))
-cent <- merge(cent, pop_iuc, by = c("SA_CD", "SA_NM"))
+### Join population data to IUC groups
+pop_iuc <- merge(pop, iuc, by = c("SA_CD"))
+pop_iuc <- pop_iuc %>%
+  select(SA_CD, SA_NM.x, Total_Population_2019, IUC_GRP_CD, IUC_GRP_LABEL) %>%
+  rename(SA_NM = SA_NM.x)
+
+## Merge on weights from IUC Z scores
+z_sub <- z %>%
+  select(1:2, 30) %>%
+  setNames(c("IUC_GRP_CD", "IUC_GRP_LABEL", "Weight"))
+pop_iuc <- merge(pop_iuc, z_sub, by = c("IUC_GRP_CD", "IUC_GRP_LABEL"))
+
+## Merge population, IUC and z scores onto the population weighted centroids
+cent_db <- merge(cent, pop_iuc, by = c("SA_CD"), all.x = TRUE)
+
+#############################################################################
 
 ### Point in Polygon - get list of LSOAs/DZs in each catchment
-pip <- st_join(cent, catch, join = st_within)
+pip <- st_join(cent_db, catch, join = st_within)
 pip <- pip %>%
   mutate_if(is.character, as.factor) %>%
   drop_na()
@@ -92,11 +116,14 @@ catch_pop <- pip %>%
   group_by(RC_ID, RC_Name) %>%
   summarise(Total_Catchment_Population = sum(Total_Population_2019))
 
+m <- catch %>%
+  filter(!RC_ID %in% catch_pop$RC_ID)
+
 ## Compute proportion of catchment population occupied by each IUC group
 pip <- merge(pip, catch_pop, by = c("RC_ID", "RC_Name"), all.x = TRUE)
 group_pop <- pip %>%
   as.data.frame() %>%
-  select(RC_ID, RC_Name, IUC_GRP_CD, IUC_GRP_LABEL, Total_Population_2019, Total_Catchment_Population, weight) %>%
+  select(RC_ID, RC_Name, IUC_GRP_CD, IUC_GRP_LABEL, Total_Population_2019, Total_Catchment_Population, Weight) %>%
   group_by(RC_ID, RC_Name, IUC_GRP_LABEL, IUC_GRP_CD) %>%
   summarise(Total_IUC_Population_2019 = sum(Total_Population_2019))
 
@@ -112,10 +139,11 @@ group_pop <- group_pop %>%
   mutate(IUC_Population_Proportion = (Total_IUC_Population_2019 / Total_Catchment_Population) * 100) %>%
   select(RC_ID, RC_Name, IUC_GRP_CD, IUC_GRP_LABEL, IUC_Population_Proportion)
 
+
 ## Apply weights
-zsub <- z[, c("Cluster Hierarchy", "Cluster Group", "weight")]
-group_pop <- merge(group_pop, zsub, by.x = c("IUC_GRP_CD", "IUC_GRP_LABEL"), by.y = c("Cluster Hierarchy", "Cluster Group"), all.x = TRUE)
-group_pop$w_IUC_Population_2019 <- group_pop$IUC_Population_Proportion * group_pop$weight
+group_pop <- merge(group_pop, z_sub, by = c("IUC_GRP_CD", "IUC_GRP_LABEL"),  all.x = TRUE)
+group_pop$w_IUC_Population_2019 <- group_pop$IUC_Population_Proportion * group_pop$Weight
+head(group_pop)
 
 ### Get total weighted pop per Retail Centre
 online_exposure <- group_pop %>%
@@ -123,14 +151,23 @@ online_exposure <- group_pop %>%
   group_by(RC_ID, RC_Name) %>%
   summarise(OE = sum(w_IUC_Population_2019))
 
-## Print Top & Bottom 10
-top_10 <- online_exposure %>%
-  arrange(desc(OE)) 
-top_10[1:10,]
-bottom_10 <- online_exposure %>%
-  arrange(OE)
-bottom_10[1:10,]
+## Merge back onto main dataset and add 0 score for those not overlapping pop centroids
+out <- merge(rc, online_exposure, by = c("RC_ID", "RC_Name"), all.x  = TRUE)
+out <- out %>%
+  as.data.frame() %>%
+  mutate_if(is.numeric, ~replace_na(., 0)) %>%
+  select(-c(tr_retailN, geometry)) %>%
+  rename(onlineExposure = OE) %>%
+  mutate_at(c("onlineExposure"), ~(scale(.) %>% as.vector))
+
+# ## Print Top & Bottom 10
+# top_10 <- online_exposure %>%
+#   arrange(desc(OE)) 
+# top_10[1:10,]
+# bottom_10 <- online_exposure %>%
+#   arrange(OE)
+# bottom_10[1:10,]
 
 ### Write out
-write.csv(online_exposure, "Output Data/CDRC_Retail_Centre_2021_OnlineExposure.csv")
+write.csv(out, "Output Data/CDRC_Retail_Centre_2021_OnlineExposure.csv")
   

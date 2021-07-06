@@ -39,6 +39,7 @@ out <- do.call(rbind, lapply(ls, get_drivetimes)) ## Apply function
 #st_write(out, "Output Data/CDRC_RetailCentre_2021_DriveTimes.gpkg")
 
 
+
 # 3. Walking Catchments ---------------------------------------------------
 
 # Catchments are Walking-based Isolines using the HERE API again
@@ -51,6 +52,6 @@ out <- do.call(rbind, lapply(ls, get_drivetimes)) ## Apply function
 ## Delineating the catchments (fairly slow)
 ls2 <- split(retail_centroids, seq(nrow(retail_centroids)))
 out2 <- do.call(rbind, lapply(ls2, get_walking_isolines))
-st_write(out2, "Output Data/CDRC_RetailCentre_2021_WalkingIsolines.gpkg")
+# st_write(out2, "Output Data/CDRC_RetailCentre_2021_WalkingIsolines.gpkg")
 
 
