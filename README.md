@@ -10,6 +10,7 @@ We also utilise a series of other datasets to develop the indicators for the cen
 
 - Local Data Company (LDC) Retail Type & Vacancy dataset [SECURE], from 2018-2020, available [HERE](https://data.cdrc.ac.uk/dataset/local-data-company-retail-type-or-vacancy-classification).
 - Internet User Classification (IUC) from 2018, available [HERE](https://data.cdrc.ac.uk/dataset/internet-user-classification).
+- Index of Multiple Deprivation (IMD) from 2014-2016, available [HERE](https://data.cdrc.ac.uk/dataset/index-multiple-deprivation-imd).
 - Population Estimates for England/Wales (LSOA) & Scotland (DataZone), available [HERE](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/lowersuperoutputareamidyearpopulationestimates) and [HERE](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/2011-based-special-area-population-estimates/small-area-population-estimates/mid-2019).
 
 ## Indicators
