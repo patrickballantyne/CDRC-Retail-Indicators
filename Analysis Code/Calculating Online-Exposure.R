@@ -58,7 +58,7 @@ scot <- scot %>%
 
 ### UK Population
 pop <- rbind(eng_wal, scot)
-head(pop)
+
 ################################################################################
 
 ## Population Weighted Centroids
@@ -115,9 +115,6 @@ catch_pop <- pip %>%
   select(RC_ID, RC_Name, Total_Population_2019) %>%
   group_by(RC_ID, RC_Name) %>%
   summarise(Total_Catchment_Population = sum(Total_Population_2019))
-
-m <- catch %>%
-  filter(!RC_ID %in% catch_pop$RC_ID)
 
 ## Compute proportion of catchment population occupied by each IUC group
 pip <- merge(pip, catch_pop, by = c("RC_ID", "RC_Name"), all.x = TRUE)
