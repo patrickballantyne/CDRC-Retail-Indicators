@@ -1,0 +1,1621 @@
+"","RC_ID","RC_Name","Classification","deprivationExposure"
+"1","RC_EW_2264","High Street; Sheerness; Swale (South East; England)","Market Town",1
+"2","RC_EW_2813","County Road; Walton; Liverpool (North West; England)","District Centre",1
+"3","RC_EW_3538","West Street; Newtown; City of Bristol (South West; England)","Local Centre",1
+"4","RC_EW_4300","Star City Leisure Park; Birmingham (West Midlands; England)","Small Retail Park",1
+"5","RC_EW_97","High Street; Mablethorpe; East Lindsey (East Midlands; England)","District Centre",1
+"6","RC_EW_793","Harehills Lane; Harehills; Leeds (Yorkshire and The Humber; England)","Local Centre",0.989656958987784
+"7","RC_EW_4317","Alum Rock Road; Saltley; Birmingham (West Midlands; England)","District Centre",0.988418272858221
+"8","RC_EW_4341","Vyse Street; Hockley; Birmingham (West Midlands; England)","District Centre",0.988021413049239
+"9","RC_EW_4316","Coventry Road; Sparkbrook; Birmingham (West Midlands; England)","District Centre",0.98689157435381
+"10","RC_EW_4553","Stratford Road; Showell Green; Birmingham (West Midlands; England)","District Centre",0.986874419932891
+"11","RC_EW_4356","Soho Road; Gib Heath; Birmingham (West Midlands; England)","District Centre",0.983011385441986
+"12","RC_EW_2829","Stanley Road; Bootle; Sefton (North West; England)","District Centre",0.981052322594848
+"13","RC_EW_512","Attercliffe Road; Attercliffe; Sheffield (Yorkshire and The Humber; England)","Local Centre",0.973502635361763
+"14","RC_EW_4554","Ladypool Road; Balsall Heath; Birmingham (West Midlands; England)","District Centre",0.965563482430952
+"15","RC_EW_167","Freeman Street; East Marsh; North East Lincolnshire (Yorkshire and The Humber; England)","District Centre",0.963451612903226
+"16","RC_EW_4656","Normanton Road; Rose Hill; Derby (East Midlands; England)","District Centre",0.950853624405262
+"17","RC_EW_2794","Prescot Road; Kensington; Liverpool (North West; England)","Local Centre",0.946238609350238
+"18","RC_EW_4521","Greenwood Way; Fordbridge; Solihull (West Midlands; England)","Local Centre",0.946149780452106
+"19","RC_EW_101","Hessle Road; Dairycoates; City of Kingston upon Hull (Yorkshire and The Humber; England)","District Centre",0.94338490685191
+"20","RC_EW_3699","Clifton Street; Splott; Cardiff (Wales)","Local Centre",0.939061341734618
+"21","RC_EW_577","Bury Old Road; Crumpsall; Manchester (North West; England)","District Centre",0.935498752393663
+"22","RC_EW_4286","High Street; Erdington; Birmingham (West Midlands; England)","District Centre",0.930285829442784
+"23","RC_EW_658","Manchester Road; Nelson; Pendle (North West; England)","Local Centre",0.92903583448822
+"24","RC_EW_4449","Bilston; Wolverhampton (West Midlands; England)","District Centre",0.926847604485219
+"25","RC_EW_826","Town Street; Carr Crofts; Leeds (Yorkshire and The Humber; England)","Local Centre",0.925889775026783
+"26","RC_EW_583","Manchester Fort Shopping Park; Manchester (North West; England)","Small Retail Park",0.922406173433171
+"27","RC_EW_1217","Yoden Way; Peterlee; County Durham (North East; England)","Local Centre",0.922344089439941
+"28","RC_EW_3142","Derby Street; Willows; Bolton (North West; England)","District Centre",0.921710509786186
+"29","RC_EW_4826","Waterloo Road; Burslem; Stoke-on-Trent (West Midlands; England)","District Centre",0.920528220240982
+"30","RC_EW_4455","High Street; Mayer's Green; Sandwell (West Midlands; England) - 1","Local Centre",0.919326642926513
+"31","RC_EW_4264","High Street; Bloxwich; Walsall (West Midlands; England)","Local Centre",0.918596341528452
+"32","RC_EW_3115","Market Street; Farnworth; Bolton (North West; England)","District Centre",0.916698702546852
+"33","RC_EW_3244","Stockport Road; Longsight; Manchester (North West; England)","Local Centre",0.912952258616998
+"34","RC_EW_4358","The Fiveways Shopping Centre; Birmingham (West Midlands; England)","Small Retail Park",0.911052175348799
+"35","RC_EW_2451","Fore Street; Upper Edmonton; Enfield (London; England)","District Centre",0.911040527896784
+"36","RC_EW_3007","Lytham Road; South Shore; Blackpool (North West; England)","District Centre",0.910847107438017
+"37","RC_SC_75","Gallowgate; Camlachie; Glasgow City (Scotland)","Local Centre",0.909940718911695
+"38","RC_EW_1332","High Street; Margate; Thanet (South East; England)","District Centre",0.907458352992415
+"39","RC_EW_3405","Morecambe; Lancaster (North West; England)","District Centre",0.905146993119471
+"40","RC_EW_231","London Road North; Lowestoft; East Suffolk (East of England; England)","Market Town",0.902830510401273
+"41","RC_EW_1086","Main Street; Bulwell; Nottingham (East Midlands; England)","Local Centre",0.901873924405635
+"42","RC_EW_4362","The Mailbox; Birmingham (West Midlands; England)","Large Retail Park",0.901569971882074
+"43","RC_EW_4452","Stafford Street; Willenhall; Walsall (West Midlands; England)","District Centre",0.901532102900306
+"44","RC_EW_4552","Stratford Road; Sparkhill; Birmingham (West Midlands; England)","District Centre",0.900657567002092
+"45","RC_EW_2788","Prescot Road; Old Swan; Liverpool (North West; England)","District Centre",0.900409643828763
+"46","RC_EW_4308","Beaufort Retail Park; Birmingham (West Midlands; England)","Large Retail Park",0.8962087494725
+"47","RC_EW_127","Kingston Retail Park; City of Kingston upon Hull (Yorkshire and The Humber; England)","Small Retail Park",0.895762070194192
+"48","RC_EW_90","Lumley Road; Skegness; East Lindsey (East Midlands; England)","Market Town",0.895082269155206
+"49","RC_EW_1232","Cleveland Retail Park; Redcar and Cleveland (North East; England)","Small Retail Park",0.894352857688739
+"50","RC_EW_4293","The Fort Shopping Park; Birmingham (West Midlands; England)","Small Retail Park",0.893023083752589
+"51","RC_EW_3079","Runcorn Shopping Centre; Halton Lea; Halton (North West; England)","Local Centre",0.892138707334786
+"52","RC_EW_510","Staniforth Road; Darnall; Sheffield (Yorkshire and The Humber; England)","Local Centre",0.89193642936234
+"53","RC_EW_4446","Gallagher Retail Park; Sandwell (West Midlands; England)","Small Retail Park",0.890799381917594
+"54","RC_EW_71","Southside Street; Barbican; Plymouth (South West; England)","Local Centre",0.89002396838764
+"55","RC_EW_3091","Market Street; Newton-le-Willows; St. Helens (North West; England)","Local Centre",0.889832535885168
+"56","RC_EW_2465","High Road; Tottenham; Haringey (London; England)","District Centre",0.88666097184348
+"57","RC_EW_821","Crown Point Shopping Park; Leeds (Yorkshire and The Humber; England)","Small Retail Park",0.885127460387438
+"58","RC_EW_773","High Street; Scunthorpe; North Lincolnshire (Yorkshire and The Humber; England)","District Centre",0.883512466583011
+"59","RC_EW_792","Roundhay Road; Harehills Corner; Leeds (Yorkshire and The Humber; England)","District Centre",0.883371071637712
+"60","RC_EW_1885","Barking Road; Plaistow; Newham (London; England)","Local Centre",0.880646681749623
+"61","RC_EW_612","Keighley; Bradford (Yorkshire and The Humber; England)","District Centre",0.880250395116056
+"62","RC_EW_582","Manchester Fort Shopping Park; Manchester (North West; England) - 1","Large Retail Park",0.879452635617047
+"63","RC_EW_515","Meadowhall Retail Park; Sheffield (Yorkshire and The Humber; England)","Small Retail Park",0.879386409459975
+"64","RC_EW_876"," Bradford; Bradford (Yorkshire and The Humber; England)","Major Town Centre",0.879294623981146
+"65","RC_EW_3045","Victoria Street; Brookhouse; Blackburn with Darwen (North West; England)","Local Centre",0.879181458358836
+"66","RC_EW_2743","Edge Lane Retail Park; Liverpool (North West; England)","Small Retail Park",0.877171594026211
+"67","RC_EW_2938","Wellington Road; Rhyl; Denbighshire (Wales)","Local Centre",0.87541302775769
+"68","RC_EW_4843","The Strand; Longton; Stoke-on-Trent (West Midlands; England)","Local Centre",0.874156040463548
+"69","RC_EW_4307","Stechford Retail Park; Birmingham (West Midlands; England)","Large Retail Park",0.872736439340366
+"70","RC_EW_4444","Wednesbury; Sandwell (West Midlands; England)","District Centre",0.872141811676695
+"71","RC_EW_3248","Stockport Road; Levenshulme; Manchester (North West; England)","District Centre",0.871842125470322
+"72","RC_EW_877","The Broadway Bradford; Bradford (Yorkshire and The Humber; England)","Large Retail Park",0.871755700895912
+"73","RC_EW_3272","Wilmslow Road; Infirmary; Manchester (North West; England)","District Centre",0.871718261016662
+"74","RC_EW_4254","Reedswood Retail Park; Walsall (West Midlands; England)","Small Retail Park",0.87128999908834
+"75","RC_EW_5316","Craven Park Road; Harlesden; Brent (London; England)","District Centre",0.870503757058379
+"76","RC_EW_2474","Edmonton; Enfield (London; England)","District Centre",0.87008333785274
+"77","RC_EW_404","The Penny Hill Centre; Leeds (Yorkshire and The Humber; England)","Small Retail Park",0.868945339944196
+"78","RC_EW_3290","Manchester Piccadilly Station Shopping Area; Manchester (North West; England)","Large Retail Park",0.866725691575178
+"79","RC_EW_1035","Radford Road; Hyson Green; Nottingham (East Midlands; England)","District Centre",0.866282725146493
+"80","RC_EW_2594","Heathway; Dagenham; Barking and Dagenham (London; England)","Local Centre",0.86613609153893
+"81","RC_EW_3264","Regent Retail Park; Salford (North West; England)","Small Retail Park",0.865936073059361
+"82","RC_EW_125","Holderness Road; Wilmington; City of Kingston upon Hull (Yorkshire and The Humber; England)","Local Centre",0.865061590145577
+"83","RC_EW_2824","Walton Vale; Warbreck Park; Liverpool (North West; England)","District Centre",0.86479881641172
+"84","RC_EW_4349","Birmingham City; Birmingham (West Midlands; England)","Regional Centre",0.864582236933786
+"85","RC_EW_4459","Cape Hill; Cape Hill; Sandwell (West Midlands; England)","District Centre",0.864572854211098
+"86","RC_EW_5689","High Street; Gateshead; Gateshead (North East; England)","District Centre",0.862259275510702
+"87","RC_EW_4823","High Street; Tunstall; Stoke-on-Trent (West Midlands; England)","District Centre",0.861661667666467
+"88","RC_EW_1325","Northdown Road; Cliftonville; Thanet (South East; England)","District Centre",0.861501437261849
+"89","RC_EW_4551","Alcester Road; Moseley; Birmingham (West Midlands; England)","Local Centre",0.861072752096743
+"90","RC_EW_1731","Deptford High Street; Deptford; Lewisham (London; England)","District Centre",0.85938864628821
+"91","RC_EW_1545","Kings Road; St Leonards-on-Sea; Hastings (South East; England)","District Centre",0.856902346326601
+"92","RC_EW_1890","East India Dock Road; Poplar; Tower Hamlets (London; England)","Local Centre",0.854234505404296
+"93","RC_EW_4409","Great Bridge Retail Park; Sandwell (West Midlands; England)","Large Retail Park",0.852271693689384
+"94","RC_EW_294","High Street; Mexborough; Doncaster (Yorkshire and The Humber; England)","District Centre",0.846160990712074
+"95","RC_EW_2467","West Green Road; Tottenham; Haringey (London; England)","District Centre",0.846067609096497
+"96","RC_EW_2654","Clacton-on-Sea; Tendring (East of England; England)","Town Centre",0.845685778765717
+"97","RC_EW_5","Trelowarren Street; Camborne; Cornwall (South West; England)","Market Town",0.845655521883849
+"98","RC_EW_2275","High Street; Southend-on-Sea; Southend-on-Sea (East of England; England)","District Centre",0.845510386419477
+"99","RC_EW_4840","Ravenside Retail Park; Stoke-on-Trent (West Midlands; England)","Small Retail Park",0.84523640859855
+"100","RC_EW_4271","Bentley Bridge Leisure Park; Wolverhampton (West Midlands; England)","Large Retail Park",0.844749576486854
+"101","RC_EW_163","Grimsby; North East Lincolnshire (Yorkshire and The Humber; England)","Town Centre",0.844736220239853
+"102","RC_EW_5811","Blyth; Northumberland (North East; England)","Market Town",0.844713312517741
+"103","RC_EW_891","Victoria Shopping Centre; Bradford (Yorkshire and The Humber; England)","Large Retail Park",0.843437660373055
+"104","RC_EW_3251","Lime Square; Manchester (North West; England)","Large Retail Park",0.84325253927197
+"105","RC_EW_855","Forster Square Retail Park; Bradford (Yorkshire and The Humber; England)","Large Retail Park",0.843199676781045
+"106","RC_EW_1528","High Street; Brompton; Medway (South East; England)","District Centre",0.842116505975406
+"107","RC_EW_547","Green Street Retail Park; Oldham (North West; England)","Small Retail Park",0.841567780647939
+"108","RC_EW_3085","Church Street; Runcorn; Halton (North West; England)","Market Town",0.840828175231515
+"109","RC_EW_2998","Highfield Road; South Shore; Blackpool (North West; England)","Local Centre",0.840439219165927
+"110","RC_EW_2751","Liverpool City; Liverpool (North West; England)","Regional Centre",0.84007234519346
+"111","RC_EW_3966","Fratton Road; Fratton; Portsmouth (South East; England)","Local Centre",0.840047927150731
+"112","RC_EW_4137","Station Road; Port Talbot; Neath Port Talbot (Wales)","Local Centre",0.838410454155955
+"113","RC_EW_4434","High Street; Brockmoor; Dudley (West Midlands; England)","District Centre",0.837387317376438
+"114","RC_EW_802","Killingbeck Retail Park; Leeds (Yorkshire and The Humber; England)","Small Retail Park",0.83707101511371
+"115","RC_EW_4367","One Stop Shopping Centre; Birmingham (West Midlands; England)","Small Retail Park",0.834071538141146
+"116","RC_EW_3031","Blackburn; Blackburn with Darwen (North West; England)","Town Centre",0.83115181694232
+"117","RC_EW_574","North City Shopping Centre; Manchester (North West; England)","Large Retail Park",0.829618021850926
+"118","RC_EW_2660","Brook Retail Park; Tendring (East of England; England)","Small Retail Park",0.82889975866928
+"119","RC_EW_2471","Stamford Hill; South Tottenham; Hackney (London; England)","Local Centre",0.828798293885789
+"120","RC_EW_549","Oldham; Oldham (North West; England)","Town Centre",0.828160412812211
+"121","RC_EW_3081","Huyton; Knowsley (North West; England)","Town Centre",0.826878790608299
+"122","RC_EW_2490","Lower Clapton Road; Lower Clapton; Hackney (London; England)","Local Centre",0.82485710952992
+"123","RC_EW_10","Heliport Retail Park; Cornwall (South West; England)","Small Retail Park",0.824490174267705
+"124","RC_EW_1742","Old Kent Road; Walworth; Southwark (London; England)","Local Centre",0.824255986187469
+"125","RC_EW_751","Gainsborough; West Lindsey (East Midlands; England)","Town Centre",0.823644425675676
+"126","RC_EW_1036","Alfreton Road; Radford; Nottingham (East Midlands; England)","Local Centre",0.822383678688715
+"127","RC_EW_5739","Ellison Street; Jarrow; South Tyneside (North East; England)","Local Centre",0.820108848644084
+"128","RC_EW_3333","Lord Street; Knott End-on-Sea; Wyre (North West; England)","Market Town",0.819756340420547
+"129","RC_EW_1938","Commercial Road; St George in the East; Tower Hamlets (London; England)","District Centre",0.819406867845994
+"130","RC_EW_380","Copley Road; Doncaster; Doncaster (Yorkshire and The Humber; England)","Local Centre",0.818792639138241
+"131","RC_EW_4074","Dimond Street; Doc Penfro; Pembrokeshire (Wales)","Local Centre",0.817568546301086
+"132","RC_EW_4404","Tipton Shopping Centre; Sandwell (West Midlands; England)","Large Retail Park",0.81580744670285
+"133","RC_EW_4066","High Street; Ilfracombe; North Devon (South West; England)","District Centre",0.815254624343457
+"134","RC_EW_1710","Rushey Green; Catford; Lewisham (London; England)","District Centre",0.815196213162315
+"135","RC_EW_561","Snipe Retail Park; Tameside (North West; England)","Small Retail Park",0.814302187146676
+"136","RC_EW_5241","Harrow Road; Kensal Town; Westminster (London; England)","Local Centre",0.814135685275528
+"137","RC_EW_4322","Swan Shopping Centre; Birmingham (West Midlands; England)","Large Retail Park",0.813409508643029
+"138","RC_EW_1988","Burdett Road; Mile End; Tower Hamlets (London; England)","Local Centre",0.813361505541927
+"139","RC_EW_2424","Gallions Reach Shopping Park; Newham (London; England)","Small Retail Park",0.812763676103677
+"140","RC_EW_2905","Whitby Road; Ellesmere Port; Cheshire West and Chester (North West; England)","District Centre",0.812490114899753
+"141","RC_EW_2464","Tottenham Hale Retail Park; Haringey (London; England)","Large Retail Park",0.811992982575667
+"142","RC_EW_2756","Birkenhead; Wirral (North West; England)","Town Centre",0.811135371179039
+"143","RC_EW_1975","Bethnal Green; Tower Hamlets (London; England)","Town Centre",0.810678162825402
+"144","RC_EW_278","Barnsley Retail Park; Barnsley (Yorkshire and The Humber; England)","Small Retail Park",0.809894534497091
+"145","RC_EW_5245","Golborne Road; Kensal Town; Westminster (London; England)","Local Centre",0.809486531061023
+"146","RC_EW_3255","Castle Street; Edgeley; Stockport (North West; England)","Local Centre",0.806828528072838
+"147","RC_EW_2435","Beckton Retail Park; Newham (London; England)","Small Retail Park",0.806618514225554
+"148","RC_EW_556","Ashton Leisure Park; Tameside (North West; England)","Small Retail Park",0.804892125678263
+"149","RC_EW_4105","Dunraven Street; Trealaw; Rhondda Cynon Taf (Wales)","Local Centre",0.804466775398537
+"150","RC_EW_4277","High Street; Brownhills; Walsall (West Midlands; England)","Local Centre",0.803852627641668
+"151","RC_EW_2472","Cork Tree Retail Park; Waltham Forest (London; England)","Small Retail Park",0.803683921397322
+"152","RC_EW_517","Bacup; Rossendale (North West; England)","Local Centre",0.803641329085116
+"153","RC_EW_2997","Blackpool Retail Park; Blackpool (North West; England)","Small Retail Park",0.803097283813747
+"154","RC_EW_313","Onyx Retail Park; Rotherham (Yorkshire and The Humber; England)","Small Retail Park",0.80279594378917
+"155","RC_EW_2807","Speke Retail Park; Liverpool (North West; England)","Small Retail Park",0.802521159517587
+"156","RC_EW_4294","Ravenside Retail Park; Birmingham (West Midlands; England)","Small Retail Park",0.802243654238652
+"157","RC_EW_4456","Astle Park West Bromwich; Sandwell (West Midlands; England)","Large Shopping Centre",0.80192380949817
+"158","RC_EW_420","Shirebrook; Bolsover (East Midlands; England)","Local Centre",0.801636041263701
+"159","RC_EW_2661","Clacton Factory Outlet; Tendring (East of England; England)","Small Shopping Centre",0.801614291266448
+"160","RC_EW_5568","Dunstable Road; Bury Park; Luton (East of England; England)","District Centre",0.801474118138176
+"161","RC_EW_1135","Wisbech; Fenland (East of England; England)","Town Centre",0.800760016263723
+"162","RC_EW_1134","Belgrave Retail Park; Fenland (East of England; England)","Small Retail Park",0.799590907692781
+"163","RC_EW_5333","Neasden Lane; Neasden; Brent (London; England)","Local Centre",0.799526299833258
+"164","RC_EW_3268","Hulme High Street Retail Park; Manchester (North West; England)","Large Retail Park",0.79921472572883
+"165","RC_EW_4144","Pendre; Cardigan; Ceredigion (Wales)","Market Town",0.798861750059284
+"166","RC_EW_4461","Oldbury Green Retail Park; Sandwell (West Midlands; England)","Large Retail Park",0.79840798274922
+"167","RC_EW_1941","Shoreditch; Hackney (London; England)","District Centre",0.797161259541985
+"168","RC_EW_2776","New Chester Road; New Ferry; Wirral (North West; England)","Local Centre",0.797125341464964
+"169","RC_EW_4544","Bristol Road South; Northfield; Birmingham (West Midlands; England) - 1","District Centre",0.796922351917639
+"170","RC_EW_3265","Manchester City; Manchester (North West; England)","Regional Centre",0.796420082279445
+"171","RC_EW_603","Central Retail Park; Rochdale (North West; England)","Small Retail Park",0.796329812642641
+"172","RC_EW_11","Penzance; Cornwall (South West; England)","Town Centre",0.795985790408526
+"173","RC_EW_1532","High Street; Rochester; Medway (South East; England)","District Centre",0.794754426996325
+"174","RC_SC_36","Kilbowie; West Dunbartonshire (Scotland)","Town Centre",0.794744864810835
+"175","RC_EW_5435","King Street; Norwood Green; Ealing (London; England)","District Centre",0.792307692307692
+"176","RC_EW_2504","Lea Bridge Road; Leyton; Waltham Forest (London; England)","Local Centre",0.791303843364757
+"177","RC_EW_2425","Gateway Retail Park; Newham (London; England)","Small Retail Park",0.791236704414939
+"178","RC_EW_1819","Walworth Road; Newington; Southwark (London; England)","District Centre",0.790984081974609
+"179","RC_EW_2713","Wallasey Road; Liscard; Wirral (North West; England)","District Centre",0.790097982708934
+"180","RC_EW_2739","Smithdown Road; Wavertree; Liverpool (North West; England)","Local Centre",0.789904932429552
+"181","RC_SC_8","Gallagher Shopping Park; Inverclyde (Scotland)","Small Retail Park",0.789800861141012
+"182","RC_EW_637","Leeds Road Retail Park; Kirklees (Yorkshire and The Humber; England)","Small Retail Park",0.789392003180553
+"183","RC_EW_600","Rochdale; Rochdale (North West; England)","Town Centre",0.789270929038534
+"184","RC_EW_1205","Bishop Auckland; County Durham (North East; England)","Town Centre",0.789243300149604
+"185","RC_EW_871","Woodhall Retail Park; Bradford (Yorkshire and The Humber; England)","Large Retail Park",0.789171062226742
+"186","RC_EW_4402","Town Gate Retail Park; Dudley (West Midlands; England)","Small Retail Park",0.788619215409913
+"187","RC_EW_1983","Roman Road; Globe Town; Tower Hamlets (London; England)","Local Centre",0.788206953512153
+"188","RC_EW_1937","Whitechapel Road; Whitechapel; Tower Hamlets (London; England)","District Centre",0.788052653428354
+"189","RC_EW_3644","Newport Retail Park; Newport (Wales)","Small Retail Park",0.787268241768669
+"190","RC_EW_1979","Dalston, London (London; England)","Town Centre",0.78706403583496
+"191","RC_EW_777","King Street; Thorne; Doncaster (Yorkshire and The Humber; England)","Local Centre",0.786405959031657
+"192","RC_EW_862","Avenue Retail Park; Bradford (Yorkshire and The Humber; England)","Large Retail Park",0.78590506165435
+"193","RC_EW_2955","Deepdale Shopping Park; Preston (North West; England)","Small Retail Park",0.785777783250018
+"194","RC_EW_264","Great Yarmouth; Great Yarmouth (East of England; England)","Town Centre",0.784935725558092
+"195","RC_EW_1980","Bethnal Green Road; Spitalfields; Tower Hamlets (London; England)","District Centre",0.784864290845488
+"196","RC_EW_2426","Upton; Newham (London; England)","Town Centre",0.784739551947822
+"197","RC_EW_2434","Upton Lane; Forest Gate; Newham (London; England)","Local Centre",0.784695388119188
+"198","RC_EW_3514","Church Road; St George; City of Bristol (South West; England)","Local Centre",0.783363083532508
+"199","RC_EW_546","Elk Mill Centre Retail Park; Oldham (North West; England)","Small Retail Park",0.782313519597752
+"200","RC_EW_558","Ashton-under-Lyne; Tameside (North West; England)","Town Centre",0.781787776688552
+"201","RC_EW_4256","Walsall; Walsall (West Midlands; England)","Town Centre",0.78127034757279
+"202","RC_EW_6002","Holloway Road; Lower Holloway; Islington (London; England)","District Centre",0.780601922104198
+"203","RC_EW_2481","Westfield Stratford City; Newham (London; England)","Large Shopping Centre",0.780370335267151
+"204","RC_EW_393","Market Street; Heckmondwike; Kirklees (Yorkshire and The Humber; England)","Local Centre",0.780064936650148
+"205","RC_EW_5557","High Street; Waltham Cross; Broxbourne (East of England; England) - 1","District Centre",0.779717261904762
+"206","RC_EW_1010","Belgrave Road; Belgrave; Leicester (East Midlands; England)","District Centre",0.778699366216589
+"207","RC_EW_456","High Street; Alfreton; Amber Valley (East Midlands; England)","Market Town",0.778373945641987
+"208","RC_EW_4540","Pershore Road; Cotteridge; Birmingham (West Midlands; England)","Local Centre",0.77770923235884
+"209","RC_EW_4403","Dudley; Dudley (West Midlands; England)","Town Centre",0.777696379832639
+"210","RC_EW_3323","Blackpool; Blackpool (North West; England)","Major Town Centre",0.77722773554124
+"211","RC_EW_1037","Castle Retail Park; Nottingham (East Midlands; England)","Small Retail Park",0.77652165996259
+"212","RC_EW_2876","The Concourse; Skelmersdale; West Lancashire (North West; England)","Local Centre",0.776192
+"213","RC_EW_4631","Ludlow; Shropshire (West Midlands; England)","Market Town",0.775750665146332
+"214","RC_EW_3959","High Street; Ryde; Isle of Wight (South East; England)","Market Town",0.774578594638505
+"215","RC_EW_3695","City Road; Cathays Park; Cardiff (Wales)","Local Centre",0.774176458245909
+"216","RC_EW_3369","Senhouse Street; Maryport; Allerdale (North West; England)","Local Centre",0.77339184663356
+"217","RC_EW_266","Gapton Hall Retail Park; Great Yarmouth (East of England; England)","Small Retail Park",0.773009683214301
+"218","RC_EW_1835","High Street; South Norwood; Croydon (London; England)","District Centre",0.772996553209823
+"219","RC_EW_2422","High Street North; Wallend; Newham (London; England)","District Centre",0.772893212115502
+"220","RC_EW_3864","High Street; Sandown; Isle of Wight (South East; England)","Local Centre",0.772348275225973
+"221","RC_EW_184","Magdalen Street; Coslany; Norwich (East of England; England)","District Centre",0.77196334351569
+"222","RC_EW_572","Market Street; Heywood; Rochdale (North West; England)","District Centre",0.770910964550701
+"223","RC_EW_1837","High Street; Thornton Heath; Croydon (London; England)","District Centre",0.770853858784893
+"224","RC_EW_654","Burnley; Burnley (North West; England)","Town Centre",0.770494289138357
+"225","RC_EW_2439","Romford Road; Manor Park; Newham (London; England)","District Centre",0.770449910947059
+"226","RC_EW_710","Crown Point North Shopping Park; Tameside (North West; England) - 1","Large Retail Park",0.769099966559267
+"227","RC_EW_2498","Roman Road; Bow; Tower Hamlets (London; England)","District Centre",0.769095947869074
+"228","RC_EW_4415","High Street; Cradley Heath; Sandwell (West Midlands; England)","Local Centre",0.768936614265998
+"229","RC_EW_4257","Crown Wharf Shopping Park; Walsall (West Midlands; England)","Large Retail Park",0.768013823687239
+"230","RC_EW_1087","Springfield Retail Park; Nottingham (East Midlands; England)","Small Retail Park",0.767924712545468
+"231","RC_EW_2489","Burberry Factory Outlet London; Hackney (London; England)","Large Shopping Centre",0.767549823518317
+"232","RC_EW_2606","Mayflower Retail Park; Basildon (East of England; England)","Small Retail Park",0.767479771892634
+"233","RC_EW_302","Rotherham; Rotherham (Yorkshire and The Humber; England)","Town Centre",0.766937544464373
+"234","RC_EW_122","North Point Shopping Centre; City of Kingston upon Hull (Yorkshire and The Humber; England)","Large Retail Park",0.766818320844166
+"235","RC_EW_1923","Spitalfields; London (London; England)","Town Centre",0.765783860780959
+"236","RC_EW_2526","Green Lane; Goodmayes; Redbridge (London; England)","Local Centre",0.76573891560882
+"237","RC_EW_4872","Market Street; Crewe; Cheshire East (North West; England)","Market Town",0.765454662255485
+"238","RC_EW_5914","Crown Point North Shopping Park; Tameside (North West; England)","Large Retail Park",0.765452126398469
+"239","RC_EW_1877","Canary Wharf Crossrail Station; Tower Hamlets (London; England)","Small Retail Park",0.765390693112467
+"240","RC_EW_2569","Woolwich; Greenwich (London; England)","Town Centre",0.765324871562406
+"241","RC_EW_20","Fore Street; Bodmin; Cornwall (South West; England)","Local Centre",0.764462157682898
+"242","RC_EW_4507","Warwick Road; Acocks Green; Birmingham (West Midlands; England)","District Centre",0.764124049364725
+"243","RC_EW_5809","Station Road; Ashington; Northumberland (North East; England) - 1","Local Centre",0.763782035812539
+"244","RC_EW_4180","Torquay; Torbay (South West; England)","Town Centre",0.763209792587555
+"245","RC_EW_664","Colne; Pendle (North West; England)","Town Centre",0.763026965746214
+"246","RC_EW_4582","Battery Retail Park; Birmingham (West Midlands; England)","Large Retail Park",0.762987813628469
+"247","RC_EW_255","Market Place; Swaffham; Breckland (East of England; England)","Local Centre",0.762077702702703
+"248","RC_EW_708","Manchester Road; Denton; Tameside (North West; England)","District Centre",0.761639149708541
+"249","RC_EW_5746","South Shields; South Tyneside (North East; England)","Town Centre",0.761273926125088
+"250","RC_EW_1873","Canary Wharf Shopping Centre; Tower Hamlets (London; England)","Large Retail Park",0.76116250560299
+"251","RC_EW_4664","Foresters Leisure Park; Derby (East Midlands; England)","Small Retail Park",0.760936500288312
+"252","RC_EW_277","Cortonwood Retail Park; Rotherham (Yorkshire and The Humber; England)","Small Retail Park",0.760882900224575
+"253","RC_EW_3082","Cables Retail Park; Knowsley (North West; England)","Small Retail Park",0.760795468890703
+"254","RC_EW_3298","Salford Shopping Centre (Salford Shopping City); Salford (North West; England)","Large Retail Park",0.760095007533315
+"255","RC_EW_241","Westgate; Hunstanton; King's Lynn and West Norfolk (East of England; England)","Local Centre",0.759989997499375
+"256","RC_EW_3174","Bolton Shopping Park; Bolton (North West; England)","Large Retail Park",0.759310327152505
+"257","RC_EW_117","Newland Avenue; Newland; City of Kingston upon Hull (Yorkshire and The Humber; England)","District Centre",0.759051381068891
+"258","RC_EW_400","Dewsbury; Kirklees (Yorkshire and The Humber; England)","Town Centre",0.759032835597049
+"259","RC_EW_1727","New Cross Gate Retail Park; Lewisham (London; England)","Small Retail Park",0.757101958060338
+"260","RC_EW_3889","Christchurch Road; Boscombe; Bournemouth, Christchurch and Poole (South West; England)","District Centre",0.757028919725068
+"261","RC_EW_5452","High Street; Yiewsley; Hillingdon (London; England)","Local Centre",0.756848035763495
+"262","RC_EW_635","Great Northern Retail Park; Kirklees (Yorkshire and The Humber; England)","Small Retail Park",0.756492082598513
+"263","RC_EW_3560","Tredegar; Blaenau Gwent (Wales)","Town Centre",0.756365677111966
+"264","RC_EW_2791","Edge Lane Retail Park; Liverpool (North West; England) - 1","Small Retail Park",0.756260941954037
+"265","RC_EW_2673","High Street; Dovercourt; Tendring (East of England; England)","Local Centre",0.755738062359183
+"266","RC_EW_543","Accrington; Hyndburn (North West; England)","Town Centre",0.754761018463371
+"267","RC_EW_718","Market Street; Stalybridge; Tameside (North West; England)","District Centre",0.754265187034101
+"268","RC_EW_711","Crown Point North Shopping Park; Tameside (North West; England) - 2","Small Retail Park",0.754171194011831
+"269","RC_EW_3129","Eccles; Salford (North West; England)","Town Centre",0.753466630414322
+"270","RC_EW_4212","High Street; Glastonbury; Mendip (South West; England)","Market Town",0.753407861521817
+"271","RC_EW_2486","The Stratford Centre; Stratford; Newham (London; England)","District Centre",0.753313084981095
+"272","RC_EW_4748","Far Gosford Street; Gosford Green; Coventry (West Midlands; England)","District Centre",0.752532738644176
+"273","RC_EW_562","Market Street; Droylsden; Tameside (North West; England)","Local Centre",0.752459929716294
+"274","RC_EW_2607","Festival Leisure Park; Basildon (East of England; England)","Small Retail Park",0.752046522696175
+"275","RC_EW_3118","Bolton Road; Walkden; Salford (North West; England)","Local Centre",0.751317713469582
+"276","RC_EW_3124","Trinity Retail Park; Bolton (North West; England)","Large Retail Park",0.749956369982548
+"277","RC_EW_1330","Dumpton Park Drive; Ramsgate; Thanet (South East; England)","District Centre",0.747713163064833
+"278","RC_EW_2562","Plumstead High Street; Plumstead Common; Greenwich (London; England)","Local Centre",0.747555624708262
+"279","RC_EW_5741","Hebburn Shopping Centre; South Tyneside (North East; England)","Large Retail Park",0.74746082080978
+"280","RC_EW_4107","Bute Street; Treorchy; Rhondda Cynon Taf (Wales)","Local Centre",0.746842778655829
+"281","RC_EW_3981","London Road; North End; Portsmouth (South East; England)","District Centre",0.746509214256784
+"282","RC_EW_1279","Byron Place; County Durham (North East; England)","Large Retail Park",0.746301654192087
+"283","RC_EW_4830","Stoke-upon-Trent; Stoke-on-Trent (West Midlands; England)","District Centre",0.746153397831915
+"284","RC_EW_2994","Duckworth Street; Darwen; Blackburn with Darwen (North West; England)","Local Centre",0.745653155927888
+"285","RC_EW_276","High Street; Wombwell; Barnsley (Yorkshire and The Humber; England)","Local Centre",0.74458558427021
+"286","RC_EW_1872","Surrey Quays Shopping Centre; Southwark (London; England)","Large Retail Park",0.744561124646594
+"287","RC_EW_5016","Farnham Road; Farnham Royal; Slough (South East; England)","Local Centre",0.744548986565557
+"288","RC_EW_1253","Hope Street; Crook; County Durham (North East; England)","Local Centre",0.743392680514342
+"289","RC_EW_4412","High Street; Blackheath; Sandwell (West Midlands; England)","District Centre",0.743173104088469
+"290","RC_EW_2423","Barking; Barking and Dagenham (London; England)","Town Centre",0.742829910625912
+"291","RC_EW_174","Bridlington; East Riding of Yorkshire (Yorkshire and The Humber; England)","Town Centre",0.742199870975309
+"292","RC_EW_1542","Hastings; Hastings (South East; England)","Major Town Centre",0.742021854042592
+"293","RC_EW_1740","Peckham; Southwark (London; England)","Town Centre",0.741383252104564
+"294","RC_EW_3102","St Helens; St. Helens (North West; England)","Town Centre",0.74102833047274
+"295","RC_EW_2404","Wood Street; Upper Walthamstow; Waltham Forest (London; England)","District Centre",0.740705532862978
+"296","RC_EW_2716","Marine Point; Wirral (North West; England)","Small Retail Park",0.739872597514009
+"297","RC_EW_285","Peel Centre Retail Park; Barnsley (Yorkshire and The Humber; England)","Small Retail Park",0.739700354815275
+"298","RC_EW_516","Brook Street; Todmorden; Calderdale (Yorkshire and The Humber; England)","Local Centre",0.738550575051607
+"299","RC_EW_4076","Charles Street; Milford Haven; Pembrokeshire (Wales)","Local Centre",0.738427439866289
+"300","RC_EW_418","Centre 27 Leisure Park; Kirklees (Yorkshire and The Humber; England)","Large Retail Park",0.738409352885127
+"301","RC_EW_4808","Narborough Road; Westcotes; Leicester (East Midlands; England)","District Centre",0.737961573827615
+"302","RC_EW_2483","Leyton Mills Retail Park; Waltham Forest (London; England)","Small Retail Park",0.737820284168599
+"303","RC_EW_377","Danum Retail Park; Doncaster (Yorkshire and The Humber; England)","Small Retail Park",0.737431959860119
+"304","RC_EW_914","Owlcotes Centre; Leeds (Yorkshire and The Humber; England)","Small Retail Park",0.736096295933845
+"305","RC_SC_145","Main Street; Wishaw; North Lanarkshire (Scotland)","Market Town",0.736032789202177
+"306","RC_EW_2508","High Road Leytonstone; Stratford New Town; Newham (London; England)","Local Centre",0.735754387269483
+"307","RC_EW_1776","Stockwell Underground Shopping Area; Lambeth (London; England)","Small Retail Park",0.735467919047377
+"308","RC_EW_307","Parkgate Shopping Park; Rotherham (Yorkshire and The Humber; England)","Large Retail Park",0.734234047335028
+"309","RC_EW_102","St. Andrews Quay Retail Park; City of Kingston upon Hull (Yorkshire and The Humber; England)","Small Retail Park",0.733803581117743
+"310","RC_EW_3057","Alban Retail Park; Warrington (North West; England)","Small Retail Park",0.732160396858206
+"311","RC_EW_3273","Lowry Outlet Salford Quays; Salford (North West; England)","Small Shopping Centre",0.730957234287187
+"312","RC_EW_623","Halifax; Calderdale (Yorkshire and The Humber; England)","Town Centre",0.730777256129369
+"313","RC_EW_2406","Walthamstow; Waltham Forest (London; England)","Town Centre",0.730539046405122
+"314","RC_EW_464","Sutton in Ashfield; Ashfield (East Midlands; England)","District Centre",0.730492050051745
+"315","RC_EW_2617","Basildon; Basildon (East of England; England)","Town Centre",0.730443279589927
+"316","RC_EW_3135","Swinton Square; Salford (North West; England)","Small Retail Park",0.729832435039742
+"317","RC_EW_1323","Dover; Dover (South East; England)","Town Centre",0.729455659414029
+"318","RC_EW_1467","High Street; Littlehampton; Arun (South East; England)","District Centre",0.729044877885207
+"319","RC_EW_1245","Teesbay Retail Park; Hartlepool (North East; England)","Small Retail Park",0.72900926794932
+"320","RC_EW_4031","Llanelli; Carmarthenshire (Wales)","Market Town",0.728882192988903
+"321","RC_EW_1252","High Street; Spennymoor; County Durham (North East; England)","Market Town",0.72835192435547
+"322","RC_EW_3980","Portsmouth; Portsmouth (South East; England)","Town Centre",0.727768082590213
+"323","RC_EW_1004","Melton Road; Belgrave; Leicester (East Midlands; England)","Local Centre",0.727686057248384
+"324","RC_EW_2869","Aintree Shopping Park (Racecourse Retail Park); Sefton (North West; England)","Small Retail Park",0.727659951766208
+"325","RC_EW_5278","Caledonian Road; St Pancras; Islington (London; England)","District Centre",0.727309808587028
+"326","RC_EW_1096","Corby; Corby (East Midlands; England)","Town Centre",0.726826408994831
+"327","RC_EW_2408","High Road Leytonstone; Leytonstone; Waltham Forest (London; England)","District Centre",0.726557243347946
+"328","RC_EW_4538","Pershore Road; Stirchley; Birmingham (West Midlands; England)","Local Centre",0.72598384304674
+"329","RC_EW_2934","Rhyl; Denbighshire (Wales)","Town Centre",0.725872838962183
+"330","RC_EW_31","Fore Street; Redruth; Cornwall (South West; England)","District Centre",0.725608519269777
+"331","RC_EW_705","Hyde; Tameside (North West; England)","Town Centre",0.724888169577629
+"332","RC_EW_1637","Valley Leisure Park; Croydon (London; England)","Small Retail Park",0.724375730528105
+"333","RC_EW_1203","Bishop Auckland Shopping Park; County Durham (North East; England)","Large Retail Park",0.724117470199144
+"334","RC_EW_1561","High Street; Rye; Rother (South East; England)","Market Town",0.724083215796897
+"335","RC_EW_5375","Green Lanes; Harringay; Haringey (London; England)","District Centre",0.722961080222399
+"336","RC_EW_1967","Elephant & Castle Shopping Centre; Southwark (London; England)","Large Retail Park",0.722870779524772
+"337","RC_EW_1785","Brixton Village; Lambeth (London; England)","Small Retail Park",0.721525231091378
+"338","RC_EW_5431","Southall; Ealing (London; England)","Town Centre",0.721521449779871
+"339","RC_EW_5057","Coldharbour Lane; Hayes; Hillingdon (London; England)","District Centre",0.721472050036299
+"340","RC_EW_2809","Belle Vale Shopping Centre; Liverpool (North West; England)","Large Retail Park",0.72121532923989
+"341","RC_EW_772","Scunthorpe; North Lincolnshire (Yorkshire and The Humber; England)","Town Centre",0.720668578429393
+"342","RC_EW_2593","Merrielands Retail Park; Barking and Dagenham (London; England)","Large Retail Park",0.719409950969655
+"343","RC_EW_5753","Hylton Riverside Retail Park; Sunderland (North East; England)","Small Retail Park",0.719329916220793
+"344","RC_EW_1272","Filey; Scarborough (Yorkshire and The Humber; England)","Local Centre",0.719034258712345
+"345","RC_EW_1730","Cantium Retail Park; Southwark (London; England)","Large Retail Park",0.718759778585841
+"346","RC_EW_1247","Hartlepool; Hartlepool (North East; England)","Town Centre",0.718153659512409
+"347","RC_EW_261","High Street; Gorleston-on-Sea; Great Yarmouth (East of England; England)","Local Centre",0.717468279728533
+"348","RC_EW_1781","Brixton; Lambeth (London; England)","Town Centre",0.717194487835149
+"349","RC_EW_4184","Bridge Retail Park; Torbay (South West; England)","Small Retail Park",0.716309698267764
+"350","RC_EW_4803","St. Georges Retail Park; Leicester (East Midlands; England)","Small Retail Park",0.716272870399084
+"351","RC_EW_3083","Eccleston Street; Prescot; Knowsley (North West; England)","Local Centre",0.716086914157654
+"352","RC_EW_4458","Bearwood Road; Bearwood; Birmingham (West Midlands; England)","District Centre",0.716043190936984
+"353","RC_EW_1103","Phoenix Parkway Retail Park; Corby (East Midlands; England)","Small Retail Park",0.715786755211216
+"354","RC_EW_1300","Anchor Retail Park; Hartlepool (North East; England)","Small Retail Park",0.715401458855086
+"355","RC_EW_351","Meadowhall; Sheffield (Yorkshire and The Humber; England)","Large Shopping Centre",0.715296624639199
+"356","RC_EW_1521","Chatham; Medway (South East; England)","Town Centre",0.714895966472772
+"357","RC_EW_1934","Moorgate Underground Shopping Area; City of London (London; England)","Large Retail Park",0.714542051991135
+"358","RC_EW_852","Shipley; Bradford (Yorkshire and The Humber; England)","District Centre",0.713033953997809
+"359","RC_EW_116","Hull; Kingston upon Hull (Yorkshire and The Humber; England)","Major Town Centre",0.71296618268489
+"360","RC_EW_4056","Morfa Shopping Park; Swansea (Wales)","Small Retail Park",0.711379276650986
+"361","RC_EW_416","Queen Street; City; Leeds (Yorkshire and The Humber; England)","District Centre",0.710152165431135
+"362","RC_EW_4467","Wolverhampton; Wolverhampton (West Midlands; England)","Major Town Centre",0.708235657194159
+"363","RC_EW_364","South Baileygate Retail Park; Wakefield (Yorkshire and The Humber; England)","Small Retail Park",0.708044868069278
+"364","RC_EW_3305","Market Street; Hindley; Wigan (North West; England)","Local Centre",0.707772635576124
+"365","RC_EW_2144","Portobello Road; Notting Hill; Kensington and Chelsea (London; England)","District Centre",0.70757904899831
+"366","RC_EW_4747","Walsgrave Road; Middle Stoke; Coventry (West Midlands; England)","Local Centre",0.707159337323272
+"367","RC_EW_5319","High Road; Willesden; Brent (London; England)","District Centre",0.706783807829181
+"368","RC_EW_61","Plymouth; Plymouth (South West; England)","Major Town Centre",0.70657560142696
+"369","RC_EW_16","Liskeard; Cornwall (South West; England)","Local Centre",0.706555295037124
+"370","RC_EW_3862","High Street; Shanklin; Isle of Wight (South East; England)","Market Town",0.705955227124538
+"371","RC_EW_4793","Almond Road Retail Park; Leicester (East Midlands; England)","Small Retail Park",0.705528158036448
+"372","RC_EW_1558","Ravenside Retail & Leisure Park; Rother (South East; England)","Small Retail Park",0.705418549030029
+"373","RC_EW_5377","Green Lanes; Canonbury; Islington (London; England)","Local Centre",0.705106577742906
+"374","RC_EW_4058","Woodfield Street; Morriston; Swansea (Wales)","Local Centre",0.704330471456545
+"375","RC_EW_161","St Peters Avenue; Cleethorpes; North East Lincolnshire (Yorkshire and The Humber; England)","District Centre",0.703442864615531
+"376","RC_EW_5433","Uxbridge Road; Hayes; Hillingdon (London; England)","Local Centre",0.702474195506982
+"377","RC_EW_3775","Leominster; County of Herefordshire (West Midlands; England)","Market Town",0.701977129421823
+"378","RC_EW_2502","Hoe Street; Leyton; Waltham Forest (London; England)","District Centre",0.701361616370401
+"379","RC_EW_466","Station Street; Kirkby-in-Ashfield; Ashfield (East Midlands; England)","Local Centre",0.701181347150259
+"380","RC_EW_3642","Weston-Super-Mare; North Somerset (South West; England)","Town Centre",0.700619983490525
+"381","RC_EW_3580","Merthyr Tudful; Merthyr Tydfil (Wales)","Town Centre",0.700062033314187
+"382","RC_EW_4112","Hannah Street; Birchgrove; Rhondda Cynon Taf (Wales)","Local Centre",0.699298021697511
+"383","RC_EW_5330","Wembley Park Boulevard; Wembley; Brent (London; England)","Local Centre",0.699117019212109
+"384","RC_EW_1139","High Street; March; Fenland (East of England; England)","Local Centre",0.699082143041304
+"385","RC_EW_840","Seacroft Green Shopping Centre; Leeds (Yorkshire and The Humber; England)","Small Retail Park",0.699061976984055
+"386","RC_EW_4560","High Street; King's Heath; Birmingham (West Midlands; England)","District Centre",0.697867681735498
+"387","RC_EW_3343","Penrhos Retail Park; Isle of Anglesey (Wales)","Small Retail Park",0.697368936475811
+"388","RC_EW_3344","Holyhead; Isle of Anglesey (Wales)","Town Centre",0.697368936475811
+"389","RC_EW_4825","Stoke; Stoke-on-Trent (West Midlands; England)","Major Town Centre",0.696965127045944
+"390","RC_EW_1290","Dalton Park Outlet; County Durham (North East; England)","Large Shopping Centre",0.696751069886479
+"391","RC_EW_5727","Consett; County Durham (North East; England)","Market Town",0.69674720396141
+"392","RC_EW_3134","The Parade; Swinton; Salford (North West; England)","Local Centre",0.696595299930322
+"393","RC_EW_3577","Cyfarthfa Retail Park; Merthyr Tydfil (Wales)","Small Retail Park",0.696548360637567
+"394","RC_EW_3319","Market Street; Atherton; Wigan (North West; England)","Local Centre",0.696085730400451
+"395","RC_EW_5371","Finsbury Park; Islington (London; England)","Town Centre",0.695656336906882
+"396","RC_EW_403","White Rose Centre; Leeds (Yorkshire and The Humber; England)","Large Shopping Centre",0.695427025144264
+"397","RC_EW_3520","Avon Meads Retail Park; City of Bristol (South West; England)","Small Retail Park",0.695424836601307
+"398","RC_EW_1177","Church Street; Whitby; Scarborough (Yorkshire and The Humber; England)","Local Centre",0.69530524505589
+"399","RC_EW_6001","Islington. London (London; England)","Town Centre",0.69512960649594
+"400","RC_EW_5571","Luton Retail Park; Luton (East of England; England)","Small Retail Park",0.694350975719106
+"401","RC_EW_1865","Millennium Leisure Park; Greenwich (London; England)","Large Retail Park",0.693742953023125
+"402","RC_EW_1787","Battersea Park Road; Battersea; Wandsworth (London; England)","District Centre",0.693731841952353
+"403","RC_EW_3411","Barrow-in-Furness; Barrow-in-Furness (North West; England)","Town Centre",0.693651413881748
+"404","RC_EW_1335","Margate Road; Westwood; Thanet (South East; England)","Local Centre",0.692982081911263
+"405","RC_EW_1961","Barbican Underground Shopping Area; Islington (London; England)","Large Retail Park",0.692243343727513
+"406","RC_EW_5525","Colosseum Park; Enfield (London; England)","Small Retail Park",0.692143510022955
+"407","RC_EW_363","Pontefract; Wakefield (Yorkshire and The Humber; England)","Market Town",0.691913406465392
+"408","RC_EW_771","Scunthorpe Retail Park; North Lincolnshire (Yorkshire and The Humber; England)","Small Retail Park",0.691893121830711
+"409","RC_EW_5138","Queensway; Bletchley; Milton Keynes (South East; England)","Local Centre",0.691267954944714
+"410","RC_EW_3177","Bolton; Bolton (North West; England)","Major Town Centre",0.691044754625413
+"411","RC_EW_2808","New Mersey Retail Park; Liverpool (North West; England)","Large Retail Park",0.690857255598303
+"412","RC_EW_1233","Stockton-on-Tees; Stockton-on-Tees (North East; England)","Town Centre",0.690283236932647
+"413","RC_EW_3669","Imperial Park; City of Bristol (South West; England)","Small Retail Park",0.689547446797275
+"414","RC_SC_17","Paisley; Renfrewshire (Scotland)","Town Centre",0.689373528526668
+"415","RC_EW_5372","Blackstock Road; Brownswood Park; Islington (London; England)","District Centre",0.689270386266094
+"416","RC_EW_4797","Evington Road; Highfields; Leicester (East Midlands; England)","Local Centre",0.688570220562328
+"417","RC_EW_3969","Palmerston Road; Southsea; Portsmouth (South East; England)","District Centre",0.688302505508019
+"418","RC_EW_3162","Bolton Gate Retail Park; Bolton (North West; England)","Large Retail Park",0.688234476974288
+"419","RC_EW_3051","Queen Street; Great Harwood; Hyndburn (North West; England)","Local Centre",0.687215137803373
+"420","RC_EW_1638","Purley Way Centre; Croydon (London; England)","Small Retail Park",0.68686031075295
+"421","RC_EW_5742","High Street East; Wallsend; North Tyneside (North East; England)","District Centre",0.686295111923253
+"422","RC_EW_229","North Quay Retail Park; East Suffolk (East of England; England)","Small Retail Park",0.684847813706258
+"423","RC_EW_5389","Caledonian Road; Barnsbury; Islington (London; England)","Local Centre",0.684467848991813
+"424","RC_EW_4111","Aberdare; Rhondda Cynon Taf (Wales)","Market Town",0.683777906639606
+"425","RC_EW_463","The Broad Centre Retail Park; Ashfield (East Midlands; England)","Small Retail Park",0.683766922382671
+"426","RC_EW_4244","Bridgwater; Sedgemoor (South West; England)","Town Centre",0.683451079712077
+"427","RC_EW_3977","Ocean Retail Park; Portsmouth (South East; England)","Small Retail Park",0.683210021382481
+"428","RC_EW_2755","St Marys Road; Garston; Liverpool (North West; England)","Local Centre",0.682786854739663
+"429","RC_EW_3410","Corner House Retail Park; Barrow-in-Furness (North West; England)","Small Retail Park",0.682524732884844
+"430","RC_EW_5265","Kentish Town Road; Kentish Town; Camden (London; England)","District Centre",0.681252246287714
+"431","RC_EW_1810","Denmark Hill; Camberwell; Southwark (London; England)","District Centre",0.681226864093073
+"432","RC_EW_281","Barnsley; Barnsley (Yorkshire and The Humber; England)","Major Town Centre",0.680147930246339
+"433","RC_EW_39","St Austell; Cornwall (South West; England)","Market Town",0.679288389513109
+"434","RC_EW_1078","Madford Retail Park; Gedling (East Midlands; England)","Large Retail Park",0.678296924294137
+"435","RC_EW_1186","Seamer Road Retail Park; Scarborough (Yorkshire and The Humber; England)","Small Retail Park",0.678225351631262
+"436","RC_EW_5486","High Road; Wembley; Brent (London; England)","District Centre",0.677930917956021
+"437","RC_EW_2217","High Street; Acton; Ealing (London; England)","District Centre",0.677752892870474
+"438","RC_EW_5786","North Shields; North Tyneside (North East; England)","District Centre",0.677354545081799
+"439","RC_SC_43","Victoria Road; Govanhill; Glasgow City (Scotland)","Local Centre",0.676768180086174
+"440","RC_EW_1234","Portrack Interchange Retail Park; Stockton-on-Tees (North East; England)","Large Retail Park",0.676751639296499
+"441","RC_EW_805","Colton Mill Retail Park; Leeds (Yorkshire and The Humber; England)","Small Retail Park",0.676366595066068
+"442","RC_EW_1230","Middlesbrough; Middlesbrough (North East; England)","Major Town Centre",0.676099780652203
+"443","RC_EW_1090","Ashgate Retail Park; Ashfield (East Midlands; England)","Small Retail Park",0.675974564023509
+"444","RC_EW_1170","Parkway Shopping Centre; Middlesbrough (North East; England)","Large Retail Park",0.675416312116149
+"445","RC_EW_3569","Pont-y-pwl; Torfaen (Wales)","Local Centre",0.675288105020543
+"446","RC_EW_5446","The Broadway; Greenford; Ealing (London; England)","Local Centre",0.675270005952887
+"447","RC_SC_35","Airdrie; North Lanarkshire (Scotland)","Town Centre",0.674103390212535
+"448","RC_EW_1309","Folkestone; Folkestone and Hythe (South East; England)","Town Centre",0.673727283205902
+"449","RC_EW_5347","Wood Green; London (London; England)","Major Town Centre",0.673188434795658
+"450","RC_EW_3274","Castlemore Retail Park; Trafford (North West; England)","Large Retail Park",0.67283571509228
+"451","RC_EW_1200","Teesside Retail Park; Stockton-on-Tees (North East; England)","Large Retail Park",0.672545508597029
+"452","RC_EW_5928","Denton Park Shopping Centre; Newcastle upon Tyne (North East; England)","Small Retail Park",0.672458959528855
+"453","RC_EW_3314","Bradshawgate; Leigh; Wigan (North West; England)","District Centre",0.672215296390949
+"454","RC_EW_360","Park Road Retail Park; Wakefield (Yorkshire and The Humber; England)","Small Retail Park",0.671809367465244
+"455","RC_EW_919","Bramley Shopping Centre; Leeds (Yorkshire and The Humber; England)","Large Retail Park",0.670988291468373
+"456","RC_EW_1039","Castle Marina Retail Park; Nottingham (East Midlands; England)","Small Retail Park",0.670274758893972
+"457","RC_EW_358","Castleford; Wakefield (Yorkshire and The Humber; England)","Town Centre",0.670085457042576
+"458","RC_EW_3626","Cowbridge Road East; Canton; Cardiff (Wales)","District Centre",0.669871351956043
+"459","RC_EW_1329","Ramsgate; Thanet (South East; England)","Town Centre",0.669789488120136
+"460","RC_EW_5719","Team Valley Retail Park; Gateshead (North East; England)","Small Retail Park",0.669301716557709
+"461","RC_EW_945","Maskew Avenue Retail Park; Peterborough (East of England; England)","Large Retail Park",0.669138775577071
+"462","RC_EW_948","Peterborough; Peterborough (East of England; England)","Major Town Centre",0.669059604935874
+"463","RC_EW_758","Balby Retail Park; Doncaster (Yorkshire and The Humber; England)","Large Retail Park",0.668899381953028
+"464","RC_EW_1293","Sunderland; Sunderland (North East; England)","Major Town Centre",0.668797985949496
+"465","RC_EW_22","Bude; Cornwall (South West; England)","Market Town",0.66777843954735
+"466","RC_EW_389","The Mill Outlet Batley; Kirklees (Yorkshire and The Humber; England)","Large Shopping Centre",0.667016169782719
+"467","RC_EW_5682","Metro Park West Retail Park; Gateshead (North East; England)","Small Retail Park",0.666417611874612
+"468","RC_EW_1724","Sydenham Road; Lower Sydenham; Lewisham (London; England)","District Centre",0.664655819774718
+"469","RC_EW_946","Bretton Centre; Peterborough (East of England; England)","Large Retail Park",0.664181410842517
+"470","RC_EW_4979","Oxford Road; Coley; Reading (South East; England)","Local Centre",0.664176272139443
+"471","RC_EW_121","Kingswood Leisure Park; City of Kingston upon Hull (Yorkshire and The Humber; England)","Large Retail Park",0.663563489177352
+"472","RC_SC_29","Quadrant Shopping Centre; North Lanarkshire (Scotland)","Large Retail Park",0.663323967709706
+"473","RC_EW_1737","Lewisham Retail Park (Gallagher Retail Park); Lewisham (London; England)","Large Retail Park",0.662390897168548
+"474","RC_EW_3764","Cricklade Road; Gorse Hill; Swindon (South West; England)","Local Centre",0.661739957562011
+"475","RC_EW_3618","Cardiff Bay Retail Park; Cardiff (Wales)","Small Retail Park",0.661598888473254
+"476","RC_EW_5770","Shields Road; Byker; Newcastle upon Tyne (North East; England)","Local Centre",0.660957049326432
+"477","RC_EW_4138","Commercial Street; Maesteg; Bridgend (Wales)","Local Centre",0.660516605166052
+"478","RC_EW_3619","Capital Retail Park; Cardiff (Wales)","Small Retail Park",0.660016887946677
+"479","RC_EW_5598","Nene Valley Retail Park; Northampton (East Midlands; England)","Small Retail Park",0.659553553143559
+"480","RC_EW_1765","Clapham High Street; Stockwell; Lambeth (London; England)","District Centre",0.659404811764158
+"481","RC_EW_1176","Whitby; Scarborough (Yorkshire and The Humber; England)","Market Town",0.659233365477339
+"482","RC_EW_23","Launceston; Cornwall (South West; England)","District Centre",0.659131709104232
+"483","RC_EW_461","Heanor; Amber Valley (East Midlands; England)","Local Centre",0.658756638550453
+"484","RC_SC_169","High Street; Kirkcaldy; Fife (Scotland)","Market Town",0.658367626886145
+"485","RC_EW_1163","High Street; St Catherines; Lincoln (East Midlands; England)","District Centre",0.658233143964416
+"486","RC_SC_32","Glasgow Fort Shopping Park; Glasgow City (Scotland)","Large Retail Park",0.658028118626034
+"487","RC_EW_2778","Croft Retail & Leisure Park; Wirral (North West; England)","Large Retail Park",0.656568429022817
+"488","RC_EW_2616","Pipps Hill Retail Park; Basildon (East of England; England)","Small Retail Park",0.656400163089811
+"489","RC_EW_648","Greenmount Retail Park; Calderdale (Yorkshire and The Humber; England)","Large Retail Park",0.655909398009779
+"490","RC_EW_624","Broad Street Plaza; Calderdale (Yorkshire and The Humber; England)","Small Retail Park",0.655542772914382
+"491","RC_SC_352","High Street; Hawick; Scottish Borders (Scotland)","Market Town",0.655398939609466
+"492","RC_EW_443","Market Street; Clay Cross; North East Derbyshire (East Midlands; England)","Local Centre",0.654508370867681
+"493","RC_EW_2571","Cannon Retail Park; Greenwich (London; England)","Large Retail Park",0.653994901198118
+"494","RC_EW_5712","The Galleries; Washington; Sunderland (North East; England)","District Centre",0.65311278413204
+"495","RC_EW_3533","Broadwalk Shopping Centre; City of Bristol (South West; England)","Large Retail Park",0.652265602061016
+"496","RC_EW_1859","Westow Hill; Norwood New Town; Croydon (London; England)","District Centre",0.651707572298326
+"497","RC_EW_171","Louth; East Lindsey (East Midlands; England)","Town Centre",0.651378446115288
+"498","RC_EW_1201","Pavilion Shopping Centre; Stockton-on-Tees (North East; England)","Large Retail Park",0.651355343543393
+"499","RC_EW_4309","Coventry Road; Sheldon; Birmingham (West Midlands; England)","Local Centre",0.651170341926194
+"500","RC_EW_3690","Avenue Retail Park; Cardiff (Wales)","Small Retail Park",0.651027037132241
+"501","RC_EW_426","Mansfield; Mansfield (East Midlands; England)","Town Centre",0.649839290820703
+"502","RC_EW_534","Mill Gate Shopping Centre; Bury (North West; England)","Large Retail Park",0.649740497299947
+"503","RC_EW_971","Serpentine Green Shopping Centre; Peterborough (East of England; England)","Large Retail Park",0.649453217373026
+"504","RC_EW_4738","Riley Square Shopping Centre; Coventry (West Midlands; England)","Large Retail Park",0.649148626380812
+"505","RC_SC_15","Riverway Retail Park; North Ayrshire (Scotland)","Large Retail Park",0.648857820202845
+"506","RC_EW_344","Halifax Road Retail Park; Sheffield (Yorkshire and The Humber; England)","Large Retail Park",0.647710388340887
+"507","RC_EW_2437","Ilford; London (London; England)","Major Town Centre",0.647345673292802
+"508","RC_EW_2484","High Road Leyton; Temple Mills; Waltham Forest (London; England)","Local Centre",0.647279424560589
+"509","RC_EW_2387","Gravesend; Gravesham (South East; England)","Town Centre",0.647023511039156
+"510","RC_EW_1713","Bell Green Retail Park; Lewisham (London; England)","Small Retail Park",0.647009720842343
+"511","RC_EW_2289","Furtherwick Road; Canvey Island; Castle Point (East of England; England)","Local Centre",0.646859491070017
+"512","RC_EW_554","Middleton Shopping Centre; Middleton; Rochdale (North West; England)","Local Centre",0.646296825850729
+"513","RC_EW_1807","Lower Marsh; Lambeth; Lambeth (London; England)","Local Centre",0.645603805980827
+"514","RC_EW_5327","Ealing Road; Alperton; Brent (London; England) - 1","Local Centre",0.645406934115429
+"515","RC_EW_3229","Wilbraham Road; Chorlton-cum-hardy; Manchester (North West; England) - 1","District Centre",0.64522864284664
+"516","RC_EW_5595","Wellingborough Road; Abington; Northampton (East Midlands; England)","District Centre",0.64500406488328
+"517","RC_EW_379","Doncaster; Doncaster (Yorkshire and The Humber; England)","Major Town Centre",0.644874557224869
+"518","RC_EW_5383","Junction Road; Upper Holloway; Islington (London; England)","District Centre",0.644651232318702
+"519","RC_EW_3254","Stockport; Stockport (North West; England)","Major Town Centre",0.643796043864157
+"520","RC_EW_1935","Borough High Street; The Borough; Southwark (London; England)","District Centre",0.643734939759036
+"521","RC_EW_2707","Whitehaven; Copeland (North West; England)","Town Centre",0.643515499014514
+"522","RC_EW_5215","Cricklewood Broadway; Cricklewood; Brent (London; England)","District Centre",0.643094658788089
+"523","RC_SC_71","Springburn Shopping Centre; Glasgow City (Scotland)","Large Retail Park",0.641691995182803
+"524","RC_EW_1014","Leicester; Leicester (East Midlands; England)","Major Town Centre",0.641429547918055
+"525","RC_EW_2971","Capitol Centre Retail Park; South Ribble (North West; England)","Small Retail Park",0.641334922970884
+"526","RC_EW_944","Brotherhood Retail Park; Peterborough (East of England; England)","Large Retail Park",0.641179914341177
+"527","RC_EW_4846","Freeport Talke Stoke-on-Trent; Newcastle-under-Lyme (West Midlands; England)","Small Shopping Centre",0.641101584190756
+"528","RC_EW_1635","London Road; Mitcham; Merton (London; England) - 1","Local Centre",0.640920716112532
+"529","RC_EW_499","Queens Road Retail Park; Sheffield (Yorkshire and The Humber; England)","Small Retail Park",0.640821927448014
+"530","RC_EW_2624","Staple Tye Shopping Centre; Harlow (East of England; England)","Small Retail Park",0.640610366542871
+"531","RC_EW_2953","Preston; Preston (North West; England)","Major Town Centre",0.640594152554639
+"532","RC_EW_3548","Brislington Retail Park; City of Bristol (South West; England)","Small Retail Park",0.640245716694354
+"533","RC_EW_5675","Newcastle City; Newcastle upon Tyne (North East; England)","Regional Centre",0.639818275591016
+"534","RC_EW_762","Doncaster Lakeside Village; Doncaster (Yorkshire and The Humber; England)","Small Shopping Centre",0.639242378115079
+"535","RC_EW_807","Northside Retail Park; Leeds (Yorkshire and The Humber; England)","Large Retail Park",0.638929758221611
+"536","RC_EW_57","Transit Way Retail Park; Plymouth (South West; England)","Small Retail Park",0.638765746888491
+"537","RC_EW_5336","London Designer Outlet Wembley; Brent (London; England)","Small Shopping Centre",0.638182856676594
+"538","RC_EW_2979","Winter Hey Lane; Horwich; Bolton (North West; England)","Local Centre",0.638133498145859
+"539","RC_EW_2889","Green End; Whitchurch; Shropshire (West Midlands; England)","Local Centre",0.637792756769108
+"540","RC_EW_3519","Eastgate Retail Park; City of Bristol (South West; England)","Small Retail Park",0.636752430066038
+"541","RC_EW_2276","The Victoria; Southend-on-Sea (East of England; England)","Small Retail Park",0.636291798439806
+"542","RC_SC_37","St. James Retail Park; West Dunbartonshire (Scotland)","Small Retail Park",0.636224824089109
+"543","RC_EW_3831","Bedford Place; Bedford Place; Southampton (South East; England)","Local Centre",0.636078421490311
+"544","RC_EW_5270","Marchmont Street; Bloomsbury; Camden (London; England)","Local Centre",0.63563300651256
+"545","RC_EW_1922","The Leegate Shopping Centre; Lewisham (London; England)","Large Retail Park",0.634154358161648
+"546","RC_EW_4646","Kingsway Retail Park; Derby (East Midlands; England)","Small Retail Park",0.633686730741447
+"547","RC_EW_369","High Street; Normanton; Wakefield (Yorkshire and The Humber; England)","Local Centre",0.633284978240208
+"548","RC_EW_2709","Workington; Allerdale (North West; England)","Town Centre",0.632689002300553
+"549","RC_EW_629","Huddersfield; Kirklees (Yorkshire and The Humber; England)","Major Town Centre",0.632380843470513
+"550","RC_EW_429","Portland Retail Park; Mansfield (East Midlands; England)","Small Retail Park",0.63229171798788
+"551","RC_EW_1950","Gabriel's Wharf; Lambeth (London; England)","Small Retail Park",0.63208334886495
+"552","RC_SC_82","Duke Street; Camlachie; Glasgow City (Scotland)","Local Centre",0.631938629274735
+"553","RC_EW_1363","High Street; Hailsham; Wealden (South East; England)","Market Town",0.631833039979884
+"554","RC_EW_3798","Newport; Isle of Wight (South East; England)","Town Centre",0.631719545632589
+"555","RC_EW_1834","Norwood Road; Tulse Hill; Lambeth (London; England)","Local Centre",0.631494640122512
+"556","RC_EW_3785","Southampton; Southampton (South East; England)","Major Town Centre",0.630938288745591
+"557","RC_EW_3225","Stretford Mall; Trafford (North West; England)","Large Retail Park",0.630480351423758
+"558","RC_EW_2628","Harlow; Harlow (East of England; England)","Town Centre",0.6297204200821
+"559","RC_EW_2942","Abergele Road; Bae Colwyn; Conwy (Wales)","Market Town",0.628860335195531
+"560","RC_EW_5296","Burnt Oak Broadway; Burnt Oak; Barnet (London; England)","District Centre",0.628411175391562
+"561","RC_EW_4129","Pontypridd; Rhondda Cynon Taf (Wales)","Town Centre",0.627857779445565
+"562","RC_EW_819"," Leeds City, Leeds (Yorkshire and The Humber; England)","Regional Centre",0.627598988832902
+"563","RC_EW_804","Station Road; Cross Gates; Leeds (Yorkshire and The Humber; England)","District Centre",0.627494347088751
+"564","RC_SC_168","Fife Central Retail Park; Fife (Scotland)","Large Retail Park",0.627179256914108
+"565","RC_EW_2478","Old Church Road; Highams Park; Waltham Forest (London; England)","District Centre",0.626645088399646
+"566","RC_EW_5822","Mill Gate Shopping Centre; Bury (North West; England) - 1","Large Retail Park",0.625601471281219
+"567","RC_EW_2669","Triangle Shopping Centre; Tendring (East of England; England)","Small Retail Park",0.625556978233035
+"568","RC_EW_471","Hucknall; Ashfield (East Midlands; England)","Town Centre",0.625199165640472
+"569","RC_SC_55","West End Retail Park; Glasgow City (Scotland)","Large Retail Park",0.624991720912596
+"570","RC_EW_4854","Longton Exchange; Stoke-on-Trent (West Midlands; England)","Large Retail Park",0.624772266972469
+"571","RC_EW_1529","Chatham Dockside Outlet Centre; Medway (South East; England)","Small Shopping Centre",0.624565087645615
+"572","RC_EW_1451","Boundary Road; Southern Cross; Brighton and Hove (South East; England)","Local Centre",0.624377687259561
+"573","RC_EW_2982","Middlebrook Retail & Leisure Park; Bolton (North West; England)","Large Retail Park",0.624206004980832
+"574","RC_EW_3961","Albert Road; Southsea; Portsmouth (South East; England)","District Centre",0.624196257600699
+"575","RC_EW_4182","Paignton; Torbay (South West; England)","Town Centre",0.623790463287969
+"576","RC_EW_3130","Trafford Centre; Trafford (North West; England)","Large Shopping Centre",0.622884963123081
+"577","RC_EW_5334","Staples Corner Retail Park; Barnet (London; England)","Small Retail Park",0.622814970510729
+"578","RC_EW_5399","Crouch End; Haringey (London; England)","Town Centre",0.622804736207133
+"579","RC_EW_1306","Cheriton High Street; Morehall; Folkestone and Hythe (South East; England)","Local Centre",0.622345657068373
+"580","RC_EW_3101","Ravenhead Retail Park; St. Helens (North West; England)","Large Retail Park",0.621734699654645
+"581","RC_EW_3507","Regent Street; Kingswood; South Gloucestershire (South West; England)","District Centre",0.621156651773502
+"582","RC_EW_2442","The Exchange Mall; Redbridge (London; England)","Large Retail Park",0.620976221931397
+"583","RC_EW_1927","City of London;  London (London; England)","Town Centre",0.620974227396316
+"584","RC_EW_3631","Mermaid Quay; Cardiff (Wales)","Large Retail Park",0.62074330610979
+"585","RC_EW_1734","Lewisham; Lewisham (London; England)","Town Centre",0.620547325681896
+"586","RC_SC_14","Glencairn Retail Park; East Ayrshire (Scotland)","Large Retail Park",0.620178402597936
+"587","RC_EW_3077","Simm's Cross; Halton (North West; England)","Town Centre",0.620174782844554
+"588","RC_EW_5678","Durham Road; Low Fell; Gateshead (North East; England)","Local Centre",0.620039386692925
+"589","RC_SC_77","Rutherglen Shopping Centre; South Lanarkshire (Scotland)","Large Retail Park",0.619895289626471
+"590","RC_EW_1140","Campbells Meadow Retail Park; King's Lynn and West Norfolk (East of England; England)","Large Retail Park",0.619024361452539
+"591","RC_EW_1178","Redcar; Redcar and Cleveland (North East; England)","Town Centre",0.618179218984537
+"592","RC_EW_1274","Scarborough; Scarborough (Yorkshire and The Humber; England)","Major Town Centre",0.617754509433692
+"593","RC_SC_336","Arbroath; Angus (Scotland)","Town Centre",0.616928909179847
+"594","RC_EW_2854","Central 12 Retail Park; Sefton (North West; England)","Small Retail Park",0.616839485690585
+"595","RC_EW_1144","St. Nicholas Retail Park; King's Lynn and West Norfolk (East of England; England)","Small Retail Park",0.616741627963823
+"596","RC_EW_82","Fore Street; St Ives; Cornwall (South West; England)","Market Town",0.616044966785897
+"597","RC_EW_769","Ashby High Street; Ashby; North Lincolnshire (Yorkshire and The Humber; England)","Local Centre",0.615347227942994
+"598","RC_EW_1141","King's Lynn; King's Lynn and West Norfolk (East of England; England)","Major Town Centre",0.61520888418826
+"599","RC_EW_5663","Blaydon Shopping Centre; Gateshead (North East; England)","Large Retail Park",0.614629525321317
+"600","RC_SC_13","Queens Drive Retail Park; East Ayrshire (Scotland)","Large Retail Park",0.61457695181173
+"601","RC_EW_2729","South Road; Crosby; Sefton (North West; England)","Local Centre",0.614373802473437
+"602","RC_SC_151","Hamilton; South Lanarkshire (Scotland)","Town Centre",0.61434668510236
+"603","RC_EW_4700","Wyvern Retail Park; Derby (East Midlands; England)","Small Retail Park",0.614338217278385
+"604","RC_EW_3781","Shirley High Street; Shirley; Southampton (South East; England)","District Centre",0.614021264994547
+"605","RC_EW_324","Gallagher Retail Park; Kirklees (Yorkshire and The Humber; England)","Large Retail Park",0.612817390863202
+"606","RC_EW_4807","Meridian Leisure Park; Blaby (East Midlands; England)","Small Retail Park",0.6120494027131
+"607","RC_EW_2445","The Exchange Mall; Redbridge (London; England) - 1","Small Retail Park",0.611653539381855
+"608","RC_EW_4246","The Avenue; Minehead; Somerset West and Taunton (East of England; England)","Market Town",0.611443522906793
+"609","RC_EW_4832","Springfields Retail Park; Newcastle-under-Lyme (West Midlands; England)","Small Retail Park",0.611107143919783
+"610","RC_EW_215","Cromer; North Norfolk (East of England; England)","Town Centre",0.610902642718224
+"611","RC_EW_4661","High Street; Swadlincote; South Derbyshire (East Midlands; England)","Local Centre",0.610754070265638
+"612","RC_EW_4291","Princess Retail Park; Birmingham (West Midlands; England)","Large Retail Park",0.610706932052162
+"613","RC_EW_5847","Aberafan Centre; Neath Port Talbot (Wales)","Large Retail Park",0.610588744694346
+"614","RC_EW_4438","High Street; Stourbridge; Dudley (West Midlands; England)","District Centre",0.609829263315421
+"615","RC_EW_1365","Sovereign Harbour Retail Park; Eastbourne (South East; England)","Small Retail Park",0.609798766003854
+"616","RC_EW_4189","Fore Street; Brixham; Torbay (South West; England)","Market Town",0.609075823334184
+"617","RC_SC_331","Kingsway West Retail Park; Dundee City (Scotland)","Large Retail Park",0.608967542152397
+"618","RC_EW_4280","Market Hall Street; Cannock; Cannock Chase (West Midlands; England)","Market Town",0.608888132957528
+"619","RC_SC_7","High Street; An Gearasdan; Highland (Scotland)","Local Centre",0.608703285678455
+"620","RC_EW_5564","Luton; Luton (East of England; England)","Major Town Centre",0.608598405434448
+"621","RC_EW_5743","Newcastle Royal Quays Outlet; North Tyneside (North East; England)","Large Shopping Centre",0.608324877029699
+"622","RC_EW_2523","High Road; Chadwell Heath; Barking and Dagenham (London; England)","District Centre",0.608072444165869
+"623","RC_EW_2805","Hunts Cross Shopping Centre; Liverpool (North West; England)","Small Retail Park",0.607992642907872
+"624","RC_EW_1897","Eltham High Street; Eltham; Greenwich (London; England)","District Centre",0.607644161707367
+"625","RC_EW_5350","Green Lanes; Bowes Park; Enfield (London; England)","Local Centre",0.607427409619417
+"626","RC_EW_2294","Sittingbourne; Swale (South East; England)","Town Centre",0.606986174403337
+"627","RC_EW_1530","High Street; Strood; Medway (South East; England)","Local Centre",0.606617503099915
+"628","RC_EW_3318","Parsonage Retail Park; Wigan (North West; England)","Small Retail Park",0.605533878749738
+"629","RC_EW_614","Keighley Retail Park; Bradford (Yorkshire and The Humber; England)","Small Retail Park",0.60516621797761
+"630","RC_EW_3334","Freeport Fleetwood Outlet; Wyre (North West; England)","Small Shopping Centre",0.604629461241191
+"631","RC_SC_66","intu Braehead; Renfrewshire (Scotland)","Large Shopping Centre",0.604252444711306
+"632","RC_EW_1866","Trafalgar Road; Greenwich; Greenwich (London; England)","Local Centre",0.604231013327692
+"633","RC_EW_2295","Sittingbourne Retail Park; Swale (South East; England)","Small Retail Park",0.603459195125862
+"634","RC_EW_5323","Chamberlayne Road; Kensal Green; Brent (London; England)","Local Centre",0.603099505149124
+"635","RC_EW_1512","Horsted Retail Park; Medway (South East; England)","Small Retail Park",0.601929430284702
+"636","RC_SC_166","Lyon Way; Glenrothes; Fife (Scotland)","Local Centre",0.601293063637203
+"637","RC_EW_5736","Manor Walks Shopping Centre; Cramlington; Northumberland (North East; England)","Local Centre",0.601240758598521
+"638","RC_EW_2663","Connaught Avenue; Frinton-on-Sea; Tendring (East of England; England)","Local Centre",0.601179341195608
+"639","RC_EW_2329","High Street; Old Town; Stevenage (East of England; England)","Local Centre",0.60089394264464
+"640","RC_EW_3689","Saegar Retail Park; Cardiff (Wales)","Small Retail Park",0.600277523516466
+"641","RC_EW_1951","Fleet Street; Holborn; City of London (London; England)","Local Centre",0.6
+"642","RC_EW_4441","intu Merry Hill; Dudley (West Midlands; England)","Large Shopping Centre",0.599705193021124
+"643","RC_EW_4758","Alvis Retail Park; Coventry (West Midlands; England)","Small Retail Park",0.598850678280022
+"644","RC_EW_3097","Pinners Brow Retail Park; Warrington (North West; England)","Small Retail Park",0.598700629591847
+"645","RC_EW_46","Bideford Atlantic Village; Torridge (South West; England)","Small Shopping Centre",0.598331154562902
+"646","RC_EW_2080","Hounslow West Underground Shopping Area; Hounslow (London; England)","Large Retail Park",0.597485107393228
+"647","RC_SC_54","Glasgow City, Glasgow (Scotland)","Regional Centre",0.597462034559207
+"648","RC_EW_453","East Midlands Outlet Junction 28; Bolsover (East Midlands; England)","Small Shopping Centre",0.597249888654506
+"649","RC_EW_357","Castleford Junction 32 Outlet; Wakefield (Yorkshire and The Humber; England)","Large Shopping Centre",0.596774372949224
+"650","RC_EW_5815","Berwick-upon-Tweed; Northumberland (North East; England)","Town Centre",0.596336996336996
+"651","RC_EW_2272","Westcliff-on-Sea; Southend-on-Sea (East of England; England)","Town Centre",0.595922980326496
+"652","RC_EW_5683","Metrocentre; Gateshead (North East; England)","Large Shopping Centre",0.595219362281974
+"653","RC_EW_5671","Belvedere Retail Park; Newcastle upon Tyne (North East; England)","Small Retail Park",0.595009678199855
+"654","RC_SC_18","Paisley Leisure Park; Renfrewshire (Scotland)","Large Retail Park",0.594666707954006
+"655","RC_SC_161","North Street Retail Park; Fife (Scotland)","Small Retail Park",0.593830005581261
+"656","RC_EW_5752","Silverlink Shopping Park; North Tyneside (North East; England)","Small Retail Park",0.593739135074093
+"657","RC_EW_3645","Harlech Retail Park; Newport (Wales)","Large Retail Park",0.593636293056598
+"658","RC_EW_533","Bury; Bury (North West; England)","Town Centre",0.593256844491773
+"659","RC_EW_2641","Interchange Retail Park; Babergh (East of England; England)","Small Retail Park",0.59322478311537
+"660","RC_EW_5335","Stadium Retail Park; Brent (London; England)","Large Retail Park",0.592907208955644
+"661","RC_EW_47","Bideford; Torridge (South West; England)","Town Centre",0.592892784032753
+"662","RC_EW_2932","Clwyd Retail Park; Denbighshire (Wales)","Small Retail Park",0.592050696031581
+"663","RC_EW_521","Hebden Bridge; Calderdale (Yorkshire and The Humber; England)","Market Town",0.591731688900076
+"664","RC_EW_5116","Interchange Retail Park; Bedford (East of England; England)","Small Retail Park",0.591573829552808
+"665","RC_EW_590","Market Street; Shaw; Oldham (North West; England)","Local Centre",0.590859798605732
+"666","RC_EW_836","Abbey Retail Park; Leeds (Yorkshire and The Humber; England)","Large Retail Park",0.590820182545772
+"667","RC_EW_3306","Robin Leisure Park; Wigan (North West; England)","Large Retail Park",0.590103868652939
+"668","RC_EW_3646","Newport; Newport (Wales)","Major Town Centre",0.589513564514438
+"669","RC_EW_2834","Hoylake Road; Moreton; Wirral (North West; England)","Local Centre",0.589311530633729
+"670","RC_EW_1114","Wellingborough; Wellingborough (East Midlands; England)","Town Centre",0.58915547180845
+"671","RC_EW_4133","Neath; Neath Port Talbot (Wales)","Town Centre",0.588340744371696
+"672","RC_EW_493","Abbeydale Road; Nether Edge; Sheffield (Yorkshire and The Humber; England)","District Centre",0.588294839935682
+"673","RC_EW_3691","City Link Retail Park; Cardiff (Wales)","Small Retail Park",0.58819704875265
+"674","RC_EW_1048","Mansfield Road; Carrington; Nottingham (East Midlands; England)","Local Centre",0.587994980019155
+"675","RC_SC_121","Telford Retail Park; Highland (Scotland)","Small Retail Park",0.587933110367893
+"676","RC_SC_150","Hamilton Retail Park; South Lanarkshire (Scotland)","Small Retail Park",0.587849992377661
+"677","RC_EW_36","Newquay; Cornwall (South West; England)","Town Centre",0.587237066515065
+"678","RC_EW_1846","London Road; Norbury; Croydon (London; England)","District Centre",0.586953910824201
+"679","RC_EW_975","Ortongate Shopping Centre; Peterborough (East of England; England)","Small Retail Park",0.586489960228926
+"680","RC_EW_3588","High Street; Y Coed Duon; Caerphilly (Wales)","Local Centre",0.58627391893928
+"681","RC_EW_156","High Street; Horncastle; East Lindsey (East Midlands; England)","Local Centre",0.585910652920962
+"682","RC_EW_724","Pasture Road; Goole; East Riding of Yorkshire (Yorkshire and The Humber; England)","Local Centre",0.585750072822604
+"683","RC_EW_4600","Telford Forge Shopping Park; Telford and Wrekin (West Midlands; England)","Large Retail Park",0.584886252554874
+"684","RC_EW_4710","Ilkeston; Erewash (East Midlands; England)","Town Centre",0.584882431783959
+"685","RC_EW_1683","Crawley; Crawley (South East; England)","Town Centre",0.584865717723444
+"686","RC_EW_2630","The Oaks Retail Park; Harlow (East of England; England)","Small Retail Park",0.584476104884754
+"687","RC_EW_4222","Weymouth; Dorset (South West; England)","Town Centre",0.58414750450355
+"688","RC_SC_165","Newbridge Retail Park; Fife (Scotland)","Large Retail Park",0.583519822229214
+"689","RC_SC_146","Union Street; Larkhall; South Lanarkshire (Scotland)","Local Centre",0.583487504057124
+"690","RC_EW_4599","Telford; Telford and Wrekin (West Midlands; England)","Local Centre",0.583001373626374
+"691","RC_EW_2550","Temple Hill; Dartford (South East; England)","Town Centre",0.582542688669588
+"692","RC_EW_3150","Bury New Road; Prestwich; Bury (North West; England)","Local Centre",0.581886563542615
+"693","RC_EW_1162","Tritton Retail Park; Lincoln (East Midlands; England)","Small Retail Park",0.581697792173182
+"694","RC_EW_4769","Central Six Retail Park; Coventry (West Midlands; England)","Small Retail Park",0.581413384732456
+"695","RC_EW_3337","Cleveleys; Wyre (North West; England)","Town Centre",0.581224792485233
+"696","RC_EW_1125","Boston; Boston (East Midlands; England)","Town Centre",0.581048881852365
+"697","RC_EW_4767","Coventry; Coventry (West Midlands; England)","Major Town Centre",0.58102833769969
+"698","RC_SC_38","Govan Cross Shopping Centre; Glasgow City (Scotland)","Large Retail Park",0.580505293032836
+"699","RC_EW_246","Forest Retail Park; Breckland (East of England; England)","Small Retail Park",0.58018357012238
+"700","RC_EW_4152","Fore Street; Chard; South Somerset (South West; England)","Local Centre",0.580112448641246
+"701","RC_EW_4195","Strand The; Dawlish; Teignbridge (South West; England)","Local Centre",0.579810971450843
+"702","RC_EW_3380","Barnoldswick; Pendle (North West; England)","Local Centre",0.579787038736919
+"703","RC_EW_3301","Wigan; Wigan (North West; England)","Major Town Centre",0.57880959147259
+"704","RC_EW_5818","Valentine Retail Park; Lincoln (East Midlands; England)","Small Retail Park",0.577681191351286
+"705","RC_EW_5269","Euston Underground Shopping Area; Camden (London; England)","Large Retail Park",0.577326599440344
+"706","RC_EW_3616","Barry; Vale of Glamorgan (Wales)","Town Centre",0.577319708029197
+"707","RC_EW_3625","Cardiff City; Cardiff (Wales)","Regional Centre",0.576974091753817
+"708","RC_EW_479","Eckington Way; Drakehouse; Sheffield (Yorkshire and The Humber; England)","Local Centre",0.576459153193305
+"709","RC_EW_2853","Meols Cop Retail Park; Sefton (North West; England)","Small Retail Park",0.57636775655552
+"710","RC_EW_1845","Streatham Hill; Lambeth (London; England)","Town Centre",0.576237113402062
+"711","RC_EW_5294","Kingsbury Road; Queensbury; Brent (London; England)","Local Centre",0.576073738056172
+"712","RC_EW_502","London Road; Little Sheffield; Sheffield (Yorkshire and The Humber; England)","District Centre",0.575974795346833
+"713","RC_EW_4722","Nuneaton; Nuneaton and Bedworth (West Midlands; England)","Town Centre",0.575843233647412
+"714","RC_EW_4820","Newcastle-under-Lyme; Newcastle-under-Lyme (West Midlands; England)","Town Centre",0.57573367585899
+"715","RC_EW_5578","White Lion Retail Park; Central Bedfordshire (East of England; England)","Small Retail Park",0.575050315616138
+"716","RC_EW_3403","Lancaster; Lancaster (North West; England)","Major Town Centre",0.574716179839155
+"717","RC_EW_2067","Hounslow; Hounslow (London; England)","Major Town Centre",0.573828459973433
+"718","RC_EW_3474","Trowbridge; Wiltshire (South West; England)","Market Town",0.573189275710284
+"719","RC_EW_1553","Bexhill-on-Sea; Rother (South East; England)","Town Centre",0.573023104458184
+"720","RC_EW_1343","High Street; Deal; Dover (South East; England)","Market Town",0.57215918345187
+"721","RC_SC_69","Silverburn Centre; Glasgow City (Scotland)","Large Shopping Centre",0.571033168499788
+"722","RC_EW_4603","Wrekin Retail Park; Telford and Wrekin (West Midlands; England)","Small Retail Park",0.570644929961275
+"723","RC_EW_911","Lowtown; Pudsey; Leeds (Yorkshire and The Humber; England)","Local Centre",0.570481770833333
+"724","RC_EW_3773","Ross-on-Wye; County of Herefordshire (West Midlands; England)","Market Town",0.569782825761358
+"725","RC_EW_394","Cleckheaton; Kirklees (Yorkshire and The Humber; England)","District Centre",0.56948117275079
+"726","RC_EW_1311","Ashford; Ashford (South East; England)","Town Centre",0.568771487508595
+"727","RC_EW_3985","Stoke Road; Newtown; Gosport (South East; England)","Local Centre",0.568769961156668
+"728","RC_EW_4733","Long Street; Atherstone; North Warwickshire (West Midlands; England)","Local Centre",0.567517267843438
+"729","RC_EW_4042","Swansea; Swansea (Wales)","Major Town Centre",0.567487521662653
+"730","RC_EW_1511","Hempstead Valley Shopping Centre; Medway (South East; England)","Large Retail Park",0.567284085791372
+"731","RC_EW_5864","St. James Centre Retail Park; Harlow (East of England; England)","Small Retail Park",0.566820153930548
+"732","RC_EW_4606","Wellington; Telford and Wrekin (West Midlands; England)","Town Centre",0.566255829447035
+"733","RC_EW_239","Fakenham; North Norfolk (East of England; England)","Local Centre",0.566233364283504
+"734","RC_EW_5259","Camden Town; London (London; England)","Town Centre",0.565900635560378
+"735","RC_EW_1593","Croydon; London (London; England)","Major Town Centre",0.565495115997655
+"736","RC_EW_1953","North Southwark; Lambeth (London; England)","District Centre",0.565098542626293
+"737","RC_SC_373","Castle Street; Forfar; Angus (Scotland)","Market Town",0.564874746106974
+"738","RC_EW_1209","Darlington; Darlington (North East; England)","Major Town Centre",0.564477820822262
+"739","RC_EW_3638","Weston Retail Park; North Somerset (South West; England)","Large Retail Park",0.563905462672092
+"740","RC_EW_4602","Market Street; Oakengates; Telford and Wrekin (West Midlands; England)","Local Centre",0.563553586210255
+"741","RC_EW_767","Retford; Bassetlaw (East Midlands; England)","Market Town",0.563100782637922
+"742","RC_EW_2723","St Johns Road; Crosby; Sefton (North West; England)","Local Centre",0.562887776205508
+"743","RC_EW_4959","Reading Gate Retail Park; Reading (South East; England)","Small Retail Park",0.562844894084139
+"744","RC_EW_473","Worksop; Bassetlaw (East Midlands; England)","Town Centre",0.562005130836326
+"745","RC_EW_4481","Tamworth; Tamworth (West Midlands; England)","Town Centre",0.561527696459937
+"746","RC_EW_4492","Redditch; Redditch (West Midlands; England)","Town Centre",0.560707112812157
+"747","RC_EW_3014","Lytham St Anne's; Fylde (North West; England)","Town Centre",0.559738776412505
+"748","RC_EW_1151","Newark-on-Trent; Newark and Sherwood (East Midlands; England)","Town Centre",0.559579413873259
+"749","RC_EW_3636","High Street; Burnham-on-Sea; Sedgemoor (South West; England)","Market Town",0.559414462524345
+"750","RC_SC_332","Dundee; Dundee City (Scotland)","Major Town Centre",0.559040903177957
+"751","RC_EW_4083","Quay Street; Rhydaman; Carmarthenshire (Wales)","Local Centre",0.558447949526814
+"752","RC_EW_1029","Lady Bay Retail Park; Nottingham (East Midlands; England)","Small Retail Park",0.558288861829148
+"753","RC_EW_3523","Stokes Croft; Cotham; City of Bristol (South West; England)","Local Centre",0.558179216204315
+"754","RC_EW_2139","Holland Park Underground Shopping Area; Kensington and Chelsea (London; England)","Large Retail Park",0.558106751502298
+"755","RC_EW_40","Pentewan Road Retail Park; Cornwall (South West; England)","Small Retail Park",0.557844644981574
+"756","RC_EW_1753","High Street; Arpley Square; Bromley (London; England) - 1","Local Centre",0.55718458064917
+"757","RC_EW_1786","Brockwell Park; Lambeth (London; England)","Local Centre",0.556152389966872
+"758","RC_EW_3566","Cwmbran Shopping Centre; Torfaen (Wales)","Large Retail Park",0.556151875236937
+"759","RC_EW_2902","Cheshire Oaks Designer Outlet; Cheshire West and Chester (North West; England)","Large Shopping Centre",0.555973083704352
+"760","RC_EW_4653","Derby; Derby (East Midlands; England)","Major Town Centre",0.555602713043223
+"761","RC_EW_4011","High Street; Cosham; Portsmouth (South East; England)","Local Centre",0.555535687110029
+"762","RC_EW_4638","Kidderminster; Wyre Forest (West Midlands; England)","Town Centre",0.555355405617449
+"763","RC_EW_4739","Warwickshire Shopping Park; Coventry (West Midlands; England)","Large Retail Park",0.555285036428573
+"764","RC_EW_455","Giltbrook Retail Park; Broxtowe (East Midlands; England)","Small Retail Park",0.55442394635434
+"765","RC_EW_2112","Hammersmith; London (London; England)","Town Centre",0.554137352331436
+"766","RC_EW_3973","Portsmouth Gunwharf Quays; Portsmouth (South East; England)","Large Shopping Centre",0.554010370831697
+"767","RC_EW_5064","Manor Retail Park; Hounslow (London; England)","Small Retail Park",0.553840823292134
+"768","RC_EW_4070","Barnstaple; North Devon (South West; England)","Town Centre",0.553586547163752
+"769","RC_EW_3723","Gloucester; Gloucester (South West; England)","Town Centre",0.553433885852987
+"770","RC_EW_5484","Greenford Underground Shopping Area; Ealing (London; England)","Small Retail Park",0.552661123206463
+"771","RC_SC_368","High Street; Montrose; Angus (Scotland)","Local Centre",0.552622772525726
+"772","RC_EW_1023","Nottingham; Nottingham (East Midlands; England)","Regional Centre",0.551793286947614
+"773","RC_EW_1115","Castlefields Retail Park; Wellingborough (East Midlands; England)","Small Retail Park",0.551537428621808
+"774","RC_EW_1876","Poplar; Tower Hamlets (London; England)","District Centre",0.550920471281296
+"775","RC_EW_2960","Riversway Retail Park; Preston (North West; England)","Large Retail Park",0.549950586357607
+"776","RC_EW_1956","London; London (London; England)","Regional Centre",0.549469679681709
+"777","RC_EW_837","Otley Road; Headingley; Leeds (Yorkshire and The Humber; England)","Local Centre",0.549427635016387
+"778","RC_EW_1385","Brighton Marina; Brighton and Hove (South East; England)","Large Retail Park",0.549157695301599
+"779","RC_EW_4224","Jubilee Retail Park; Dorset (South West; England)","Large Retail Park",0.549020368901564
+"780","RC_EW_1312","Ashford Designer Outlet; Ashford (South East; England)","Large Shopping Centre",0.548997454907602
+"781","RC_EW_409","Wakefield; Wakefield (Yorkshire and The Humber; England)","Major Town Centre",0.548361089371674
+"782","RC_EW_5521","Enfield; Enfield (London; England)","Town Centre",0.548111358207726
+"783","RC_EW_4712","Waterside Retail Park; Erewash (East Midlands; England)","Small Retail Park",0.547915760160125
+"784","RC_EW_2557","Erith Riverside Shopping Centre; Bexley (London; England)","Large Retail Park",0.547807076798369
+"785","RC_EW_3830","Portswood Road; Portswood; Southampton (South East; England)","Local Centre",0.547380467045739
+"786","RC_EW_1013","Beaumont Shopping Centre; Leicester (East Midlands; England)","Large Retail Park",0.547242658305292
+"787","RC_EW_2963","St. George Shopping Centre; Preston (North West; England)","Large Retail Park",0.545874584406516
+"788","RC_EW_2368","Romford; London (London; England)","Major Town Centre",0.545706986524432
+"789","RC_EW_4172","Tiverton; Mid Devon (South West; England)","Town Centre",0.544642696629213
+"790","RC_EW_2524","Goodmayes Road; Goodmayes; Redbridge (London; England)","District Centre",0.544395573212259
+"791","RC_EW_3991","Bognor Regis; Arun (South East; England)","Town Centre",0.544042142230026
+"792","RC_EW_2545","Station Road; Chingford; Waltham Forest (London; England)","District Centre",0.543875382302628
+"793","RC_EW_77","Fore Street; Okehampton; West Devon (South West; England)","Local Centre",0.543245055313443
+"794","RC_EW_3904","Parkway Retail Park; Bournemouth, Christchurch and Poole (South West; England)","Small Retail Park",0.543239611480318
+"795","RC_EW_5504","Market Place; Roe Green; Welwyn Hatfield (East of England; England)","Local Centre",0.543019898556379
+"796","RC_EW_4181","Torquay Road; Preston; Torbay (South West; England)","Local Centre",0.542815249266862
+"797","RC_EW_5458","High Street; Wealdstone; Harrow (London; England)","Local Centre",0.542414225691471
+"798","RC_EW_2121","Westfield London; Hammersmith and Fulham (London; England)","Large Shopping Centre",0.542156429940889
+"799","RC_EW_5637","Penda Retail Park; Shropshire (West Midlands; England)","Small Retail Park",0.542088760250844
+"800","RC_EW_3993","Arun Retail Park; Arun (South East; England)","Small Retail Park",0.54194194036437
+"801","RC_EW_3890","Christchurch Road; Pokesdown; Bournemouth, Christchurch and Poole (South West; England)","Local Centre",0.541803613161702
+"802","RC_EW_1156","Lincoln; Lincoln (East Midlands; England)","Major Town Centre",0.541765047416296
+"803","RC_EW_5482","Westway Cross Shopping Park; Ealing (London; England)","Small Retail Park",0.541248249111087
+"804","RC_EW_5120","Alban Retail Park; Bedford (East of England; England)","Large Retail Park",0.540255186842084
+"805","RC_EW_1074","Riverside Retail Park; Nottingham (East Midlands; England)","Small Retail Park",0.540142369865045
+"806","RC_EW_248","Thetford; Breckland (East of England; England)","Local Centre",0.539993402243237
+"807","RC_EW_2746","Allerton Road; Wavertree; Liverpool (North West; England)","District Centre",0.539895412231577
+"808","RC_EW_2950","Queens Retail Park; Preston (North West; England)","Large Retail Park",0.53985738748179
+"809","RC_EW_1091","Kettering; Kettering (East Midlands; England)","Town Centre",0.5396194785326
+"810","RC_EW_1172","Westgate; Guisborough; Redcar and Cleveland (North East; England)","Market Town",0.539266919028714
+"811","RC_EW_251","Dereham; Breckland (East of England; England)","Town Centre",0.539138669301713
+"812","RC_EW_5017","Slough; Slough (South East; England)","Town Centre",0.539092687345224
+"813","RC_EW_1314","Orbital Retail Park; Ashford (South East; England)","Small Retail Park",0.538885218700549
+"814","RC_EW_18","Padstow; Cornwall (South West; England)","Local Centre",0.538408831366578
+"815","RC_EW_2939","High Street; Treffynnon; Flintshire (Wales)","Local Centre",0.537899593540591
+"816","RC_EW_3504","High Street; Melksham; Wiltshire (South West; England)","Local Centre",0.537698254031721
+"817","RC_EW_1119","Weston Favell Shopping Centre; Northampton (East Midlands; England)","Large Retail Park",0.537682099603871
+"818","RC_EW_5633","Welshpool; Powys (Wales)","Local Centre",0.535991379310345
+"819","RC_SC_355","Galashiels; Scottish Borders (Scotland)","Town Centre",0.53597180965694
+"820","RC_EW_4866","High Street; Cheadle; Staffordshire Moorlands (West Midlands; England)","Local Centre",0.535962536673437
+"821","RC_SC_154","Kingsgate Retail Park; South Lanarkshire (Scotland)","Large Retail Park",0.535806824781956
+"822","RC_EW_440","Chesterfield; Chesterfield (East Midlands; England)","Town Centre",0.535408963930655
+"823","RC_EW_622","Commercial Street; Brighouse; Calderdale (Yorkshire and The Humber; England)","District Centre",0.535146369505616
+"824","RC_EW_2848","Southport; Sefton (North West; England)","Major Town Centre",0.535021292353268
+"825","RC_EW_4060","Fforestfach Retail Park; Swansea (Wales)","Large Retail Park",0.534696118649416
+"826","RC_EW_4620","High Street; Stourport-on-Severn; Wyre Forest (West Midlands; England)","Local Centre",0.534608511113593
+"827","RC_EW_4034","Trostre Retail Park; Carmarthenshire (Wales)","Large Retail Park",0.534595821719015
+"828","RC_EW_5638","Croesoswallt; Shropshire (West Midlands; England)","Town Centre",0.534202813599062
+"829","RC_EW_3432","Carlisle; Carlisle (North West; England)","Major Town Centre",0.534131697017683
+"830","RC_EW_2204","Ealing; Ealing (London; England)","Major Town Centre",0.533964011806696
+"831","RC_EW_4673","Bond End; East Staffordshire (West Midlands; England)","Town Centre",0.533174054638281
+"832","RC_EW_3434","London Road Retail Park; Carlisle (North West; England)","Large Retail Park",0.532710062844286
+"833","RC_EW_4101","John Street; Porthcawl; Bridgend (Wales)","Local Centre",0.532349700012244
+"834","RC_EW_5289","Kilburn; Brent (London; England)","Town Centre",0.532216130523813
+"835","RC_EW_1881","Greenwich; Greenwich (London; England)","District Centre",0.532022304092403
+"836","RC_EW_3615","High Street; Barry; Vale of Glamorgan (Wales)","Local Centre",0.531783487735244
+"837","RC_EW_3089","Gemini Retail Park; Warrington (North West; England)","Small Retail Park",0.531003244253822
+"838","RC_EW_5642","Y Drenewydd; Powys (Wales)","Town Centre",0.530311801078805
+"839","RC_EW_24","Fore Street; Looe; Cornwall (South West; England)","District Centre",0.529413285086586
+"840","RC_EW_2021","Springvale Retail Park; Bromley (London; England)","Small Retail Park",0.529340217445266
+"841","RC_EW_3697","Albany Road; Y Rhath; Cardiff (Wales)","District Centre",0.529125297855441
+"842","RC_EW_3762","Greenbridge Retail & Leisure Park; Swindon (South West; England)","Small Retail Park",0.529004522071026
+"843","RC_EW_5276","Great Portland Street Underground Shopping Area; Westminster (London; England)","Small Retail Park",0.528940551689417
+"844","RC_EW_3508","High Street; Staple Hill; South Gloucestershire (South West; England)","Local Centre",0.528360514642597
+"845","RC_EW_4419","High Street; Halesowen; Dudley (West Midlands; England)","Local Centre",0.527482538718494
+"846","RC_EW_5207","Brent Cross Regional Shopping Centre; Staples Corner; Barnet (London; England)","District Centre",0.527426300099371
+"847","RC_EW_68","Coypool Retail Park; Plymouth (South West; England)","Small Retail Park",0.527167745606077
+"848","RC_EW_2929","High Street; Prestatyn; Denbighshire (Wales)","Local Centre",0.525758702767034
+"849","RC_EW_2645","Ipswich; Ipswich (East of England; England)","Major Town Centre",0.525459652534419
+"850","RC_EW_2913","Flintshire Retail Park; Flintshire (Wales)","Small Retail Park",0.525109847505815
+"851","RC_EW_2609","Pitsea Retail Park; Basildon (East of England; England)","Large Retail Park",0.524744542935593
+"852","RC_EW_2146","Westbourne Grove; Bayswater; Westminster (London; England)","Local Centre",0.523763520236223
+"853","RC_EW_2633","Anglia Retail Park; Ipswich (East of England; England)","Small Retail Park",0.523630777714319
+"854","RC_EW_4652","Park Farm Shopping Centre; Derby (East Midlands; England)","Large Retail Park",0.523470362546211
+"855","RC_EW_3888","Southbourne Grove; West Southbourne; Bournemouth, Christchurch and Poole (South West; England)","Local Centre",0.522620768582098
+"856","RC_EW_2549","Crayford High Street; Crayford; Bexley (London; England)","Local Centre",0.522349763673194
+"857","RC_EW_5339","Arnos Grove Underground Shopping Area; Enfield (London; England)","Large Retail Park",0.519520673328095
+"858","RC_EW_2330","Stevenage; Stevenage (East of England; England)","Town Centre",0.519134066029918
+"859","RC_EW_2332","Stevenage Leisure Park; Stevenage (East of England; England)","Small Retail Park",0.519134066029918
+"860","RC_SC_89","Cumbernauld; North Lanarkshire (Scotland)","Town Centre",0.518824385166234
+"861","RC_EW_4239","St. Johns Retail Park; Somerset West and Taunton (East of England; England)","Small Retail Park",0.518263245512449
+"862","RC_EW_5066","The Centre, Feltham; Hounslow (London; England) - 1","Large Retail Park",0.518027889406073
+"863","RC_EW_391","Bank Street; Ossett; Wakefield (Yorkshire and The Humber; England)","Local Centre",0.517569239554583
+"864","RC_EW_4781","Fosse Shopping Park; Blaby (East Midlands; England)","Large Retail Park",0.517362140911129
+"865","RC_EW_331","Sheffield City; Sheffield (Yorkshire and The Humber; England)","Major Town Centre",0.517094838391128
+"866","RC_EW_111","Anlaby Retail Park; East Riding of Yorkshire (Yorkshire and The Humber; England)","Small Retail Park",0.516912576171969
+"867","RC_EW_3522","Bristol City; Bristol (South West; England)","Regional Centre",0.516296983470976
+"868","RC_EW_1358","Eastbourne; Eastbourne (South East; England)","Major Town Centre",0.516165401230528
+"869","RC_EW_5310","The Broadway; Mill Hill; Barnet (London; England)","Local Centre",0.515039422486177
+"870","RC_EW_4868","Leek; Staffordshire Moorlands (West Midlands; England)","Town Centre",0.514184489653973
+"871","RC_EW_1082","Victoria Retail Park; Gedling (East Midlands; England)","Small Retail Park",0.514173521546325
+"872","RC_EW_3056","Birchwood Shopping Centre; Warrington (North West; England)","Large Retail Park",0.513742706997145
+"873","RC_EW_4079","Hwlffordd; Pembrokeshire (Wales)","Market Town",0.513342631334263
+"874","RC_SC_3","Steòrnabhagh; Na h-Eileanan Siar (Scotland)","Town Centre",0.513172966781214
+"875","RC_SC_134","Cuckoo Bridge Retail Park; Dumfries and Galloway (Scotland)","Small Retail Park",0.513079116179615
+"876","RC_EW_2151","Earls Court Road; Earl's Court; Kensington and Chelsea (London; England)","Local Centre",0.512995212290209
+"877","RC_EW_5603","Riverside Retail Park; Northampton (East Midlands; England)","Small Retail Park",0.512879277223653
+"878","RC_EW_5626","High Street; Abermaw; Gwynedd (Wales)","Local Centre",0.512768544791244
+"879","RC_EW_1364","Langney Shopping Centre; Eastbourne (South East; England)","Large Retail Park",0.512456808405613
+"880","RC_EW_1313","Ashford Retail Park; Ashford (South East; England)","Small Retail Park",0.512171059336717
+"881","RC_EW_4892","Cowley Road; Headington Hill; Oxford (South East; England) - 1","District Centre",0.511596638655462
+"882","RC_EW_542","Deardengate; Haslingden; Rossendale (North West; England)","Local Centre",0.511562637847375
+"883","RC_EW_1680","County Oak Retail Park; Crawley (South East; England)","Small Retail Park",0.511558542546101
+"884","RC_EW_5801","The Killingworth Centre; North Tyneside (North East; England)","Large Retail Park",0.509817307028108
+"885","RC_EW_3670","East Street; Bedminster; City of Bristol (South West; England)","District Centre",0.508292453200424
+"886","RC_EW_1000","Thurmaston Shopping Park; Charnwood (East Midlands; England)","Small Retail Park",0.508041444210753
+"887","RC_EW_4004","Havant; Havant (South East; England)","Town Centre",0.507490415160478
+"888","RC_EW_5118","Bedford; Bedford (East of England; England)","Major Town Centre",0.507454786060873
+"889","RC_EW_4251","Orbital Retail Park; Cannock Chase (West Midlands; England)","Small Retail Park",0.506871820402321
+"890","RC_EW_5174","Borehamwood; Hertsmere (East of England; England)","Town Centre",0.506532405712193
+"891","RC_EW_327","Middlewood Road; Lower Walkley; Sheffield (Yorkshire and The Humber; England)","District Centre",0.506209717081252
+"892","RC_EW_2126","Wandsworth High Street; Wandsworth; Wandsworth (London; England)","District Centre",0.505070250458155
+"893","RC_EW_3896","Poole Commerce Centre; Bournemouth, Christchurch and Poole (South West; England)","Large Retail Park",0.504679415499498
+"894","RC_EW_2223","Felixstowe; East Suffolk (East of England; England)","Town Centre",0.504535223947783
+"895","RC_EW_4284","The Lightworks; Cannock Chase (West Midlands; England)","Large Retail Park",0.50418595290803
+"896","RC_EW_33","Falmouth; Cornwall (South West; England)","Town Centre",0.503702890596414
+"897","RC_EW_4613","Cheshire Street; Market Drayton; Shropshire (West Midlands; England)","Local Centre",0.503488277764257
+"898","RC_EW_3313","Gerard Street; Ashton-in-Makerfield; Wigan (North West; England)","District Centre",0.503347154918319
+"899","RC_EW_2380","Orsett Road; Grays; Thurrock (East of England; England)","District Centre",0.503215128358629
+"900","RC_EW_5594","Northampton; Northampton (East Midlands; England)","Major Town Centre",0.502928514005247
+"901","RC_EW_2382","Lakeside Shopping Centre; Thurrock (East of England; England)","Large Shopping Centre",0.501967490808316
+"902","RC_SC_110","Kirktown; Aberdeenshire (Scotland)","Town Centre",0.501935221941537
+"903","RC_EW_4499","Evesham Shopping Park; Wychavon (West Midlands; England)","Small Retail Park",0.501444977467655
+"904","RC_EW_4205","Yeovil; South Somerset (South West; England)","Town Centre",0.501441981999419
+"905","RC_EW_4696","Meteor Centre Retail Park; Derby (East Midlands; England)","Small Retail Park",0.501250446078081
+"906","RC_EW_1152","Grantham; South Kesteven (East Midlands; England)","Market Town",0.501119256213123
+"907","RC_EW_4755","Airport Retail Park; Coventry (West Midlands; England)","Small Retail Park",0.501065160167557
+"908","RC_EW_4829","Trentham Shopping Village; Stafford (West Midlands; England)","Large Retail Park",0.500831948702347
+"909","RC_EW_227","Beccles; East Suffolk (East of England; England)","Market Town",0.50064761054042
+"910","RC_SC_138","Ayr; South Ayrshire (Scotland)","Major Town Centre",0.50038141122152
+"911","RC_EW_3729","St. Oswalds Retail Park; Gloucester (South West; England)","Small Retail Park",0.500004845782957
+"912","RC_EW_1864","Entertainment Avenue; North Greenwich; Greenwich (London; England)","Local Centre",0.5
+"913","RC_EW_4140","Sycamore Street; Newcastle Emlyn; Carmarthenshire (Wales)","Local Centre",0.5
+"914","RC_EW_4516","Resorts World Birmingham; Solihull (West Midlands; England)","Small Retail Park",0.5
+"915","RC_NI_484","Belfast City. Belfast (Northern Ireland)","Regional Centre",0.5
+"916","RC_EW_5297","Edgware; Harrow (London; England)","Town Centre",0.499920266556034
+"917","RC_EW_1447","Portland Road; Aldrington; Brighton and Hove (South East; England)","Local Centre",0.499529684164828
+"918","RC_EW_5137","Grafton Retail Park; Milton Keynes (South East; England)","Small Retail Park",0.499413912185496
+"919","RC_SC_322","Callendar Square Shopping Centre; Falkirk (Scotland)","Large Retail Park",0.498572481119912
+"920","RC_EW_3872","Ringwood Road Retail Park; Bournemouth, Christchurch and Poole (South West; England)","Small Retail Park",0.498198165338391
+"921","RC_EW_3183","Wilmslow Road; Didsbury; Manchester (North West; England)","Local Centre",0.497912595236072
+"922","RC_EW_4524","Royal Leamington Spa; Warwick (West Midlands; England) - 1","District Centre",0.497489981785064
+"923","RC_EW_4241","East Reach; Firepool; Somerset West and Taunton (East of England; England)","Local Centre",0.496146995406394
+"924","RC_EW_188","Riverside Entertainment Centre; Norwich (East of England; England)","Large Retail Park",0.495417841854339
+"925","RC_EW_1112","Kettering Retail Park; Kettering (East Midlands; England)","Small Retail Park",0.495313296813568
+"926","RC_EW_4238","High Street; Wellington; Somerset West and Taunton (East of England; England)","Local Centre",0.495210546809813
+"927","RC_EW_4017","Greywell Shopping Centre; Havant (South East; England)","Large Retail Park",0.494984743231838
+"928","RC_EW_1145","High Street; Downham Market; King's Lynn and West Norfolk (East of England; England)","Local Centre",0.494538275937706
+"929","RC_EW_4156","South Street; Bridport; Dorset (South West; England)","Market Town",0.494529377737377
+"930","RC_SC_136","Central Retail Park; South Ayrshire (Scotland)","Large Retail Park",0.494477733239666
+"931","RC_SC_241","Springkerse Retail Park; Stirling (Scotland)","Large Retail Park",0.494351830554917
+"932","RC_EW_4909","Westcroft District Centre; Milton Keynes (South East; England)","Small Retail Park",0.49433640617038
+"933","RC_EW_1320","Stour Retail Park; Canterbury (South East; England)","Small Retail Park",0.493991748323878
+"934","RC_EW_1476","Tarring Road; Worthing; Worthing (South East; England)","Local Centre",0.49374379125367
+"935","RC_EW_3748","Mannington Retail Park; Swindon (South West; England)","Small Retail Park",0.493631811882516
+"936","RC_EW_4190","Totnes; South Hams (South West; England)","Town Centre",0.493457582553553
+"937","RC_EW_1077","Arnold; Gedling (East Midlands; England)","Town Centre",0.493172818886408
+"938","RC_SC_319","Central Retail Park; Falkirk (Scotland)","Large Retail Park",0.493091724358816
+"939","RC_EW_3984","Gosport; Gosport (South East; England)","Town Centre",0.492730056272757
+"940","RC_EW_3920","Tower Park Leisure Complex; Bournemouth, Christchurch and Poole (South West; England)","Small Retail Park",0.492246902669907
+"941","RC_EW_3753","Swindon; Swindon (South West; England)","Major Town Centre",0.49219880225458
+"942","RC_EW_3892","Bournemouth; Bournemouth, Christchurch and Poole (South West; England)","Major Town Centre",0.491960965232142
+"943","RC_EW_5221","Archway Road; Highgate; Haringey (London; England)","Local Centre",0.49168925838906
+"944","RC_EW_1804","Pimlico; Westminster (London; England)","Local Centre",0.491423122230325
+"945","RC_EW_998","Town Square; Charnwood (East Midlands; England)","Large Retail Park",0.491176407257318
+"946","RC_SC_140","Heathfield Retail Park; South Ayrshire (Scotland)","Large Retail Park",0.490977820730827
+"947","RC_EW_3770","Hereford; County of Herefordshire (West Midlands; England)","Major Town Centre",0.489876420090832
+"948","RC_EW_1808","Broadway Shopping Centre; Westminster (London; England)","Large Retail Park",0.489634036416081
+"949","RC_EW_5778","Whitley Road Retail Park; North Tyneside (North East; England)","Small Retail Park",0.488994816259495
+"950","RC_EW_5701","Arnison Retail Centre; County Durham (North East; England)","Large Retail Park",0.487849813074047
+"951","RC_EW_5298","Colindale Retail Park; Brent (London; England)","Large Retail Park",0.487624553068323
+"952","RC_SC_135","Dumfries; Dumfries and Galloway (Scotland)","Town Centre",0.487206964135719
+"953","RC_EW_454","Nottingham Road; Eastwood; Broxtowe (East Midlands; England)","Local Centre",0.487119234116623
+"954","RC_EW_72","Fore Street; Saltash; Cornwall (South West; England)","Local Centre",0.487116515657288
+"955","RC_SC_215","Fort Kinnaird Shopping Park; City of Edinburgh (Scotland)","Large Retail Park",0.486881061116836
+"956","RC_EW_5476","Northolt Road; South Harrow; Harrow (London; England)","Local Centre",0.486409286181684
+"957","RC_EW_723","Wesley Square Shopping Centre; East Riding of Yorkshire (Yorkshire and The Humber; England)","Large Retail Park",0.485784335091313
+"958","RC_SC_90","Oban; Argyll and Bute (Scotland)","Town Centre",0.485350770478508
+"959","RC_EW_3503","Devizes; Wiltshire (South West; England)","Market Town",0.485142265907915
+"960","RC_EW_3347","High Street; Bangor; Gwynedd (Wales)","Market Town",0.484952157429139
+"961","RC_EW_4206","Houndstone Retail Park; South Somerset (South West; England)","Small Retail Park",0.483907717513478
+"962","RC_EW_4618","Morris Central Shopping Park; Shropshire (West Midlands; England)","Large Retail Park",0.483004077615298
+"963","RC_EW_1379","Brighton and Hove; Brighton and Hove (South East; England)","Regional Centre",0.482842716724343
+"964","RC_EW_3736","Evesham; Wychavon (West Midlands; England)","Town Centre",0.481743583774661
+"965","RC_EW_1806","Belgravia; Westminster (London; England)","District Centre",0.481528662420382
+"966","RC_EW_4684","Ripley; Amber Valley (East Midlands; England)","Town Centre",0.481321008403361
+"967","RC_EW_5147","The Place Retail Park; Milton Keynes (South East; England)","Small Retail Park",0.480206360535234
+"968","RC_EW_2141","Kensington High Street; London  (England)","Town Centre",0.480105213727282
+"969","RC_EW_2419","Winchester Road; Highams Park; Waltham Forest (London; England)","Local Centre",0.480055958103164
+"970","RC_EW_3693","Crwys Road; Cathays; Cardiff (Wales)","Local Centre",0.479229859647319
+"971","RC_EW_3911","Castlepoint Shopping Park; Bournemouth, Christchurch and Poole (South West; England)","Large Retail Park",0.478668100256456
+"972","RC_EW_4857","Nantwich Road; Crewe; Cheshire East (North West; England)","District Centre",0.47857494058838
+"973","RC_EW_3352","Caernarfon; Gwynedd (Wales)","Town Centre",0.478552868279033
+"974","RC_SC_63","Auldhouse Retail Park; Glasgow City (Scotland)","Small Retail Park",0.478418746203933
+"975","RC_EW_4476","Rugeley; Cannock Chase (West Midlands; England)","Town Centre",0.476847149292703
+"976","RC_EW_5659","Bondgate Within; Alnwick; Northumberland (North East; England)","Market Town",0.476766178379381
+"977","RC_EW_5135","Church Street; Wolverton; Milton Keynes (South East; England)","Local Centre",0.476641002862501
+"978","RC_EW_2232","High Street; Halstead; Braintree (East of England; England)","Local Centre",0.476564427267494
+"979","RC_EW_5306","Preston Road; Preston; Brent (London; England)","Local Centre",0.47244906080866
+"980","RC_EW_2247","Sudbury; Babergh (East of England; England)","Town Centre",0.472182818507225
+"981","RC_EW_4290","Birmingham Road; Chester Road; Birmingham (West Midlands; England)","Local Centre",0.472082888271737
+"982","RC_EW_196","Sprowston Retail Park; Broadland (East of England; England)","Small Retail Park",0.471209131019572
+"983","RC_EW_446","Chatsworth Road; Brampton; Chesterfield (East Midlands; England)","Local Centre",0.46994356080041
+"984","RC_EW_2898","Plas Coch Retail Park; Wrexham (Wales)","Small Retail Park",0.468876512346656
+"985","RC_EW_2589","Bluewater; Dartford (South East; England)","Large Shopping Centre",0.468638255536758
+"986","RC_EW_236","Hall Road Retail Park; Norwich (East of England; England)","Small Retail Park",0.468557540591439
+"987","RC_EW_5065","The Centre, Feltham; Hounslow (London; England)","Large Retail Park",0.468185762702599
+"988","RC_EW_5587","Banbury Cross Retail Park; Cherwell (South East; England)","Small Retail Park",0.468183081948982
+"989","RC_EW_2118","Walham Green; Hammersmith and Fulham (London; England)","Town Centre",0.468178866506397
+"990","RC_EW_1409","Lyons Farm Retail Park; Worthing (South East; England)","Small Retail Park",0.468167520337451
+"991","RC_EW_2134","Parsons Green Underground Shopping Area; Hammersmith and Fulham (London; England)","Small Retail Park",0.467816896924938
+"992","RC_EW_4142","Carmarthen; Carmarthenshire (Wales)","Town Centre",0.467761116856256
+"993","RC_EW_5588","Banbury Cross Retail Park; Cherwell (South East; England) - 1","Small Retail Park",0.467661100477416
+"994","RC_EW_3138","Market Street; Westhoughton; Bolton (North West; England)","Local Centre",0.467560606908908
+"995","RC_EW_1304","High Street; Hythe; Folkestone and Hythe (South East; England)","District Centre",0.466641516551919
+"996","RC_EW_5257","Spring Street; Paddington; Westminster (London; England)","Local Centre",0.465642306439353
+"997","RC_EW_1324","Preston Street; Faversham; Swale (South East; England)","Market Town",0.464723451327434
+"998","RC_SC_120","Dingwall; Highland (Scotland)","Town Centre",0.464090741423829
+"999","RC_EW_5149","Central Retail Park; Milton Keynes (South East; England)","Small Retail Park",0.462219270292035
+"1000","RC_EW_3751","Swindon Designer Outlet; Swindon (South West; England)","Small Shopping Centre",0.462001496679243
+"1001","RC_EW_3565","Cwmbrân; Torfaen (Wales)","Town Centre",0.461697632604135
+"1002","RC_SC_244","Stirling; Stirling (Scotland)","Town Centre",0.461610539664647
+"1003","RC_EW_3749","West Swindon Shopping Centre; Swindon (South West; England)","Large Retail Park",0.461497751716919
+"1004","RC_EW_1771","Lavender Hill; Clapham; Wandsworth (London; England)","District Centre",0.45966622360065
+"1005","RC_EW_2676","High Street; Newmarket; West Suffolk (East of England; England)","Market Town",0.459564041906049
+"1006","RC_SC_256","Halbeath Retail Park; Fife (Scotland)","Small Retail Park",0.458835665294925
+"1007","RC_EW_4581","High Street; Harborne; Birmingham (West Midlands; England) - 1","Local Centre",0.458667700458745
+"1008","RC_EW_5699","Front Street; Chester-le-Street; County Durham (North East; England)","District Centre",0.458127230220254
+"1009","RC_EW_2987","Chorley; Chorley (North West; England)","Town Centre",0.458013080895009
+"1010","RC_EW_1570","Brighton Road; Purley; Croydon (London; England)","Local Centre",0.457226271942874
+"1011","RC_EW_5631","Ystwyth Retail Park; Ceredigion (Wales)","Small Retail Park",0.456957864329116
+"1012","RC_EW_5632","Aberystwyth; Ceredigion (Wales)","Town Centre",0.456957864329116
+"1013","RC_EW_5181","St Albans Road; North Watford; Watford (East of England; England)","District Centre",0.456851842228343
+"1014","RC_EW_2721","Liverpool Road; Great Crosby; Sefton (North West; England)","Local Centre",0.456379010831801
+"1015","RC_EW_4913","Broadfields Retail Park; Buckinghamshire (South East; England)","Small Retail Park",0.456304037728159
+"1016","RC_EW_2906","Ellesmere Port Retail Park (Westminster Retail Park); Cheshire West and Chester (North West; England)","Large Retail Park",0.456007202654646
+"1017","RC_EW_2544","Hainault Underground Shopping Area; Redbridge (London; England)","Small Retail Park",0.455946146245059
+"1018","RC_EW_5243","Queensway; Bayswater; Westminster (London; England)","District Centre",0.455885599598595
+"1019","RC_EW_5208","Vivian Avenue; Hendon; Barnet (London; England)","Local Centre",0.455544911709295
+"1020","RC_EW_5225","Marylebone; Westminster (London; England)","Town Centre",0.455463873104786
+"1021","RC_EW_3494","Wessex Fields Retail Park; Mendip (South West; England)","Small Retail Park",0.455370818878052
+"1022","RC_EW_1830","Knightsbridge; Kensington and Chelsea (London; England)","Major Town Centre",0.454997323150555
+"1023","RC_EW_4202","Teignmouth; Teignbridge (South West; England)","Market Town",0.454818501673389
+"1024","RC_EW_3567","Cwmbran Retail Park; Torfaen (Wales)","Small Retail Park",0.45478523807789
+"1025","RC_EW_957","Huntingdon; Huntingdonshire (East of England; England)","Town Centre",0.453324669698939
+"1026","RC_EW_2251","Colchester; Colchester (East of England; England)","Major Town Centre",0.452813905260082
+"1027","RC_EW_3797","Commercial Road; Totton; New Forest (South East; England)","Market Town",0.452774952460974
+"1028","RC_EW_672","Spring Gardens; Higher Buxton; High Peak (East Midlands; England)","Local Centre",0.452246833203595
+"1029","RC_EW_3732","High Street; Pershore; Wychavon (West Midlands; England)","Local Centre",0.452112154150198
+"1030","RC_SC_179","Seafield Road Retail Park; City of Edinburgh (Scotland)","Small Retail Park",0.4519484594518
+"1031","RC_EW_1339","Herne Bay; Canterbury (South East; England)","Town Centre",0.451620582668254
+"1032","RC_EW_3754","Victoria Road; Old Town; Swindon (South West; England)","Local Centre",0.451263449625041
+"1033","RC_EW_2230","Braintree; Braintree (East of England; England)","Town Centre",0.451139305395361
+"1034","RC_EW_5150","The Hub:Mk; Milton Keynes (South East; England)","Large Retail Park",0.451042507674553
+"1035","RC_EW_2199","South Ealing Road; Ealing; Ealing (London; England)","Local Centre",0.450595789343706
+"1036","RC_EW_2188","Tooting; London (London; England)","Town Centre",0.450500330988192
+"1037","RC_SC_348","St. Catherine's Retail Park; Perth and Kinross (Scotland)","Large Retail Park",0.44937871159308
+"1038","RC_EW_5133","Milton Keynes; Milton Keynes (South East; England)","Major Town Centre",0.449098216391777
+"1039","RC_EW_3738","Four Pools Retail Park; Wychavon (West Midlands; England)","Small Retail Park",0.448965865992415
+"1040","RC_EW_5153","The Kingston Centre; Milton Keynes (South East; England)","Large Retail Park",0.448940267994955
+"1041","RC_SC_347","Perth; Perth and Kinross (Scotland)","Major Town Centre",0.448397701833211
+"1042","RC_EW_5559","Brookfield Retail Park; Broxbourne (East of England; England)","Small Retail Park",0.446618400698734
+"1043","RC_EW_50","Tavistock; West Devon (South West; England)","Town Centre",0.446038195855343
+"1044","RC_EW_4628","Blackpole Retail Park; Worcester (West Midlands; England)","Small Retail Park",0.445855930037764
+"1045","RC_EW_4690","Dale Road; Matlock; Derbyshire Dales (East Midlands; England)","Local Centre",0.445776223776224
+"1046","RC_EW_2896","Wrecsam; Wrexham (Wales)","Major Town Centre",0.445722596629489
+"1047","RC_EW_4198","Newton Abbot; Teignbridge (South West; England)","Town Centre",0.444287404827294
+"1048","RC_EW_2018","Swanley Centre; Sevenoaks (South East; England)","Large Retail Park",0.443897685834013
+"1049","RC_EW_3496","Frome; Mendip (South West; England)","Market Town",0.443119852314683
+"1050","RC_EW_969","Whittlesey; Fenland (East of England; England)","Local Centre",0.442748893390352
+"1051","RC_EW_4576","Sears Retail Park; Solihull (West Midlands; England)","Large Retail Park",0.442612273025415
+"1052","RC_EW_704","Glossop; High Peak (East Midlands; England)","Town Centre",0.442554595962374
+"1053","RC_SC_122","Inverness; Highland (Scotland)","Major Town Centre",0.441977524810274
+"1054","RC_EW_3879","East Street; Blandford Forum; Dorset (South West; England)","Market Town",0.441897571606476
+"1055","RC_EW_1714","Lordship Lane; East Dulwich; Southwark (London; England)","Local Centre",0.441770638050294
+"1056","RC_EW_4092","Bridgend Designer Outlets Wales; Bridgend (Wales)","Large Shopping Centre",0.441677918804573
+"1057","RC_EW_4639","Crossley Retail Park; Wyre Forest (West Midlands; England)","Large Retail Park",0.441395882839826
+"1058","RC_EW_3898","Wimborne Road; Winton; Bournemouth, Christchurch and Poole (South West; England)","District Centre",0.44106221465813
+"1059","RC_EW_4777","Coalville; North West Leicestershire (East Midlands; England)","Town Centre",0.441045468605011
+"1060","RC_EW_5231","Edgware Road; Lisson Grove; Westminster (London; England)","District Centre",0.440014884644009
+"1061","RC_EW_3143","Elliott Street; Tyldesley; Wigan (North West; England)","Local Centre",0.439557302634658
+"1062","RC_EW_5180","Jarman Leisure Park; Dacorum (East of England; England)","Small Retail Park",0.439450382716609
+"1063","RC_EW_3453","Shield Retail Park; South Gloucestershire (South West; England)","Large Retail Park",0.439267349548992
+"1064","RC_EW_5141","MK1 Shopping Park; Milton Keynes (South East; England)","Large Retail Park",0.43883122247906
+"1065","RC_EW_5563","Hemel Hempstead; Dacorum (East of England; England)","Town Centre",0.438750996488053
+"1066","RC_EW_2881","Chester; Cheshire West and Chester (North West; England)","Major Town Centre",0.438486052789442
+"1067","RC_SC_125","Inverness Retail & Leisure Park; Highland (Scotland)","Large Retail Park",0.437858236540514
+"1068","RC_EW_1318","Canterbury; Canterbury (South East; England)","Major Town Centre",0.43653478293761
+"1069","RC_EW_5454","Uxbridge; Hillingdon (London; England)","Town Centre",0.436029527926582
+"1070","RC_EW_1446","Hove; Brighton and Hove (South East; England)","Town Centre",0.435867297707118
+"1071","RC_EW_3096","Warrington; Warrington (North West; England)","Major Town Centre",0.435454950868074
+"1072","RC_EW_1459","London Road; Round Hill; Brighton and Hove (South East; England)","District Centre",0.435335352294627
+"1073","RC_EW_5151","High Street; Stony Stratford; Milton Keynes (South East; England)","Local Centre",0.435101186322401
+"1074","RC_EW_4858","Nantwich; Cheshire East (North West; England)","Market Town",0.434959669486524
+"1075","RC_EW_776","Wrawby Street; Brigg; North Lincolnshire (Yorkshire and The Humber; England)","Local Centre",0.43452618952419
+"1076","RC_EW_1317","Riverside Retail Park; Canterbury (South East; England)","Large Retail Park",0.43444542667876
+"1077","RC_EW_2253","Stanway Retail Park (Fiveways Retail Park); Colchester (East of England; England)","Large Retail Park",0.434284528136358
+"1078","RC_EW_3921","Ashley Road; Upper Parkstone; Bournemouth, Christchurch and Poole (South West; England)","District Centre",0.434111849153632
+"1079","RC_EW_4871","Grand Junction Retail Park; Cheshire East (North West; England)","Large Retail Park",0.434091175044718
+"1080","RC_EW_4910","Aylesbury; Buckinghamshire (South East; England)","Town Centre",0.4334256350912
+"1081","RC_EW_3883","High Street; Shaftesbury; Dorset (South West; England)","Local Centre",0.433240067151651
+"1082","RC_EW_4161","Exeter; Exeter (South West; England)","Major Town Centre",0.433094789385219
+"1083","RC_EW_5364","Green Lanes; Palmers Green; Enfield (London; England)","District Centre",0.433060542797495
+"1084","RC_SC_19","The Avenue Shopping Centre; East Renfrewshire (Scotland)","Large Retail Park",0.432853949131377
+"1085","RC_EW_903","High Street; Yeadon; Leeds (Yorkshire and The Humber; England)","Local Centre",0.432370025098602
+"1086","RC_EW_2920","High Street; Neston; Cheshire West and Chester (North West; England)","Market Town",0.432173262232201
+"1087","RC_EW_4159","Exe Bridges Retail Park; Exeter (South West; England)","Large Retail Park",0.431864070952321
+"1088","RC_EW_5586","Banbury; Cherwell (South East; England)","Town Centre",0.431333988856113
+"1089","RC_EW_671","High Street; Buxton; High Peak (East Midlands; England)","Local Centre",0.430651367802421
+"1090","RC_EW_2636","Euro Retail Park; Ipswich (East of England; England)","Large Retail Park",0.429930994372662
+"1091","RC_EW_4794","Leicester Road; Wigston; Oadby and Wigston (East Midlands; England)","Local Centre",0.429776777784357
+"1092","RC_EW_3603","Y Fenni; Monmouthshire (Wales)","Town Centre",0.429675554127851
+"1093","RC_EW_740","Front Street; Acomb; York (Yorkshire and The Humber; England)","Local Centre",0.429587968812598
+"1094","RC_EW_216","Station Road; Sheringham; North Norfolk (East of England; England)","Market Town",0.429453681710214
+"1095","RC_EW_5584","Daventry; Daventry (East Midlands; England)","Town Centre",0.429431931159793
+"1096","RC_EW_5459","Greenhill; Harrow (London; England)","Town Centre",0.428642358206316
+"1097","RC_EW_4500","The Valley; Wychavon (West Midlands; England)","Small Retail Park",0.427118538509446
+"1098","RC_EW_1185","Malton; Ryedale (Yorkshire and The Humber; England)","Town Centre",0.427083189506386
+"1099","RC_EW_3893","Poole Road; Westbourne; Bournemouth, Christchurch and Poole (South West; England)","District Centre",0.426639392861378
+"1100","RC_EW_1475","Worthing; Worthing (South East; England)","Major Town Centre",0.425836562648718
+"1101","RC_EW_3800","High Street; Cowes; Isle of Wight (South East; England)","Market Town",0.425187125748503
+"1102","RC_SC_255","Fife Leisure Park; Fife (Scotland)","Large Retail Park",0.424395026726913
+"1103","RC_EW_955","Springfields Spalding Outlet; South Holland (East Midlands; England)","Large Shopping Centre",0.42410577122125
+"1104","RC_EW_3727","Gloucester Quays Outlet; Gloucester (South West; England)","Large Shopping Centre",0.424021038131614
+"1105","RC_EW_4220","Clarks Village Outlet Somerset; Mendip (South West; England)","Large Shopping Centre",0.422788871065878
+"1106","RC_EW_4240","Taunton; Somerset West and Taunton (East of England; England)","Major Town Centre",0.422650279491482
+"1107","RC_EW_29","Truro; Cornwall (South West; England)","Major Town Centre",0.422081486776269
+"1108","RC_SC_381","Kittybrewster Retail Park; Aberdeen City (Scotland)","Large Retail Park",0.421888506524099
+"1109","RC_EW_219","Holt; North Norfolk (East of England; England)","Market Town",0.421699689663404
+"1110","RC_EW_5425","Victoria Retail Park; Hillingdon (London; England)","Large Retail Park",0.421653399673089
+"1111","RC_EW_4158","High Street; Crediton; Mid Devon (South West; England)","Local Centre",0.420958990536278
+"1112","RC_EW_2969","Leyland; South Ribble (North West; England)","Town Centre",0.420845196107594
+"1113","RC_EW_4970","Reading; Reading (South East; England)","Major Town Centre",0.42057441142457
+"1114","RC_SC_357","Kelso; Scottish Borders (Scotland)","Local Centre",0.420517316966243
+"1115","RC_EW_4877","High Wycombe; Buckinghamshire (South East; England)","Town Centre",0.420225448208095
+"1116","RC_EW_5704","Dragonville Retail Park; County Durham (North East; England)","Small Retail Park",0.416550398820649
+"1117","RC_EW_3914","Wessex Gate Retail Park; Bournemouth, Christchurch and Poole (South West; England)","Small Retail Park",0.416424046104411
+"1118","RC_EW_2909","Winsford Cross Shopping Centre; Cheshire West and Chester (North West; England)","Large Retail Park",0.416272972658823
+"1119","RC_EW_2245","Newlands Shopping Centre; Braintree (East of England; England)","Large Retail Park",0.4159352297593
+"1120","RC_EW_1789","Clapham Junction; Wandsworth (London; England)","Town Centre",0.414683682978708
+"1121","RC_EW_529","Bridge Street; Ramsbottom; Bury (North West; England)","Local Centre",0.414090653153153
+"1122","RC_EW_4863","Congleton; Cheshire East (North West; England)","Market Town",0.411508384938751
+"1123","RC_EW_1442","Goldstone Retail Park; Brighton and Hove (South East; England)","Small Retail Park",0.411487686432287
+"1124","RC_EW_3746","Orbital Shopping Park; Swindon (South West; England)","Small Retail Park",0.411348754448399
+"1125","RC_SC_229","Easter Road; Abbeyhill; City of Edinburgh (Scotland)","Local Centre",0.411309766102013
+"1126","RC_EW_5233","Praed Street; Paddington; Westminster (London; England)","Local Centre",0.411145876379952
+"1127","RC_EW_1641","London Road; Morden; Merton (London; England)","District Centre",0.410715502555366
+"1128","RC_SC_115","Springfield Retail Park; Moray (Scotland)","Small Retail Park",0.410376569037657
+"1129","RC_EW_5576","Dunstable; Central Bedfordshire (East of England; England)","District Centre",0.410233335475992
+"1130","RC_EW_4478","Jolly Sailor Retail Park; Tamworth (West Midlands; England)","Large Retail Park",0.410151073603398
+"1131","RC_EW_3687","Caerffili; Caerphilly (Wales)","Town Centre",0.409709962168979
+"1132","RC_SC_389","Queens Links Leisure Park; Aberdeen City (Scotland)","Large Retail Park",0.40926919586574
+"1133","RC_EW_3743","Malvern Retail Park; Malvern Hills (West Midlands; England)","Small Retail Park",0.409123787121435
+"1134","RC_EW_4975","Forbury Retail Park; Reading (South East; England)","Small Retail Park",0.409070526227725
+"1135","RC_EW_223","Diss; South Norfolk (East of England; England)","Town Centre",0.409061862075087
+"1136","RC_EW_5019","Bath Road Retail Park; Slough (South East; England)","Large Retail Park",0.407687437934459
+"1137","RC_EW_5506","Welwyn Garden City; Welwyn Hatfield (East of England; England)","Town Centre",0.407388923239996
+"1138","RC_EW_2154","Kings Road; Chelsea; Kensington and Chelsea (London; England) - 1","Local Centre",0.407044908710585
+"1139","RC_EW_109","Willerby Shopping Park; East Riding of Yorkshire (Yorkshire and The Humber; England)","Small Retail Park",0.406861676356589
+"1140","RC_EW_183","Norwich; Norwich (East of England; England)","Regional Centre",0.406113072749535
+"1141","RC_EW_2183","Tandem Centre; Merton (London; England)","Large Retail Park",0.405950319460202
+"1142","RC_EW_5630","High Street; Llanbedr Pont Steffan; Ceredigion (Wales)","Local Centre",0.405194805194805
+"1143","RC_EW_4089","Pen-y-bont ar Ogwr; Bridgend (Wales)","Town Centre",0.404603441628991
+"1144","RC_SC_116","Elgin; Moray (Scotland)","Town Centre",0.403719254269152
+"1145","RC_EW_4487","Stafford; Stafford (West Midlands; England)","Town Centre",0.40269247918075
+"1146","RC_EW_1760","Bromley; London (London; England)","Major Town Centre",0.402663013874203
+"1147","RC_EW_3109","Northwich; Cheshire West and Chester (North West; England)","Town Centre",0.401965992417535
+"1148","RC_EW_5424","South Ruislip Underground Shopping Area; Hillingdon (London; England)","Small Retail Park",0.401471329579535
+"1149","RC_EW_4496","Bromsgrove; Bromsgrove (West Midlands; England)","Town Centre",0.401319428820984
+"1150","RC_EW_5030","Staines-upon-Thames; Spelthorne (South East; England)","Town Centre",0.400872415635661
+"1151","RC_EW_1107","Rushden; East Northamptonshire (East Midlands; England)","Town Centre",0.400150928698362
+"1152","RC_EW_3346","High Street; Pwllheli; Gwynedd (Wales)","District Centre",0.4
+"1153","RC_EW_3604","High Street; Aberhonddu; Powys (Wales)","Market Town",0.4
+"1154","RC_EW_80","Fore Street; Kingsbridge; South Hams (South West; England)","Market Town",0.399615147783251
+"1155","RC_EW_5167","High Street; Biggleswade; Central Bedfordshire (East of England; England)","Market Town",0.399217245449463
+"1156","RC_EW_5201","Golders Green Road; Golders Green; Barnet (London; England)","District Centre",0.398582253082346
+"1157","RC_EW_729","Three Lakes Retail Park; Selby (Yorkshire and The Humber; England)","Small Retail Park",0.398121102723991
+"1158","RC_EW_5509","Monkswood Retail Park; Stevenage (East of England; England)","Large Retail Park",0.397578558225508
+"1159","RC_EW_4030","High Street; Gorseinon; Swansea (Wales) - 1","Local Centre",0.397221930469488
+"1160","RC_EW_2417","High Street Barkingside; Fullwell Cross; Redbridge (London; England)","Local Centre",0.396993281185349
+"1161","RC_EW_4958","Brunel Retail Park; Reading (South East; England)","Large Retail Park",0.396869177126918
+"1162","RC_EW_4731","Rugby; Rugby (West Midlands; England)","Town Centre",0.396857658968927
+"1163","RC_EW_3854","Centre 27 Retail Park; Eastleigh (South East; England)","Large Retail Park",0.396612103174603
+"1164","RC_EW_3416","Ulverston; South Lakeland (North West; England)","Market Town",0.39600102977774
+"1165","RC_SC_382","Aberdeen; Aberdeen City (Scotland)","Major Town Centre",0.394989350529529
+"1166","RC_EW_3688","Castle Court Shopping Centre; Caerphilly (Wales)","Large Retail Park",0.394795123741183
+"1167","RC_EW_4963","Pincents Lane Retail Park; West Berkshire (South East; England)","Small Retail Park",0.394430254378649
+"1168","RC_EW_3064","Flixton Road; Urmston; Trafford (North West; England)","District Centre",0.393073805722707
+"1169","RC_EW_3903","Wimborne Road; Moordown; Bournemouth, Christchurch and Poole (South West; England)","District Centre",0.393070761784027
+"1170","RC_EW_731","Selby; Selby (Yorkshire and The Humber; England)","Town Centre",0.392917112751451
+"1171","RC_EW_4894","London Road; Headington; Oxford (South East; England)","Local Centre",0.391661836179605
+"1172","RC_EW_4624","Worcester; Worcester (West Midlands; England)","Major Town Centre",0.391335251311559
+"1173","RC_EW_3447","Cribbs Causeway; South Gloucestershire (South West; England)","Large Shopping Centre",0.3912305743943
+"1174","RC_SC_193","Ocean Terminal; City of Edinburgh (Scotland)","Small Retail Park",0.390892604548257
+"1175","RC_EW_2635","Stowmarket; Mid Suffolk (East of England; England)","Town Centre",0.390775306784522
+"1176","RC_EW_2128","Fulham Road; Parsons Green; Hammersmith and Fulham (London; England)","Local Centre",0.389911429973593
+"1177","RC_EW_4141","Pensarn Retail Park; Carmarthenshire (Wales)","Small Retail Park",0.389518623393596
+"1178","RC_EW_2239","Duke Street; Chelmsford; Chelmsford (East of England; England)","Local Centre",0.38920969831575
+"1179","RC_SC_311","Pentland Retail Park; Midlothian (Scotland)","Large Retail Park",0.38895770749654
+"1180","RC_EW_3546","High Street; Keynsham; Bath and North East Somerset (South West; England)","Local Centre",0.388704934799284
+"1181","RC_EW_4607","Shrewsbury; Shropshire (West Midlands; England)","Major Town Centre",0.388057099016576
+"1182","RC_EW_3741","Great Malvern; Malvern Hills (West Midlands; England)","Town Centre",0.387625814091178
+"1183","RC_EW_4208","Cheap Street; Sherborne; Dorset (South West; England)","Local Centre",0.387259701492537
+"1184","RC_EW_677","Macclesfield; Cheshire East (North West; England)","Town Centre",0.387208138759173
+"1185","RC_EW_4779","Leicester Road; Blaby; Blaby (East Midlands; England)","Local Centre",0.386167146974063
+"1186","RC_EW_2130","Putney Bridge Underground Shopping Area; Wandsworth (London; England)","Small Retail Park",0.386139438289202
+"1187","RC_EW_4529","Market Place; Warwick; Warwick (West Midlands; England)","Local Centre",0.385301341394294
+"1188","RC_EW_4214","High Street; Wells; Mendip (South West; England)","Market Town",0.385254524382634
+"1189","RC_EW_4091","Bridgend Retail Park; Bridgend (Wales)","Small Retail Park",0.385047609082348
+"1190","RC_EW_3990","Portfield Retail Park; Chichester (South East; England)","Small Retail Park",0.384867558966679
+"1191","RC_EW_1487","Maidstone; Maidstone (South East; England)","Major Town Centre",0.383860442313978
+"1192","RC_EW_3885","High Street; Swanage; Dorset (South West; England)","Market Town",0.383623948298988
+"1193","RC_EW_21","Molesworth Street; Wadebridge; Cornwall (South West; England)","Local Centre",0.383521126760563
+"1194","RC_EW_4971","Vastern Court Retail Park; Reading (South East; England)","Large Retail Park",0.383330881690021
+"1195","RC_EW_3452","Abbey Wood Retail Park; South Gloucestershire (South West; England)","Small Retail Park",0.383019626852587
+"1196","RC_EW_3941","Brighton Hill Retail Park; Basingstoke and Deane (South East; England)","Small Retail Park",0.38199632651114
+"1197","RC_EW_3067","Altrincham Retail Park; Trafford (North West; England)","Large Retail Park",0.381812814542892
+"1198","RC_EW_3814","Station Road; New Milton; New Forest (South East; England)","District Centre",0.381484871844286
+"1199","RC_EW_3505","Gallagher Retail Park; South Gloucestershire (South West; England)","Small Retail Park",0.380827141706204
+"1200","RC_SC_187","Greenside; City of Edinburgh (Scotland)","District Centre",0.380713238030605
+"1201","RC_EW_4977","Reading Retail Park; Reading (South East; England)","Large Retail Park",0.38023686551509
+"1202","RC_EW_4027","Andover; Test Valley (South East; England)","Town Centre",0.380165162575923
+"1203","RC_EW_3999","London Road; Waterlooville; Havant (South East; England)","District Centre",0.379433312737223
+"1204","RC_EW_2020","Nugent Shopping Park; Bromley (London; England)","Large Retail Park",0.379237100910578
+"1205","RC_EW_2681","Beehive Centre Retail Park; Cambridge (East of England; England)","Small Retail Park",0.378894743804568
+"1206","RC_EW_3769","Spur Retail Park; County of Herefordshire (West Midlands; England)","Small Retail Park",0.37857586215458
+"1207","RC_EW_5738","Newgate Street; Morpeth; Northumberland (North East; England)","Market Town",0.378219315895372
+"1208","RC_EW_3887","High Street; Christchurch; Bournemouth, Christchurch and Poole (South West; England)","District Centre",0.377245742384265
+"1209","RC_SC_199","Bonnygate; Cupar; Fife (Scotland)","Local Centre",0.376416591115141
+"1210","RC_EW_688","London Road; Hazel Grove; Stockport (North West; England)","District Centre",0.375865201591971
+"1211","RC_SC_1","Toll Clock Shopping Centre; Shetland Islands (Scotland)","Large Retail Park",0.375628298005545
+"1212","RC_EW_5342","Chase Side; Southgate; Enfield (London; England)","Local Centre",0.375544199302246
+"1213","RC_EW_879","Main Street; Bingley; Bradford (Yorkshire and The Humber; England)","Local Centre",0.37551583360918
+"1214","RC_EW_2922","High Street; Denbigh; Denbighshire (Wales)","Local Centre",0.374810281517748
+"1215","RC_SC_257","Dunfermline; Fife (Scotland)","Town Centre",0.374799714572995
+"1216","RC_EW_4667","Dovefields Retail Park; East Staffordshire (West Midlands; England)","Small Retail Park",0.374337732395723
+"1217","RC_EW_4166","Rydon Lane Retail Park; Exeter (South West; England)","Small Retail Park",0.374085987760866
+"1218","RC_EW_1149","Southgate; Sleaford; North Kesteven (East Midlands; England) - 1","Local Centre",0.372012149764443
+"1219","RC_EW_4230","South Street; Dorchester; Dorset (South West; England)","Market Town",0.371715841236389
+"1220","RC_EW_2892","High Street; Mold; Flintshire (Wales)","Market Town",0.371093654105806
+"1221","RC_EW_4897","Templars Square Shopping Centre; Oxford (South East; England)","Large Retail Park",0.370149023603784
+"1222","RC_EW_4730","Junction One Retail & Leisure Park; Rugby (West Midlands; England)","Large Retail Park",0.369527663555469
+"1223","RC_EW_1620","Stafford Road; Wallington Square; Sutton (London; England)","Local Centre",0.369251245648761
+"1224","RC_SC_315","Corstorphine Retail Park; City of Edinburgh (Scotland)","Small Retail Park",0.369092108155639
+"1225","RC_EW_5404","High Street; Hadley; Barnet (London; England)","District Centre",0.369005649717514
+"1226","RC_EW_3694","Whitchurch Road; Maindy; Cardiff (Wales)","Local Centre",0.368396051612034
+"1227","RC_EW_3360","Llandudno; Conwy (Wales)","Town Centre",0.367370287740976
+"1228","RC_EW_4193","Dartmouth; South Hams (South West; England)","Market Town",0.367016768011793
+"1229","RC_EW_2888","Deva Retail Centre; Cheshire West and Chester (North West; England)","Large Retail Park",0.367008579505067
+"1230","RC_EW_2255","Turner Rise Retail Park; Colchester (East of England; England)","Small Retail Park",0.366096368098593
+"1231","RC_EW_4024","Salisbury; Wiltshire (South West; England)","Major Town Centre",0.364412152783728
+"1232","RC_SC_126","Inshes Retail Park; Highland (Scotland)","Small Retail Park",0.36401390958768
+"1233","RC_EW_1821","Kings Road; Chelsea; Kensington and Chelsea (London; England)","District Centre",0.362940388303602
+"1234","RC_EW_2328","Letchworth; North Hertfordshire (East of England; England)","Market Town",0.362851317897189
+"1235","RC_EW_489","Chesterfield Road; Norton Woodseats; Sheffield (Yorkshire and The Humber; England)","Local Centre",0.362638465398124
+"1236","RC_EW_1268","Northallerton; Hambleton (Yorkshire and The Humber; England)","Town Centre",0.362437953916088
+"1237","RC_EW_3939","Basingstoke; Basingstoke and Deane (South East; England)","Town Centre",0.361306843950841
+"1238","RC_EW_2246","Maldon; Maldon (East of England; England)","Town Centre",0.36102645713149
+"1239","RC_EW_3989","Chichester; Chichester (South East; England)","Town Centre",0.360052542110957
+"1240","RC_EW_4302","Parade; Royal Sutton Coldfield; Birmingham (West Midlands; England)","District Centre",0.358092221048926
+"1241","RC_EW_2400","Cranbrook Road; Gants Hill; Redbridge (London; England)","Local Centre",0.357129382172614
+"1242","RC_EW_3855","Hedge End Retail Park; Eastleigh (South East; England)","Small Retail Park",0.356577804321859
+"1243","RC_EW_4157","High Street; Honiton; East Devon (South West; England)","Market Town",0.356307905446359
+"1244","RC_EW_1068","Beeston; Broxtowe (East Midlands; England)","Town Centre",0.355530053244166
+"1245","RC_EW_2832","Banks Road; West Kirby; Wirral (North West; England)","Market Town",0.355218855218855
+"1246","RC_EW_1032","West Bridgford; Rushcliffe (East Midlands; England)","Town Centre",0.35514596207117
+"1247","RC_EW_4037","Cross Hands Retail Park; Carmarthenshire (Wales)","Small Retail Park",0.355114789108382
+"1248","RC_EW_3917","Poole; Bournemouth, Christchurch and Poole (South West; England)","Town Centre",0.354795246719972
+"1249","RC_EW_4765","Cannon Park Centre; Coventry (West Midlands; England)","Small Retail Park",0.354065129169554
+"1250","RC_EW_5099","Broadway; Didcot; South Oxfordshire (South East; England)","Local Centre",0.353725078698846
+"1251","RC_EW_4146","Seaton; East Devon (South West; England)","Local Centre",0.352952886529529
+"1252","RC_SC_271","Hermiston Gait Retail Park; City of Edinburgh (Scotland)","Small Retail Park",0.352920617024548
+"1253","RC_EW_1921","Tranquil Vale; Blackheath Park; Lewisham (London; England)","Local Centre",0.35269294468367
+"1254","RC_EW_4920","Sheep Street; Bicester; Cherwell (South East; England)","Market Town",0.351444531203075
+"1255","RC_EW_2201","Northfield Avenue; West Ealing; Ealing (London; England)","Local Centre",0.351236891637537
+"1256","RC_EW_1262","Market Place; Thirsk; Hambleton (Yorkshire and The Humber; England)","Local Centre",0.350880483484422
+"1257","RC_EW_3853","Speedfields Retail Park; Fareham (South East; England)","Small Retail Park",0.350806527155891
+"1258","RC_EW_904","Guiseley Retail Park; Leeds (Yorkshire and The Humber; England)","Large Retail Park",0.350076682412122
+"1259","RC_EW_3429","Penrith; Eden (North West; England)","Town Centre",0.349187659213133
+"1260","RC_EW_3706","Tewkesbury; Tewkesbury (South West; England)","Town Centre",0.348475530532698
+"1261","RC_EW_201","Longwater Retail Park; South Norfolk (East of England; England)","Small Retail Park",0.347164791066911
+"1262","RC_EW_3488","Market Place; Warminster; Wiltshire (South West; England)","Local Centre",0.347149910233393
+"1263","RC_EW_5725","Hexham; Northumberland (North East; England)","Market Town",0.34688552998941
+"1264","RC_EW_4213","Townsend Shopping Park; Mendip (South West; England)","Large Retail Park",0.345179004421623
+"1265","RC_EW_2335","Hoddesdon; Broxbourne (East of England; England)","Town Centre",0.344928577517445
+"1266","RC_EW_5014","Windsor; Windsor and Maidenhead (South East; England)","Town Centre",0.344849462875947
+"1267","RC_EW_1796","Balham High Road; Balham; Wandsworth (London; England)","District Centre",0.344784081033294
+"1268","RC_EW_4612","Meole Brace Retail Park; Shropshire (West Midlands; England)","Small Retail Park",0.343580480784763
+"1269","RC_EW_5183","Waterfields Retail Park; Watford (East of England; England)","Large Retail Park",0.342816373374139
+"1270","RC_EW_4629","High Street; Droitwich Spa; Wychavon (West Midlands; England)","Market Town",0.342723281216535
+"1271","RC_EW_3353","Menai Retail Park; Gwynedd (Wales)","Small Retail Park",0.342544554455446
+"1272","RC_SC_217","Cameron Toll; City of Edinburgh (Scotland)","Large Retail Park",0.342392612739442
+"1273","RC_EW_5497","Moor Park Underground Shopping Area; Three Rivers (East of England; England)","Small Retail Park",0.34226984474087
+"1274","RC_EW_3417","Galgate; Barnard Castle; County Durham (North East; England)","Local Centre",0.342213340683572
+"1275","RC_EW_2228","Freeport Braintree; Braintree (East of England; England)","Large Shopping Centre",0.341998367617313
+"1276","RC_EW_2574","Sidcup High Street; Sidcup; Bexley (London; England)","District Centre",0.340989599423334
+"1277","RC_EW_4025","Bourne Retail Park; Wiltshire (South West; England)","Large Retail Park",0.340876706282904
+"1278","RC_EW_4194","Exmouth; East Devon (South West; England)","Town Centre",0.340677881120108
+"1279","RC_EW_487","Archer Road Retail Park; Sheffield (Yorkshire and The Humber; England)","Small Retail Park",0.340173568463614
+"1280","RC_EW_2212","Uxbridge Road; Hanwell; Ealing (London; England)","Local Centre",0.339632522233759
+"1281","RC_EW_4986","Aldershot; Rushmoor (South East; England)","Town Centre",0.339624321691944
+"1282","RC_EW_4485","Madford Retail Park; Stafford (West Midlands; England)","Large Retail Park",0.339503629078183
+"1283","RC_SC_280","Edinburgh City; Edinburgh (Scotland)","Regional Centre",0.339089070059092
+"1284","RC_EW_843","Skipton; Craven (Yorkshire and The Humber; England)","Town Centre",0.338655774229484
+"1285","RC_SC_62","Kilmarnock Road; Shawlands; Glasgow City (Scotland)","District Centre",0.338380105477923
+"1286","RC_EW_3373","South Lakeland Retail Park; South Lakeland (North West; England)","Small Retail Park",0.337814977454245
+"1287","RC_EW_4862","Congleton Retail Park; Cheshire East (North West; England)","Small Retail Park",0.33757469362952
+"1288","RC_EW_5210","Brent Street; Hendon; Barnet (London; England)","District Centre",0.336921323357494
+"1289","RC_EW_5353","North Finchley; Barnet (London; England)","Town Centre",0.336794621625678
+"1290","RC_EW_4262","Aldridge; Walsall (West Midlands; England)","Local Centre",0.336283520080574
+"1291","RC_EW_3543","Gloucester Road; Ashley Down; City of Bristol (South West; England)","Local Centre",0.335795094100233
+"1292","RC_EW_4681","King Street; Belper; Amber Valley (East Midlands; England)","Market Town",0.335741127348643
+"1293","RC_EW_5787","Whitley Bay; North Tyneside (North East; England)","Town Centre",0.335340164747916
+"1294","RC_EW_3834","Eastleigh; Eastleigh (South East; England)","Town Centre",0.335056238949705
+"1295","RC_EW_1257","Durham; County Durham (North East; England)","Town Centre",0.333693836978131
+"1296","RC_EW_2704","St. Edmundsbury Retail Park; West Suffolk (East of England; England)","Small Retail Park",0.333610258785388
+"1297","RC_EW_1328","High Street; Broadstairs; Thanet (South East; England)","District Centre",0.333036227717079
+"1298","RC_EW_2702","Bury St Edmunds; West Suffolk (East of England; England)","Town Centre",0.331314067458646
+"1299","RC_EW_1188","Market Place; Pickering; Ryedale (Yorkshire and The Humber; England)","Local Centre",0.329541689674213
+"1300","RC_SC_276","Craigleith Retail Park; City of Edinburgh (Scotland)","Small Retail Park",0.329192689535407
+"1301","RC_SC_1642","Old Town; City of Edinburgh (Scotland)","Major Town Centre",0.327793610611935
+"1302","RC_EW_2361","Elm Park; Havering (London; England)","Local Centre",0.327449060759958
+"1303","RC_EW_2206","Kew Gardens Underground Shopping Area; Richmond upon Thames (London; England)","Large Retail Park",0.327027988490714
+"1304","RC_EW_994","Chilwell Retail Park; Broxtowe (East Midlands; England)","Small Retail Park",0.32660516174238
+"1305","RC_EW_3832","The Hundred; Romsey; Test Valley (South East; England)","Market Town",0.326545134724554
+"1306","RC_EW_3550","Emersons Green Retail Park; South Gloucestershire (South West; England)","Small Retail Park",0.325685955786736
+"1307","RC_EW_4850","High Street; Stone; Stafford (West Midlands; England)","Local Centre",0.325432876096245
+"1308","RC_EW_954","Spalding; South Holland (East Midlands; England)","Town Centre",0.323968891995806
+"1309","RC_EW_2912","Deeside Retail Park; Flintshire (Wales)","Large Retail Park",0.323741575080454
+"1310","RC_EW_4718","Hinckley; Hinckley and Bosworth (East Midlands; England)","Town Centre",0.323393534989021
+"1311","RC_EW_1488","Mid Kent Shopping Centre; Maidstone (South East; England)","Small Retail Park",0.322531293463143
+"1312","RC_EW_1583","Sutton; Sutton (London; England)","Major Town Centre",0.322123403057559
+"1313","RC_EW_1388","Seaford; Lewes (South East; England)","Market Town",0.321570680628272
+"1314","RC_EW_3497","The Martingate Centre; Wiltshire (South West; England)","Large Retail Park",0.321206578634309
+"1315","RC_EW_2552","Bexleyheath; Bexley (London; England)","Town Centre",0.321044084716501
+"1316","RC_EW_2686","Cambridge; Cambridge (East of England; England)","Major Town Centre",0.320884717044019
+"1317","RC_EW_5219","Ballards Lane; Church End; Barnet (London; England)","District Centre",0.320650143753541
+"1318","RC_EW_1183","Middle Street South; Driffield; East Riding of Yorkshire (Yorkshire and The Humber; England)","Market Town",0.320551323902793
+"1319","RC_EW_4530","Leamington Shopping Park; Warwick (West Midlands; England)","Small Retail Park",0.320404294144133
+"1320","RC_SC_39","Argyle Street; Finnieston; Glasgow City (Scotland)","Local Centre",0.320152572260983
+"1321","RC_EW_4634","High Street; Bridgnorth; Shropshire (West Midlands; England)","District Centre",0.32003294892916
+"1322","RC_EW_4574","Stratford Road; Shirley Street; Solihull (West Midlands; England)","District Centre",0.320008976294422
+"1323","RC_EW_3375","Kendal; South Lakeland (North West; England)","Town Centre",0.318706127869474
+"1324","RC_EW_5416","Apsley Mills Retail Park; Dacorum (East of England; England)","Large Retail Park",0.318268082391244
+"1325","RC_EW_982","Loughborough; Charnwood (East Midlands; England)","Major Town Centre",0.316928243277909
+"1326","RC_EW_3467","Parsonage Street; Dursley; Stroud (South West; England)","Local Centre",0.315957793973676
+"1327","RC_EW_3470","Monnow Street; Chippenham; Monmouthshire (Wales)","Market Town",0.31491997368998
+"1328","RC_EW_5184","Watford; Watford (East of England; England)","Major Town Centre",0.314772534397705
+"1329","RC_EW_2608","High Street; Wickford; Basildon (East of England; England)","District Centre",0.314281385718614
+"1330","RC_EW_3806","Ringwood; New Forest (South East; England)","Market Town",0.314016100178891
+"1331","RC_EW_3945","Forest Centre; East Hampshire (South East; England)","Small Retail Park",0.31362021583216
+"1332","RC_EW_5767","High Street; Gosforth; Newcastle upon Tyne (North East; England)","Local Centre",0.313613425303831
+"1333","RC_EW_712","Market Street; Marple; Stockport (North West; England)","Local Centre",0.312775513024252
+"1334","RC_SC_272","Gyle Shopping Centre; City of Edinburgh (Scotland)","Large Retail Park",0.311302086570937
+"1335","RC_EW_2685","Grafton Centre; Cambridge; Cambridge (East of England; England)","District Centre",0.310750046071626
+"1336","RC_EW_5430","Alexandra Avenue; Rayners Lane; Harrow (London; England)","District Centre",0.309880632705463
+"1337","RC_EW_3722","The Homend; Ledbury; County of Herefordshire (West Midlands; England)","Market Town",0.309667793912871
+"1338","RC_EW_5200","Finchley Road; Golders Green; Barnet (London; England)","District Centre",0.309659322405742
+"1339","RC_EW_4503","Solihull; Solihull (West Midlands; England)","Town Centre",0.309390409794253
+"1340","RC_EW_5232","Edgware Road; Paddington; Westminster (London; England)","District Centre",0.309350380285146
+"1341","RC_EW_4668","High Street; Uttoxeter; East Staffordshire (West Midlands; England)","Market Town",0.308794308843371
+"1342","RC_EW_958","St Ives; Huntingdonshire (East of England; England)","Market Town",0.308361833105335
+"1343","RC_EW_5195","Colney Fields Retail Park; Hertsmere (East of England; England)","Small Retail Park",0.30835521501442
+"1344","RC_EW_374","Main Street; Garforth; Leeds (Yorkshire and The Humber; England)","Local Centre",0.308229593115548
+"1345","RC_SC_275","Dalry Road; Dalry; City of Edinburgh (Scotland)","Local Centre",0.307327068879717
+"1346","RC_EW_2254","Tollgate Centre; Colchester (East of England; England)","Small Retail Park",0.307191152402837
+"1347","RC_EW_3532","Gloucester Road; Montpelier; City of Bristol (South West; England)","District Centre",0.306748437426571
+"1348","RC_EW_1463","High Street; Shoreham-by-Sea; Adur (South East; England)","District Centre",0.305715718225119
+"1349","RC_EW_979","Melton Mowbray; Melton (East Midlands; England)","Town Centre",0.305113581440309
+"1350","RC_EW_3707","Kingsditch Retail Park; Cheltenham (South West; England)","Large Retail Park",0.304452695346305
+"1351","RC_EW_2567","Bellegrove Road; Welling; Bexley (London; England)","District Centre",0.304350607805502
+"1352","RC_EW_4880","High Wycombe Retail Park; Buckinghamshire (South East; England)","Small Retail Park",0.304245073597213
+"1353","RC_EW_3716","Cheltenham; Cheltenham (South West; England)","Major Town Centre",0.3038470849748
+"1354","RC_EW_920","Ripon; Harrogate (Yorkshire and The Humber; England)","Market Town",0.303668378576669
+"1355","RC_EW_995","Long Eaton; Erewash (East Midlands; England)","Town Centre",0.303522058727185
+"1356","RC_EW_2157","Old Brompton Road; Brompton; Kensington and Chelsea (London; England)","District Centre",0.302551476090472
+"1357","RC_EW_3875","Wimborne Minster; Dorset (South West; England)","District Centre",0.3
+"1358","RC_EW_3938","Chineham Shopping Centre; Basingstoke and Deane (South East; England)","Large Retail Park",0.299400418431393
+"1359","RC_EW_1824","Brompton; Kensington and Chelsea (London; England)","District Centre",0.298961563423956
+"1360","RC_EW_2520","Loughton; Epping Forest (East of England; England)","Town Centre",0.298244210129919
+"1361","RC_EW_5501","The Galleria; Welwyn Hatfield (East of England; England)","Large Retail Park",0.29792677747494
+"1362","RC_EW_3189","High Street; Cheadle; Stockport (North West; England)","Local Centre",0.296823379923761
+"1363","RC_EW_4073","Dinbych-y-Pysgod; Pembrokeshire (Wales)","Town Centre",0.295470171890799
+"1364","RC_EW_3947","High Street; Alton; East Hampshire (South East; England)","Market Town",0.292895131596891
+"1365","RC_EW_5035","Church Road; Ashford; Spelthorne (South East; England)","Local Centre",0.292439914243803
+"1366","RC_SC_41","Dumbarton Road; Partick; Glasgow City (Scotland)","Local Centre",0.290959376315209
+"1367","RC_EW_5222","High Road; East Finchley; Barnet (London; England)","Local Centre",0.289658962340391
+"1368","RC_EW_1494","High Street; Tenterden; Ashford (South East; England)","Local Centre",0.287568110123315
+"1369","RC_EW_1496","Tonbridge; Tonbridge and Malling (South East; England)","Town Centre",0.286745374878286
+"1370","RC_EW_2241","Riverside Retail Park; Chelmsford (East of England; England)","Large Retail Park",0.285255001052853
+"1371","RC_EW_5086","High Street; Moreton-in-Marsh; Cotswold (South West; England)","Local Centre",0.284558356280449
+"1372","RC_EW_3500","Hathaway Retail Park; Wiltshire (South West; England)","Large Retail Park",0.284103630975544
+"1373","RC_EW_3529","Queen's Road; City of Bristol (South West; England)","District Centre",0.282709418837675
+"1374","RC_EW_2179","Garratt Lane; Earlsfield; Wandsworth (London; England)","Local Centre",0.281490802480347
+"1375","RC_EW_4999","Camp Road; North Camp; Rushmoor (South East; England)","Local Centre",0.280679049939099
+"1376","RC_EW_5367","Green Lanes; Winchmore Hill; Enfield (London; England)","Local Centre",0.278925363383962
+"1377","RC_EW_5503","Hertfordshire Galleria Outlet Shopping; Welwyn Hatfield (East of England; England)","Large Shopping Centre",0.2785426890903
+"1378","RC_EW_2833","Market Street; Hoylake; Wirral (North West; England)","Local Centre",0.277367397945015
+"1379","RC_EW_2068","High Street; Whitton; Richmond upon Thames (London; England)","Local Centre",0.277166769114379
+"1380","RC_EW_1414","North Street; Midhurst; Chichester (South East; England)","Local Centre",0.277011123649847
+"1381","RC_EW_4479","Lichfield; Lichfield (West Midlands; England)","Town Centre",0.276461068622589
+"1382","RC_SC_380","Garthdee Road Retail Park; Aberdeen City (Scotland)","Small Retail Park",0.275360955910826
+"1383","RC_EW_4490","Maybird Retail Park; Stratford-on-Avon (West Midlands; England)","Large Retail Park",0.275304420753834
+"1384","RC_SC_226","Portobello High Street; Portobello; City of Edinburgh (Scotland)","Local Centre",0.27501468661033
+"1385","RC_EW_3501","Chippenham; Wiltshire (South West; England)","Market Town",0.274928630336865
+"1386","RC_EW_3381","Clitheroe; Ribble Valley (North West; England)","Town Centre",0.274372993579454
+"1387","RC_EW_5078","Botley Road Retail Park; Oxford (South East; England)","Small Retail Park",0.274303922159902
+"1388","RC_EW_2907","Church Street; Frodsham; Cheshire West and Chester (North West; England)","Local Centre",0.274081343364955
+"1389","RC_EW_6000","Yate; South Gloucestershire (South West; England)","District Centre",0.273966204557625
+"1390","RC_EW_3759","Cirencester; Cotswold (South West; England)","Town Centre",0.273331552468724
+"1391","RC_SC_48","Byres Road; Hillhead; Glasgow City (Scotland)","Local Centre",0.272917739996565
+"1392","RC_EW_504","Ecclesall Road; Sharrow Vale; Sheffield (Yorkshire and The Humber; England)","Local Centre",0.272301265613367
+"1393","RC_EW_3396","Main Street; Keswick; Allerdale (North West; England)","Market Town",0.272084334133974
+"1394","RC_EW_3949","Farnham; Waverley (South East; England)","Town Centre",0.27085777223387
+"1395","RC_EW_748","Foss Islands Retail Park; York (Yorkshire and The Humber; England)","Small Retail Park",0.270080332379363
+"1396","RC_EW_4985","Farnborough; Rushmoor (South East; England)","District Centre",0.269646217538577
+"1397","RC_EW_3851","Fareham; Fareham (South East; England)","Town Centre",0.269560827000753
+"1398","RC_EW_3493","High Street; Midsomer Norton; Bath and North East Somerset (South West; England)","Local Centre",0.269008735282947
+"1399","RC_EW_4491","Stratford-upon-Avon; Stratford-on-Avon (West Midlands; England)","Town Centre",0.26841597943665
+"1400","RC_EW_4814","Market Street; Ashby-de-la-Zouch; North West Leicestershire (East Midlands; England)","Market Town",0.268062476757159
+"1401","RC_EW_3884","High Street; Gillingham; Dorset (South West; England)","Local Centre",0.267497747071193
+"1402","RC_EW_2693","Cambridge Leisure Park; Cambridge (East of England; England)","Large Retail Park",0.267496310675765
+"1403","RC_EW_1348","Lewes; Lewes (South East; England)","Town Centre",0.265965877307477
+"1404","RC_EW_3767","Stroud; Stroud (South West; England)","Town Centre",0.265838136407301
+"1405","RC_EW_3397","Main Street; Cockermouth; Allerdale (North West; England)","Market Town",0.264830917874396
+"1406","RC_EW_1490","South Aylesford Retail Park; Tonbridge and Malling (South East; England)","Small Retail Park",0.264354100668779
+"1407","RC_EW_5157","Leighton Buzzard; Central Bedfordshire (East of England; England)","Town Centre",0.264277360881006
+"1408","RC_EW_742","York; York (Yorkshire and The Humber; England)","Major Town Centre",0.26404796475518
+"1409","RC_EW_2623","High Street; Epping; Epping Forest (East of England; England) - 1","Local Centre",0.263971048163703
+"1410","RC_EW_697","Sharrow Vale Road; Sharrow Vale; Sheffield (Yorkshire and The Humber; England)","Local Centre",0.262021509760946
+"1411","RC_EW_5409","High Street; Chesham; Buckinghamshire (South East; England)","District Centre",0.26136475901489
+"1412","RC_EW_3476","Bath; Bath and North East Somerset (South West; England)","Major Town Centre",0.261333659556485
+"1413","RC_EW_1693","High Street; Redhill; Reigate and Banstead (South East; England)","District Centre",0.260819592082034
+"1414","RC_EW_4921","The Peel Centre; Bracknell Forest (South East; England)","Small Retail Park",0.260699467985697
+"1415","RC_EW_4923","Bracknell; Bracknell Forest (South East; England)","Town Centre",0.260699467985697
+"1416","RC_EW_1492","High Street; West Malling; Tonbridge and Malling (South East; England)","Local Centre",0.260090107002065
+"1417","RC_EW_4523","Royal Leamington Spa; Warwick (West Midlands; England)","Major Town Centre",0.259642957824967
+"1418","RC_EW_3016","Poulton-le-Fylde; Wyre (North West; England)","Local Centre",0.259265050820954
+"1419","RC_EW_5357","High Road; Whetstone; Barnet (London; England)","Local Centre",0.258685699752019
+"1420","RC_EW_2705","Ely; East Cambridgeshire (East of England; England)","Town Centre",0.258283087871899
+"1421","RC_EW_3744","High Street; Royal Wootton Bassett; Wiltshire (South West; England)","Local Centre",0.257912355447352
+"1422","RC_EW_3012","Clifton Street; Lytham; Fylde (North West; England)","District Centre",0.257889742859854
+"1423","RC_EW_4996","Blackwater Valley Shopping Park; Rushmoor (South East; England)","Small Retail Park",0.257449596109074
+"1424","RC_EW_741","Clifton Moor Centre Retail Park; York (Yorkshire and The Humber; England)","Large Retail Park",0.25732726262321
+"1425","RC_EW_1688","Brighton Road Retail Park; Reigate and Banstead (South East; England)","Small Retail Park",0.257244171314567
+"1426","RC_EW_966","Market Square; St Neots; Huntingdonshire (East of England; England)","Market Town",0.255466083822232
+"1427","RC_EW_3426","Princes Gate; Richmondshire (Yorkshire and The Humber; England)","Large Retail Park",0.253625175464368
+"1428","RC_EW_4480","The Three Spires Shopping Centre; Lichfield (West Midlands; England)","Large Retail Park",0.253603371665046
+"1429","RC_EW_4898","Oxford; Oxford (South East; England)","Major Town Centre",0.252358855375097
+"1430","RC_EW_5131","Hitchin; North Hertfordshire (East of England; England)","Town Centre",0.252117234759704
+"1431","RC_EW_5166","A1 Retail Park; Central Bedfordshire (East of England; England)","Small Retail Park",0.251730231661472
+"1432","RC_EW_2619","Stadium Way Retail Park; Castle Point (East of England; England)","Small Retail Park",0.251541357065894
+"1433","RC_EW_2372","Brentwood; Brentwood (East of England; England)","Town Centre",0.250390035457769
+"1434","RC_EW_2240","Chelmsford; Chelmsford (East of England; England)","Town Centre",0.250285070739776
+"1435","RC_EW_1502","Longfield Road Retail Park; Tunbridge Wells (South East; England)","Small Retail Park",0.249040181740736
+"1436","RC_SC_367","Portlethen Retail Park; Aberdeenshire (Scotland)","Small Retail Park",0.248886382043272
+"1437","RC_EW_3608","Old Church Road; Clevedon; North Somerset (South West; England)","Local Centre",0.248768771569816
+"1438","RC_EW_3659","Clifton Wood; City of Bristol (South West; England)","District Centre",0.248383170150834
+"1439","RC_EW_2049","High Street; New Malden; Kingston upon Thames (London; England)","Local Centre",0.248308493021055
+"1440","RC_EW_4123","Merthyr Road; Yr Eglwys Newydd; Cardiff (Wales)","Local Centre",0.246929884899344
+"1441","RC_EW_5073","High Street; Chipping Norton; West Oxfordshire (South East; England)","Local Centre",0.246412803532009
+"1442","RC_EW_140","Victoria Retail Park; East Riding of Yorkshire (Yorkshire and The Humber; England)","Small Retail Park",0.244924217642569
+"1443","RC_EW_2879","Ormskirk; West Lancashire (North West; England)","Town Centre",0.244696700957786
+"1444","RC_EW_2911","Broughton Shopping Park; Flintshire (Wales)","Large Retail Park",0.244668782147005
+"1445","RC_EW_5095","Newbury Retail Park; West Berkshire (South East; England)","Small Retail Park",0.244542786181982
+"1446","RC_EW_5043","Addlestone; Runnymede (South East; England)","Town Centre",0.242663435462466
+"1447","RC_EW_5648","High Street; Porthmadog; Gwynedd (Wales)","Local Centre",0.242212868310283
+"1448","RC_EW_3747","High Street; Marlborough; Wiltshire (South West; England)","Market Town",0.241837571780148
+"1449","RC_EW_3927","Petersfield; East Hampshire (South East; England)","Town Centre",0.241714659685864
+"1450","RC_EW_5093","High Street; Hungerford; West Berkshire (South East; England)","Local Centre",0.240843554981709
+"1451","RC_EW_2397","George Lane; South Woodford; Redbridge (London; England)","District Centre",0.239898657796
+"1452","RC_EW_2355","High Street; Hornchurch; Havering (London; England)","District Centre",0.239682215644245
+"1453","RC_EW_2185","Merton High Street; South Wimbledon; Merton (London; England)","Local Centre",0.239545751469775
+"1454","RC_EW_4935","Woking; Woking (South East; England)","Town Centre",0.238995879749733
+"1455","RC_EW_3526","Whiteladies Road; Clifton; City of Bristol (South West; England)","District Centre",0.238837351720384
+"1456","RC_EW_113","Hallgate; Cottingham; East Riding of Yorkshire (Yorkshire and The Humber; England)","Local Centre",0.238669201520913
+"1457","RC_EW_3816","Lymington; New Forest (South East; England)","Town Centre",0.238667815684088
+"1458","RC_EW_4717","Ashbourne; Derbyshire Dales (East Midlands; England)","Town Centre",0.238614700275365
+"1459","RC_EW_5285","West End Lane; West Hampstead; Camden (London; England)","District Centre",0.237934093789607
+"1460","RC_EW_4918","Bicester Outlet Village; Cherwell (South East; England)","Large Shopping Centre",0.237447984202453
+"1461","RC_EW_720","York Designer Outlet; York (Yorkshire and The Humber; England)","Large Shopping Centre",0.236105154017936
+"1462","RC_EW_3392","Main Road; Windermere; South Lakeland (North West; England)","Local Centre",0.236084142394822
+"1463","RC_EW_779","Otley; Leeds (Yorkshire and The Humber; England)","District Centre",0.236036258755665
+"1464","RC_EW_3391","Lake Road; Bowness-on-Windermere; South Lakeland (North West; England)","Local Centre",0.235531255100375
+"1465","RC_EW_4869","Sandbach; Cheshire East (North West; England)","Local Centre",0.235235347545013
+"1466","RC_EW_3362","High Street; Conwy; Conwy (Wales)","Local Centre",0.234081512108683
+"1467","RC_EW_3053","High Street; Garstang; Wyre (North West; England)","Local Centre",0.232566290765011
+"1468","RC_EW_2048","Shannon Corner Retail Park; Merton (London; England)","Large Retail Park",0.232537013270531
+"1469","RC_EW_1566","Brighton Road; Coulsdon; Croydon (London; England)","Local Centre",0.231943047280043
+"1470","RC_EW_5220","Muswell Hill Broadway; Cranley Gardens; Haringey (London; England)","District Centre",0.22883409350057
+"1471","RC_EW_5090","Newbury; West Berkshire (South East; England)","Town Centre",0.227305260161444
+"1472","RC_EW_2265","High Street; Whitstable; Canterbury (South East; England)","District Centre",0.226640178311852
+"1473","RC_EW_2977","Berry Lane; Longridge; Ribble Valley (North West; England)","Local Centre",0.226142797956083
+"1474","RC_EW_735","Monks Cross Retail Park; York (Yorkshire and The Humber; England)","Large Retail Park",0.224884742597833
+"1475","RC_EW_1346","Uckfield; Wealden (South East; England)","Town Centre",0.222250650292098
+"1476","RC_EW_952","Stamford; South Kesteven (East Midlands; England)","Town Centre",0.220975366050498
+"1477","RC_EW_4117","Talbot Road; Talbot Green; Rhondda Cynon Taf (Wales)","Local Centre",0.220911016949153
+"1478","RC_EW_1574","Caterham; Tandridge (South East; England)","Town Centre",0.220632260947274
+"1479","RC_EW_5197","Abbey View Retail Park; St Albans (East of England; England)","Small Retail Park",0.219389142218016
+"1480","RC_EW_3463","Willow Brook Centre; South Gloucestershire (South West; England)","Small Retail Park",0.218344801934164
+"1481","RC_EW_933","High Street; Knaresborough; Harrogate (Yorkshire and The Humber; England)","District Centre",0.218187475690393
+"1482","RC_EW_1396","Royal Tunbridge Wells; Tunbridge Wells (South East; England)","Major Town Centre",0.217909996979764
+"1483","RC_SC_283","Tollcross; City of Edinburgh (Scotland)","Town Centre",0.216409662617092
+"1484","RC_EW_5096","Abingdon-on-Thames; Vale of White Horse (South East; England)","Town Centre",0.214724308338846
+"1485","RC_EW_2409","High Street Wanstead; Wanstead; Redbridge (London; England)","Local Centre",0.21442770407016
+"1486","RC_EW_3424","Richmond; Richmondshire (Yorkshire and The Humber; England)","Town Centre",0.213847603857029
+"1487","RC_EW_1652","High Street; Cobham; Elmbridge (South East; England)","Local Centre",0.211581291759465
+"1488","RC_EW_5032","High Street; Egham; Runnymede (South East; England)","Local Centre",0.211313958651996
+"1489","RC_EW_5075","Witney; West Oxfordshire (South East; England)","Town Centre",0.208640127388535
+"1490","RC_EW_925","Harrogate; Harrogate (Yorkshire and The Humber; England)","Town Centre",0.20809972834976
+"1491","RC_EW_2237","Chelmer Village Retail Park; Chelmsford (East of England; England)","Small Retail Park",0.207899914911721
+"1492","RC_EW_1699","Reigate; Reigate and Banstead (South East; England)","Town Centre",0.207847559281594
+"1493","RC_EW_253","Market Street; Wymondham; South Norfolk (East of England; England)","Local Centre",0.206543241186914
+"1494","RC_EW_141","Beverley; East Riding of Yorkshire (Yorkshire and The Humber; England)","Town Centre",0.206403928021103
+"1495","RC_EW_2652","Thoroughfare; Woodbridge; East Suffolk (East of England; England)","District Centre",0.205914368650218
+"1496","RC_EW_4615","High Street; Newport; Telford and Wrekin (West Midlands; England)","Local Centre",0.204375832963127
+"1497","RC_EW_5101","Fairacres Retail Park; Vale of White Horse (South East; England)","Small Retail Park",0.204176108199972
+"1498","RC_EW_3469","Nailsworth; Stroud (South West; England)","Local Centre",0.20354438049076
+"1499","RC_EW_3066","Altrincham; Trafford (North West; England)","Town Centre",0.203412743941378
+"1500","RC_EW_923","Wetherby; Leeds (Yorkshire and The Humber; England)","Market Town",0.202840456596761
+"1501","RC_EW_936","North Street; Bourne; South Kesteven (East Midlands; England)","Local Centre",0.202180908115838
+"1502","RC_EW_3094","London Road; Stockton Heath; Warrington (North West; England)","Local Centre",0.201504622982829
+"1503","RC_EW_1563","High Street; Battle; Rother (South East; England)","Local Centre",0.2
+"1504","RC_EW_3390","Ambleside; South Lakeland (North West; England)","Market Town",0.2
+"1505","RC_EW_5081","The Square; Stow-on-the-Wold; Cotswold (South West; England)","Local Centre",0.2
+"1506","RC_EW_2129","Putney High Street; Putney; Wandsworth (London; England)","District Centre",0.199686333084391
+"1507","RC_EW_5198","St Albans; St Albans (East of England; England)","Major Town Centre",0.199099874121539
+"1508","RC_EW_4991","Camberley; Surrey Heath (South East; England)","Town Centre",0.19905106359179
+"1509","RC_EW_2085","Victoria Road; Seething Wells; Kingston upon Thames (London; England)","District Centre",0.197894886363636
+"1510","RC_EW_5025","High Street; Maidenhead; Windsor and Maidenhead (South East; England)","Market Town",0.197522284332981
+"1511","RC_EW_676","Peak Shopping Village; Derbyshire Dales (East Midlands; England)","Small Retail Park",0.197156398104265
+"1512","RC_EW_3442","High Street; Thornbury; South Gloucestershire (South West; England)","Local Centre",0.196522417830197
+"1513","RC_EW_2095","Kingston upon Thames; London (London; England)","Major Town Centre",0.195547519269922
+"1514","RC_EW_3934","Winchester; Winchester (South East; England)","Town Centre",0.193924463519313
+"1515","RC_EW_1678","Walton-on-Thames; Elmbridge (South East; England)","Town Centre",0.193414404052674
+"1516","RC_EW_4941","Ladymead Retail Park; Guildford (South East; England)","Large Retail Park",0.193038486523751
+"1517","RC_EW_3682","High Street; Portishead; North Somerset (South West; England)","Local Centre",0.190020815476919
+"1518","RC_EW_3930","Moorside Road Retail Park; Winchester (South East; England)","Small Retail Park",0.188530679834703
+"1519","RC_EW_2017","High Street; Orpington; Bromley (London; England)","District Centre",0.187531961524413
+"1520","RC_EW_1118","Market Harborough; Harborough (East Midlands; England)","Town Centre",0.185608961740811
+"1521","RC_EW_1658","Epsom; Epsom and Ewell (South East; England)","Town Centre",0.185357857857858
+"1522","RC_EW_3837","Locks Heath Shopping Village (Locks Heath Shopping Centre); Fareham (South East; England)","Large Retail Park",0.184713336296266
+"1523","RC_EW_922","St. James Retail Park; Harrogate (Yorkshire and The Humber; England)","Small Retail Park",0.184594750742819
+"1524","RC_EW_319","Huddersfield Road; Holmfirth; Kirklees (Yorkshire and The Humber; England)","Local Centre",0.184259837601499
+"1525","RC_EW_5152","High Street; Newport Pagnell; Milton Keynes (South East; England)","Local Centre",0.183729038685041
+"1526","RC_EW_4890","The Kidlington Centre; Cherwell (South East; England)","Large Retail Park",0.183641685885901
+"1527","RC_EW_3218","School Road; Sale; Trafford (North West; England)","District Centre",0.183413296778615
+"1528","RC_EW_3873","Victoria Road; Ferndown; Dorset (South West; England)","Local Centre",0.181970286031658
+"1529","RC_EW_2033","Twickenham; Richmond upon Thames (London; England)","Town Centre",0.18056401843606
+"1530","RC_EW_5089","The Broadway; Thatcham; West Berkshire (South East; England)","Local Centre",0.180037206006112
+"1531","RC_EW_3465","Chepstow; Monmouthshire (Wales)","Market Town",0.179644159575644
+"1532","RC_EW_5107","St Marys Street; Wallingford; South Oxfordshire (South East; England)","Local Centre",0.178680758017493
+"1533","RC_SC_328","Brook Street; Broughty Ferry; Dundee City (Scotland)","Local Centre",0.177747440273038
+"1534","RC_EW_1430","Dorking; Mole Valley (South East; England)","Town Centre",0.177674905739422
+"1535","RC_EW_4943","Guildford; Guildford (South East; England)","Major Town Centre",0.177247082096934
+"1536","RC_EW_1370","Burgess Hill; Mid Sussex (South East; England)","Market Town",0.176998610911529
+"1537","RC_EW_4785","The Parade; Oadby; Oadby and Wigston (East Midlands; England)","Local Centre",0.175585182169754
+"1538","RC_EW_1391","Fernbank Shopping Centre; Wealden (South East; England)","Large Retail Park",0.175328925249356
+"1539","RC_EW_5206","Hampstead High Street; Hampstead; Camden (London; England)","District Centre",0.174419208980822
+"1540","RC_EW_675","Bakewell; Derbyshire Dales (East Midlands; England)","Market Town",0.173898456721091
+"1541","RC_EW_1431","Horsham; Horsham (South East; England)","Town Centre",0.17185314201985
+"1542","RC_EW_2338","Hertford; East Hertfordshire (East of England; England)","Town Centre",0.1693448322225
+"1543","RC_EW_738","Market Place; Pocklington; East Riding of Yorkshire (Yorkshire and The Humber; England)","Local Centre",0.168330821401658
+"1544","RC_EW_2643","Martlesham Heath Retail Park; East Suffolk (East of England; England)","Small Retail Park",0.167304410527581
+"1545","RC_EW_5585","Buckingham; Buckinghamshire (South East; England)","Local Centre",0.161139932212769
+"1546","RC_EW_3755","Long Street; Tetbury; Cotswold (South West; England)","Local Centre",0.159846687351707
+"1547","RC_EW_5498","Rickmansworth; Three Rivers (East of England; England)","Town Centre",0.159697830578512
+"1548","RC_EW_3656","High Street; Nailsea; North Somerset (South West; England)","Local Centre",0.159697017516175
+"1549","RC_EW_5236","Curzon Street; Mayfair; Westminster (London; England)","Local Centre",0.159657607118677
+"1550","RC_EW_5461","Bridge Street; Pinner; Harrow (London; England)","District Centre",0.159126515720571
+"1551","RC_EW_1648","High Street; Leatherhead; Mole Valley (South East; England)","Local Centre",0.156694247831722
+"1552","RC_EW_2192","Wimbledon; Merton (London; England)","Town Centre",0.156042093871041
+"1553","RC_EW_3072","King Street; Knutsford; Cheshire East (North West; England)","Market Town",0.155916187345933
+"1554","RC_EW_2308","Rayleigh; Rochford (East of England; England)","Town Centre",0.154576386064796
+"1555","RC_EW_3620","Glebe Street; Penarth; Vale of Glamorgan (Wales)","District Centre",0.15307922426243
+"1556","RC_EW_1197","High Street; Yarm; Stockton-on-Tees (North East; England)","Local Centre",0.150142273908202
+"1557","RC_EW_2720","Chapel Lane; Formby; Sefton (North West; England)","Local Centre",0.148430794684866
+"1558","RC_EW_3441","High Street; Chipping Sodbury; South Gloucestershire (South West; England)","Local Centre",0.145882541977987
+"1559","RC_EW_2043","Richmond upon Thames; Richmond upon Thames (London; England)","Town Centre",0.142515251844507
+"1560","RC_EW_2337","High Street; Ware; East Hertfordshire (East of England; England)","District Centre",0.140140354369898
+"1561","RC_EW_5109","Market Place; Wantage; Vale of White Horse (South East; England)","Market Town",0.139906232763376
+"1562","RC_EW_1122","Oakham; Rutland (East Midlands; England)","Town Centre",0.13947429365447
+"1563","RC_EW_3712","Bath Road; Montpellier; Cheltenham (South West; England)","Local Centre",0.138932155760739
+"1564","RC_SC_28","Milngavie; East Dunbartonshire (Scotland)","Town Centre",0.138814421366472
+"1565","RC_EW_848","Ilkley; Bradford (Yorkshire and The Humber; England)","Market Town",0.13855917898859
+"1566","RC_EW_1581","The Broadway; Cheam; Sutton (London; England)","Local Centre",0.138545957881554
+"1567","RC_EW_2347","Corbets Tey Road; Upminster; Havering (London; England)","District Centre",0.137713605883625
+"1568","RC_EW_3685","Ty Glas Retail Park; Cardiff (Wales)","Small Retail Park",0.136718715636684
+"1569","RC_SC_335","Market Street; St Andrews; Fife (Scotland)","Local Centre",0.135719033902061
+"1570","RC_EW_1397","High Street; Heathfield; Wealden (South East; England)","Local Centre",0.134159700201787
+"1571","RC_EW_2341","Saffron Walden; Uttlesford (East of England; England)","Town Centre",0.133952571221006
+"1572","RC_EW_3841","Whiteley Shopping Centre; Winchester (South East; England)","Large Retail Park",0.13382575316971
+"1573","RC_EW_2282","The Broadway; Leigh-on-Sea; Southend-on-Sea (East of England; England)","District Centre",0.131165865384615
+"1574","RC_EW_5423","Victoria Road; Ruislip Manor; Hillingdon (London; England)","Local Centre",0.128200429672691
+"1575","RC_EW_2054","Central Road; Worcester Park; Sutton (London; England)","District Centre",0.124585212936769
+"1576","RC_EW_4054","Newton Road; Mumbles; Swansea (Wales)","Local Centre",0.124240973086869
+"1577","RC_EW_5421","High Street; Ruislip; Hillingdon (London; England)","Local Centre",0.121462910723509
+"1578","RC_EW_2314","South Street; Bishop's Stortford; East Hertfordshire (East of England; England)","District Centre",0.119419669401831
+"1579","RC_EW_1744","High Street; Beckenham; Bromley (London; England)","District Centre",0.117584745762712
+"1580","RC_EW_1506","Sevenoaks; Sevenoaks (South East; England)","Town Centre",0.116753751018647
+"1581","RC_EW_5428","Field End Road; Eastcote; Hillingdon (London; England)","Local Centre",0.116619254379398
+"1582","RC_EW_1578","High Street; Banstead; Reigate and Banstead (South East; England)","Local Centre",0.115761360834908
+"1583","RC_EW_1755","High Street; West Wickham; Bromley (London; England)","Local Centre",0.11557512383049
+"1584","RC_EW_2613","High Street; Billericay; Basildon (East of England; England)","Market Town",0.11289323164919
+"1585","RC_EW_4533","Warwick Road; Kenilworth; Warwick (West Midlands; England)","Market Town",0.111387731919727
+"1586","RC_EW_2840","Telegraph Road; Heswall; Wirral (North West; England)","Market Town",0.108817918897299
+"1587","RC_EW_5022","High Street; Marlow; Buckinghamshire (South East; England)","Market Town",0.105558250745027
+"1588","RC_EW_3813","Lymington Road; Walkford; Bournemouth, Christchurch and Poole (South West; England)","Local Centre",0.104453061479767
+"1589","RC_EW_5419","High Street; Berkhamsted; Dacorum (East of England; England) - 1","Market Town",0.103494589433482
+"1590","RC_EW_685","Park Lane; Poynton; Cheshire East (North West; England)","Local Centre",0.100965101249461
+"1591","RC_SC_1712","Morningside Road; Morningside; City of Edinburgh (Scotland)","Local Centre",0.100328757035401
+"1592","RC_EW_1422","High Street; Arundel; Arun (South East; England)","Local Centre",0.1
+"1593","RC_EW_3774","High Town; Y Gelli Gandryll; Powys (Wales)","Local Centre",0.1
+"1594","RC_EW_3838","Southampton Road Retail Park; Fareham (South East; England)","Small Retail Park",0.0969721427348546
+"1595","RC_EW_1372","South Road; Haywards Heath; Mid Sussex (South East; England)","Market Town",0.0963665426823645
+"1596","RC_EW_1436","High Street; Godalming; Waverley (South East; England)","Market Town",0.0940325395484997
+"1597","RC_EW_2060","Coombe Lane; Cottenham Park; Merton (London; England)","Local Centre",0.0923457419683835
+"1598","RC_EW_4876","High Street; Thame; South Oxfordshire (South East; England)","Local Centre",0.0904563904563905
+"1599","RC_EW_1647","Station Road East; Oxted; Tandridge (South East; England)","Local Centre",0.0869126691266912
+"1600","RC_EW_5071","Henley-on-Thames; South Oxfordshire (South East; England)","Town Centre",0.0831536555142503
+"1601","RC_EW_1404","East Grinstead; Mid Sussex (South East; England)","Town Centre",0.0831525004417742
+"1602","RC_EW_5411","Sycamore Road; Amersham; Buckinghamshire (South East; England)","Market Town",0.0824068454909576
+"1603","RC_EW_5037","High Street; Weybridge; Elmbridge (South East; England)","District Centre",0.0791324143164285
+"1604","RC_EW_3065","Ashley Road; Hale; Trafford (North West; England)","Local Centre",0.0766044524398471
+"1605","RC_EW_4512","High Street; Knowle; Solihull (West Midlands; England)","Local Centre",0.0741216471477144
+"1606","RC_SC_279","Raeburn Place; Stockbridge; City of Edinburgh (Scotland)","Local Centre",0.0703296268450002
+"1607","RC_EW_4927","Market Place; Wokingham; Wokingham (South East; England)","Local Centre",0.0690719798958894
+"1608","RC_EW_2189","High Street; Wimbledon Common; Merton (London; England)","Local Centre",0.0666039910232304
+"1609","RC_EW_2036","Upper Richmond Road West; Mortlake; Richmond upon Thames (London; England)","District Centre",0.055747952741139
+"1610","RC_EW_3210","Bramhall Lane South; Kitt's Moss; Stockport (North West; England)","Local Centre",0.0489822294022617
+"1611","RC_EW_4149","High Street; Sidmouth; East Devon (South West; England)","Market Town",0.0469128678592037
+"1612","RC_EW_5029","Station Road; Beaconsfield; Buckinghamshire (South East; England)","Local Centre",0.0450560814573224
+"1613","RC_EW_1416","High Street; Haslemere; Waverley (South East; England)","Local Centre",0.0357087678640401
+"1614","RC_EW_5574","High Street; Harpenden; St Albans (East of England; England)","Market Town",0.0319345735785954
+"1615","RC_EW_4983","Fleet; Hart (South East; England)","Town Centre",0.0232326492967488
+"1616","RC_EW_5449","Packhorse Road; Gerrards Cross; Buckinghamshire (South East; England)","Local Centre",0.0218995010691376
+"1617","RC_EW_3074","Wilmslow; Cheshire East (North West; England)","District Centre",0.0167476884949004
+"1618","RC_EW_2317","North Street; Bishop's Stortford; East Hertfordshire (East of England; England)","Local Centre",0
+"1619","RC_EW_2342","High Street; Royston; North Hertfordshire (East of England; England)","Local Centre",0
+"1620","RC_EW_4099","High Street; Y Bont-Faen; Vale of Glamorgan (Wales)","Local Centre",0
