@@ -49,7 +49,7 @@ get_walking_isolines <- function(x) {
     iso$RC_ID <- x$RC_ID
     iso$RC_Name <- x$RC_Name
     iso$Classification <- x$Classification
-    iso$Duration <- "10 mins"
+    iso$Duration <- "15 mins"
     iso <- iso[, c("RC_ID", "RC_Name", "Classification", "Duration")]
     Sys.sleep(1)
   }
