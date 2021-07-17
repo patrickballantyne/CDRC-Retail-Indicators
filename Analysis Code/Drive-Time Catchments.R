@@ -47,3 +47,9 @@ st_write(out, "Output Data/CDRC_RetailCentre_2021_DriveTimes.gpkg")
 ls2 <- split(retail_centroids, seq(nrow(retail_centroids)))
 out2 <- do.call(rbind, lapply(ls2, get_walking_isolines))
 st_write(out2, "Output Data/CDRC_RetailCentre_2021_WalkingIsolines.gpkg")
+
+
+og <- st_read("Output Data/CDRC_RetailCentre_2021_WalkingIsolines.gpkg")
+og <- og %>%
+  mutate(Duration = case_when(Classification == "Major Town Centre" ~ "15 mins", TRUE ~ Duration))
+st_write(og, "Output Data/CDRC_RetailCentre_201_WalkingIsolinesNEW.gpkg")
