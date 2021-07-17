@@ -14,7 +14,8 @@ library(tmap)
 ## Retail Centres - drop out small, local ones
 rc <- st_read("Output Data/CDRC_Retail_Centres_RECLASSIFIED.gpkg")
 rc <- rc %>% 
-  filter(Classification != "Small Local Centre")
+  filter(Classification != "Small Local Centre") %>%
+  filter(RC_Name != "Manchester Piccadilly Station Shopping Area; Manchester (North West; England)")
 
 ## Catchments
 drive_catch <- st_transform(st_read("Output Data/CDRC_RetailCentre_2021_DriveTimes.gpkg"), 27700)
@@ -247,6 +248,8 @@ dep_out <- dep_out %>%
   mutate_if(is.numeric, ~replace_na(., 0)) %>%
   arrange(desc(deprivationExposure))
 dep_out$deprivationExposure <- scales::rescale(dep_out$deprivationExposure, to = c(0, 1))
+## NEED TO ADD IN TOTAL POPULATION PER RETAIL CENTRE CATCHMENT!!
+
 write.csv(dep_out, "Output Data/Deprivation/DeprivationExposure.csv")
 
 # 2. Deprivation Profile --------------------------------------------------
@@ -451,22 +454,39 @@ scot_walk_imd_clean <- scot_walk_imd_final %>%
 
 
 
+# 4. Missing --------------------------------------------------------------
 
-
+## Compute total number missing from English, Welsh and Scottish walking catchment deprivation profiles
+eng_missing <- nrow(eng_drive_imd_clean) - nrow(eng_walk_imd_clean) 
+wal_missing <- nrow(wales_drive_imd_clean) - nrow(wales_walk_imd_clean)
+scot_missing <- nrow(scot_drive_imd_clean) - nrow(scot_walk_imd_clean)
 
 # 3.  Maps ----------------------------------------------------------------
 
 ## Get the retail centre and catchment we want
 sub_rc <- england_rc %>%
-  filter(RC_ID == "RC_EW_5568")
+  filter(RC_ID == "RC_EW_3089")
 sub_drive_catch <- england_drive_catch %>%
-  filter(RC_ID == "RC_EW_5568")
+  filter(RC_ID == "RC_EW_3089")
 sub_walk_catch <- england_walk_catch %>%
-  filter(RC_ID == "RC_EW_5568")
+  filter(RC_ID == "RC_EW_3089")
 
 ## Get the IMD data and pop centroids in catchment
 sub_drive_cent <- cent_lsoa[sub_drive_catch, op = st_within]
 sub_walk_cent <- cent_lsoa[sub_walk_catch, op = st_within]
+
+waz_cent <- cent_lsoa[grepl("Warrington", cent_lsoa$lsoa01nm),]
+
+library(tmap)
+tmap_mode("plot")
+tm_shape(waz_cent) +
+  tm_dots(col = "black", size = 0.2) +
+  tm_shape(sub_walk_catch) +
+  tm_fill(col = "orange", alpha = 0.75) +
+  tm_text("RC_Name", size = 0.55) +
+  tm_layout(frame = FALSE) +
+  tm_add_legend("fill", col = "orange", labels = "walking catchment", border.col = "orange") +
+  tm_add_legend("symbol", size = 0.2, col = "black", labels = "population weighted centroids")
 
 sub_drive_imd <- eng_imd %>%
   filter(Area_Code %in% sub_drive_cent$Area_Code) %>%
