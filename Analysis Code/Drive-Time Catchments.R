@@ -15,7 +15,8 @@ retail_centroids <- st_sf(st_transform(st_centroid(st_transform(rc,27700)),4326)
 
 ## Identifying the centres we don't want catchments for - removing Small Local Centres
 retail_centroids <- retail_centroids %>%
-  filter(Classification != "Small Local Centre")
+  filter(Classification != "Small Local Centre") %>%
+  filter(RC_ID != "RC_EW_3290")
 
 # 2. Drive-Time Catchments ------------------------------------------------
 
@@ -39,17 +40,14 @@ st_write(out, "Output Data/CDRC_RetailCentre_2021_DriveTimes.gpkg")
 # Catchments are Walking-based Isolines using the HERE API again
 
 # They are delineated differently based on the position of the centres in the hierarchy
-# 10 mins for Regional, Out of Town, Major Town Centres, Town Centres
-# 5 mins for District Centres, Local Centres and Market Towns
+# 15 mins for Regional, Out of Town, Major Town Centres, Town Centres
+# 10 mins for all others
 # Again, we are not constructing catchments for the small, local centres (n < 100)
 
 ## Delineating the catchments (fairly slow)
 ls2 <- split(retail_centroids, seq(nrow(retail_centroids)))
 out2 <- do.call(rbind, lapply(ls2, get_walking_isolines))
+summary(out2)
 st_write(out2, "Output Data/CDRC_RetailCentre_2021_WalkingIsolines.gpkg")
 
 
-og <- st_read("Output Data/CDRC_RetailCentre_2021_WalkingIsolines.gpkg")
-og <- og %>%
-  mutate(Duration = case_when(Classification == "Major Town Centre" ~ "15 mins", TRUE ~ Duration))
-st_write(og, "Output Data/CDRC_RetailCentre_201_WalkingIsolinesNEW.gpkg")
