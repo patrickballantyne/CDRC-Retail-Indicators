@@ -15,11 +15,13 @@ library(tmap)
 rc <- st_read("Output Data/CDRC_Retail_Centres_RECLASSIFIED.gpkg")
 rc <- rc %>% 
   filter(Classification != "Small Local Centre") %>%
-  filter(RC_Name != "Manchester Piccadilly Station Shopping Area; Manchester (North West; England)")
+  filter(RC_Name != "Manchester Piccadilly Station Shopping Area; Manchester (North West; England)") %>%
+  filter(RC_Name != "Belfast City. Belfast (Northern Ireland)") %>%
+  filter(RC_Name != "Banbridge Village Outlet; Armagh City, Banbridge and Craigavon (Northern Ireland)")
 
 ## Catchments
 drive_catch <- st_transform(st_read("Output Data/CDRC_RetailCentre_2021_DriveTimes.gpkg"), 27700)
-walk_catch <-  st_transform(st_read("Output Data/CDRC_RetailCentre_2021_WalkingIsolinesNEW.gpkg"), 27700)
+walk_catch <-  st_transform(st_read("Output Data/CDRC_RetailCentre_2021_WalkingIsolines.gpkg"), 27700)
 
 #########################################################################
 
@@ -103,7 +105,7 @@ scotland_walk_catch <- walk_catch[grepl("(Scotland)", walk_catch$RC_Name),]
 #### Population weighted centroids
 
 ### England/Wales
-cent_lsoa <- st_read("Input Data/LSOA_pop_centroids/lsoa_centroids.shp")
+cent_lsoa <- st_read("Input Data/LSOA_pop_centroids/new_centroids.shp")
 cent_lsoa <- cent_lsoa %>%
   select(2) %>%
   setNames(c("Area_Code", "geometry")) %>%
@@ -390,8 +392,59 @@ eng_walk_imd_clean <- eng_walk_imd_out  %>%
   select(RC_ID, RC_Name, Region, Country, AverageIMD, IMDRegional, diff_IMDRegional, r_IMDRegional,
          IMDNational, diff_IMDNational, r_IMDNational) %>%
   mutate_if(is.character, as.factor)
-#write.csv(eng_walk_imd_clean, "Output Data/Deprivation/England_RetailCentres_Deprivation_Profile_WALKING.csv")
 
+## Create identifier to illustrate population-weighted centroids have been used
+eng_walk_imd_clean$whichCentroid <- "Population-Weighted"
+
+## Create list of retail centres with no population-weighted centroids in them 
+list <- england_rc %>% filter(!RC_ID %in% eng_walk_imd_clean$RC_ID) %>% as.data.frame() %>% select(-c(geom))
+
+
+########
+# Missing England Walking Catchments
+
+## Get geometric centroids for IMD data
+geom_cent <- st_centroid(eng_imd_pop)
+
+## Get catchments
+xtra_eng_walk_catch <- england_walk_catch %>%
+   filter(RC_ID %in% list$RC_ID)
+
+## Intersect
+xtra_england_walk_int <- st_intersection(geom_cent, xtra_eng_walk_catch, join = st_contains)
+xtra_england_walk_int <- merge(xtra_england_walk_int, eng_lookup, by = "Area_Code", all.x = TRUE)
+
+## Compute total population and mean IMD
+xtra_walk_catch_pop <- xtra_england_walk_int %>%
+  as.data.frame() %>%
+  select(RC_ID, RC_Name, Region, Country, IMD_Score, Total_Population_2019) %>%
+  group_by(RC_ID, RC_Name, Region, Country) %>%
+  summarise(Total_Catchment_Population = sum(Total_Population_2019),
+            AverageIMD = mean(IMD_Score))
+
+xtra_walk_catch_pop$IMDNational <- eng_nat_avg$IMDNational
+xtra_walk_catch_pop <- merge(xtra_walk_catch_pop, eng_reg_avg, by = "Region", all.x = TRUE)
+
+## Compute variables
+xtra_eng_walk_imd_clean <- xtra_walk_catch_pop  %>%
+  mutate(diff_IMDNational = AverageIMD - IMDNational,
+         diff_IMDRegional = AverageIMD - IMDRegional) %>%
+  mutate(r_IMDNational = case_when(diff_IMDNational < 0 ~ "LESS DEPRIVED", TRUE ~ "MORE DEPRIVED"),
+         r_IMDRegional = case_when(diff_IMDRegional < 0 ~ "LESS DEPRIVED", TRUE ~ "MORE DEPRIVED")) %>%
+  ungroup() %>%
+  select(RC_ID, RC_Name, Region, Country, AverageIMD, IMDRegional, diff_IMDRegional, r_IMDRegional,
+         IMDNational, diff_IMDNational, r_IMDNational) %>%
+  mutate_if(is.character, as.factor)
+xtra_eng_walk_imd_clean$whichCentroid <- "Geometric"
+
+ 
+### Bringing together final set of data
+england_rc_out <- england_rc %>% as.data.frame() %>% select(-c(geom))
+eng_imd_complete <- rbind(xtra_eng_walk_imd_clean, eng_walk_imd_clean)
+
+## Merge and then fill missing centres with NA
+england_walk_imd_final <- merge(england_rc_out, eng_imd_complete, by = c("RC_ID", "RC_Name"), all.x = TRUE)
+write.csv(england_walk_imd_final, "Output Data/Deprivation/England_RetailCentres_Deprivation_Profile_WALKING.csv")
 
 # 2. WALES DEPRIVATION PROFILE --------------------------------------------
 
