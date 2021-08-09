@@ -10,19 +10,17 @@ library(readxl)
 ## Retail Centres & Catchments #############################################
 
 ### Read in centres and drop Northern Irish ones
-rc <- st_read("Output Data/CDRC_Retail_Centres_RECLASSIFIED.gpkg")
+rc <- st_read("Output Data/200721_PB_437-01_RC_Boundaries_UPDATED.gpkg")
 rc <- rc %>% 
   filter(Classification != "Small Local Centre") %>%
-  filter(RC_Name != "Banbridge Village Outlet; Armagh City, Banbridge and Craigavon (Northern Ireland)") %>%
-  filter(RC_Name != "Belfast City. Belfast (Northern Ireland)") %>%
+  filter(RC_ID != "RC_NI_484") %>%
   filter(RC_ID != "RC_EW_3290")
 
 ### Read in catchments and drop Northern Irish ones
 catch <- st_transform(st_read("Output Data/CDRC_RetailCentre_2021_DriveTimes.gpkg"), 27700)
 catch <- catch %>%
   filter(Classification != "Small Local Centre") %>%
-  filter(RC_Name != "Banbridge Village Outlet; Armagh City, Banbridge and Craigavon (Northern Ireland)") %>%
-  filter(RC_Name != "Belfast City. Belfast (Northern Ireland)") %>%
+  filter(RC_ID != "RC_NI_484") %>%
   filter(RC_ID != "RC_EW_3290")
 
 ################################################################################
