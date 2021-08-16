@@ -4,12 +4,13 @@ library(sf)
 library(tidyverse)
 library(data.table)
 library(readxl)
+library(credentials)
 
 # 1. Data -----------------------------------------------------------------
 
 ## Retail Centres & Catchments #############################################
 
-### Read in centres and drop Northern Irish ones
+### Read in centres
 rc <- st_read("Output Data/200721_PB_437-01_RC_Boundaries_UPDATED.gpkg")
 
 ### Read in list of centres we're developing indicators for
@@ -144,7 +145,6 @@ group_pop <- group_pop %>%
 ## Apply weights
 group_pop <- merge(group_pop, z_sub, by = c("IUC_GRP_CD", "IUC_GRP_LABEL"),  all.x = TRUE)
 group_pop$w_IUC_Population_2019 <- group_pop$IUC_Population_Proportion * group_pop$Weight
-head(group_pop)
 
 ### Get total weighted pop per Retail Centre
 online_exposure <- group_pop %>%

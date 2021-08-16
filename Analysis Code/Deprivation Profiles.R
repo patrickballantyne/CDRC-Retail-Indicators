@@ -7,25 +7,47 @@ library(readxl)
 library(tmap)
 
 
-# 1. Data -----------------------------------------------------------------
+# 1. Data: Retail Centres and Catchments  -----------------------------------------------------------------
 
-#### RETAIL CENTRES & CATCHMENTS ########################################
+### Read in centres
+rc <- st_read("Output Data/200721_PB_437-01_RC_Boundaries_UPDATED.gpkg")
 
-## Retail Centres - drop out small, local ones
-rc <- st_read("Output Data/CDRC_Retail_Centres_RECLASSIFIED.gpkg")
-rc <- rc %>% 
-  filter(Classification != "Small Local Centre") %>%
-  filter(RC_Name != "Manchester Piccadilly Station Shopping Area; Manchester (North West; England)") %>%
-  filter(RC_Name != "Belfast City. Belfast (Northern Ireland)") %>%
-  filter(RC_Name != "Banbridge Village Outlet; Armagh City, Banbridge and Craigavon (Northern Ireland)")
+### Read in list of centres we're developing indicators for
+rc_list <- read.csv("Output Data/RELEASE/Indicators_Part1.csv")
 
-## Catchments
+## Filter only centres we want to dev indicators for
+rc <- rc %>%
+  filter(RC_ID %in% rc_list$RC_ID)
+rc_df <- rc %>%
+  as.data.frame() %>%
+  select(-c(geom, tr_retailN))
+
+### Read in catchments and filter to match the indicator centres
 drive_catch <- st_transform(st_read("Output Data/CDRC_RetailCentre_2021_DriveTimes.gpkg"), 27700)
-walk_catch <-  st_transform(st_read("Output Data/CDRC_RetailCentre_2021_WalkingIsolines.gpkg"), 27700)
+drive_catch <- drive_catch %>%
+  filter(RC_ID %in% rc$RC_ID)
+walk_catch <- st_transform(st_read("Output Data/CDRC_RetailCentre_2021_WalkingIsolines.gpkg"), 27700)
+walk_catch <- walk_catch %>%
+  filter(RC_ID %in% rc$RC_ID)
 
-#########################################################################
+### Splitting centres & catchments by country
+## Wales
+wales_rc <- rc[grepl("(Wales)", rc$RC_Name),]
+wales_drive_catch <- drive_catch[grepl("(Wales)", drive_catch$RC_Name),]
+wales_walk_catch <- walk_catch[grepl("(Wales)", walk_catch$RC_Name),]
 
-#### IMD ################################################################
+## England
+england_rc <- rc[grepl("(England)", rc$RC_Name),]
+england_drive_catch <- drive_catch[grepl("(England)", drive_catch$RC_Name),]
+england_walk_catch <- walk_catch[grepl("(England)", walk_catch$RC_Name),]
+
+## Scotland 
+scotland_rc <- rc[grepl("(Scotland)", rc$RC_Name),]
+scotland_drive_catch <- drive_catch[grepl("(Scotland)", drive_catch$RC_Name),]
+scotland_walk_catch <- walk_catch[grepl("(Scotland)", walk_catch$RC_Name),]
+
+
+# 2. Data: Index of Multiple Deprivation ----------------------------------
 
 ## English IMD (2019)
 eng_imd <- st_read("Input Data/IMD/IMD_2019.shp")
@@ -57,9 +79,8 @@ scot_imd <- scot_imd %>%
 
 
 
-###########################################################################
+# 3. Data: Population -----------------------------------------------------
 
-#### Population  ###########################################################
 
 ## England & Wales
 eng_wal_pop <- read_excel("Input Data/2019_EW_estimates.xlsx", sheet = 4, skip = 5)
@@ -81,28 +102,9 @@ scot <- scot %>%
   drop_na()
 scot_imd_pop <- merge(scot_imd, scot, by = "Area_Code", all.x = TRUE)
 
-###########################################################################
 
-#### Splitting Centres and Catchments
 
-## Wales centres and catchments
-wales_rc <- rc[grepl("(Wales)", rc$RC_Name),]
-wales_drive_catch <- drive_catch[grepl("(Wales)", drive_catch$RC_Name),]
-wales_walk_catch <- walk_catch[grepl("(Wales)", walk_catch$RC_Name),]
-
-## England centres and catchments
-england_rc <- rc[grepl("(England)", rc$RC_Name),]
-england_drive_catch <- drive_catch[grepl("(England)", drive_catch$RC_Name),]
-england_walk_catch <- walk_catch[grepl("(England)", walk_catch$RC_Name),]
-
-## Scotland centres and catchments
-scotland_rc <- rc[grepl("(Scotland)", rc$RC_Name),]
-scotland_drive_catch <- drive_catch[grepl("(Scotland)", drive_catch$RC_Name),]
-scotland_walk_catch <- walk_catch[grepl("(Scotland)", walk_catch$RC_Name),]
-
-###########################################################################
-
-#### Population weighted centroids
+# 4. Data: Centroids ---------------------------------------------------------
 
 ### England/Wales
 cent_lsoa <- st_read("Input Data/LSOA_pop_centroids/new_centroids.shp")
@@ -127,9 +129,10 @@ eng_cent_imd <- merge(cent_lsoa, eng_imd_pop_df, by = "Area_Code", all.y = TRUE)
 wal_cent_imd <- merge(cent_lsoa, wal_imd_pop_df, by = "Area_Code", all.y = TRUE)
 scot_cent_imd <- merge(cent_dz, scot_imd_pop_df, by = "Area_Code", all.x = TRUE)
 
-##############################################################################
 
-#### Calculating Deprivation Exposure (by country)
+
+# 5. Calculating Deprivation Exposure (By Country) ------------------------
+
 
 ## Identify the LSOAs/DZs in each catchment
 wales_drive_int <- st_intersection(wal_cent_imd, wales_drive_catch, join = st_contains)
@@ -176,8 +179,6 @@ scotland_walk_catch_pop <- scotland_walk_int %>%
   summarise(Total_Catchment_Population = sum(Total_Population_2019))
 
 
-# 1. Decile Index ---------------------------------------------------------
-
 ## Compute total catchment population occupied by each IMD decile
 wales_drive_dec <- merge(wales_drive_int, wales_drive_catch_pop, by = c("RC_ID", "RC_Name"), all.x = TRUE)
 wales_drive_dec_sub <- wales_drive_dec %>% as.data.frame() %>% select(RC_ID, RC_Name, IMD_Decile, Total_Catchment_Population)
@@ -216,15 +217,31 @@ scotland_drive_group_dec <- scotland_drive_dec %>%
   select(RC_ID, RC_Name, IMD_Decile, Total_Population_2019, Total_Catchment_Population) %>%
   group_by(RC_ID, RC_Name, IMD_Decile) %>%
   summarise(Total_IMD_Population_2019 = sum(Total_Population_2019))
+scotland_walk_dec <- merge(scotland_walk_int, scotland_walk_catch_pop, by = c("RC_ID", "RC_Name"), all.x = TRUE)
+scotland_walk_dec_sub <- scotland_walk_dec %>% as.data.frame() %>% select(RC_ID, RC_Name, IMD_Decile, Total_Catchment_Population)
+scotland_walk_group_dec <- scotland_walk_dec %>%
+  as.data.frame() %>%
+  select(RC_ID, RC_Name, IMD_Decile, Total_Population_2019, Total_Catchment_Population) %>%
+  group_by(RC_ID, RC_Name, IMD_Decile) %>%
+  summarise(Total_IMD_Population_2019 = sum(Total_Population_2019))
 
 ## Join together
-# uk_dec <- rbind(england_dec_sub, wales_dec_sub, scotland_dec_sub)
-# uk_group_dec <- rbind(england_group_dec, wales_group_dec, scotland_group_dec)
+uk_drive_dec <- rbind(england_drive_dec_sub, wales_drive_dec_sub, scotland_drive_dec_sub)
+uk_drive_group_dec <- rbind(england_drive_group_dec, wales_drive_group_dec, scotland_drive_group_dec)
+uk_walk_dec <- rbind(england_walk_dec_sub, wales_walk_dec_sub, scotland_walk_dec_sub)
+uk_walk_group_dec <- rbind(england_walk_group_dec, wales_walk_group_dec, scotland_walk_group_dec)
 
 
 ## Calculate proprtion catchment population occupied by each IMD decile
-uk_group_pop <- merge(uk_group_dec, uk_dec, by = c("RC_ID", "RC_Name", "IMD_Decile"), all.x = TRUE)
-uk_group_pop <- uk_group_pop %>%
+uk_group_drive_pop <- merge(uk_drive_group_dec, uk_drive_dec, by = c("RC_ID", "RC_Name", "IMD_Decile"), all.x = TRUE)
+uk_group_drive_pop <- uk_group_drive_pop %>%
+  as.data.frame() %>%
+  select(RC_ID, RC_Name, IMD_Decile, Total_IMD_Population_2019, Total_Catchment_Population) %>%
+  distinct() %>%
+  mutate(IMD_Population_Proportion = (Total_IMD_Population_2019 / Total_Catchment_Population) * 100) %>%
+  select(RC_ID, RC_Name, IMD_Decile, IMD_Population_Proportion)
+uk_group_walk_pop <- merge(uk_walk_group_dec, uk_walk_dec, by = c("RC_ID", "RC_Name", "IMD_Decile"), all.x = TRUE)
+uk_group_walk_pop <- uk_group_walk_pop %>%
   as.data.frame() %>%
   select(RC_ID, RC_Name, IMD_Decile, Total_IMD_Population_2019, Total_Catchment_Population) %>%
   distinct() %>%
@@ -233,26 +250,53 @@ uk_group_pop <- uk_group_pop %>%
 
 ## Apply weights
 weights <- read.csv("Input Data/IMD/IMD_Decile_Weights.csv")
-uk_group_pop <- merge(uk_group_pop, weights, by = "IMD_Decile", all.x = TRUE)
+uk_group_drive_pop <- merge(uk_group_drive_pop, weights, by = "IMD_Decile", all.x = TRUE)
+uk_group_walk_pop <- merge(uk_group_walk_pop, weights, by = "IMD_Decile", all.x = TRUE)
 
 ## Get a deprivation exposure score for each centre
-deprivation_exposure <- uk_group_pop %>%
+deprivation_exposure_drive <- uk_group_drive_pop %>%
   mutate(w_IMD_Population_Proportion = IMD_Population_Proportion * Weight) %>%
   select(RC_ID, RC_Name, w_IMD_Population_Proportion) %>%
   group_by(RC_ID, RC_Name) %>%
-  summarise(deprivationExposure = sum(w_IMD_Population_Proportion))
+  summarise(deprivationExposure_D = sum(w_IMD_Population_Proportion))
+deprivation_exposure_walk <- uk_group_walk_pop %>%
+  mutate(w_IMD_Population_Proportion = IMD_Population_Proportion * Weight) %>%
+  select(RC_ID, RC_Name, w_IMD_Population_Proportion) %>%
+  group_by(RC_ID, RC_Name) %>%
+  summarise(deprivationExposure_W = sum(w_IMD_Population_Proportion))
 
-rc_out <- rc %>% select(RC_ID, RC_Name, Classification)
-dep_out <- merge(rc_out, deprivation_exposure, by = c("RC_ID", "RC_Name"), all.x = TRUE)
-dep_out <- dep_out %>%
-  as.data.frame() %>%
-  select(-c(geometry)) %>%
-  mutate_if(is.numeric, ~replace_na(., 0)) %>%
-  arrange(desc(deprivationExposure))
-dep_out$deprivationExposure <- scales::rescale(dep_out$deprivationExposure, to = c(0, 1))
-## NEED TO ADD IN TOTAL POPULATION PER RETAIL CENTRE CATCHMENT!!
+## Prepare for out
+rc_df <- merge(rc_df, deprivation_exposure_drive, by = c("RC_ID", "RC_Name"), all.x = TRUE)
+rc_df <- merge(rc_df, deprivation_exposure_walk, by = c("RC_ID", "RC_Name"), all.x = TRUE)
 
-write.csv(dep_out, "Output Data/Deprivation/DeprivationExposure.csv")
+## Merge on the total catchment populations
+pops_D <- uk_drive_dec %>% 
+  select(RC_ID, Total_Catchment_Population) %>%
+  rename(totalPopulation_D = Total_Catchment_Population) %>%
+  distinct()
+pops_W <- uk_walk_dec %>%
+  select(RC_ID, Total_Catchment_Population) %>%
+  rename(totalPopulation_W = Total_Catchment_Population) %>%
+  distinct()
+
+## Merge and clean for out
+rc_df <- merge(rc_df, pops_D, by = "RC_ID", all.x = TRUE)
+rc_df <- merge(rc_df, pops_W, by = "RC_ID", all.x = TRUE)
+rc_df <- rc_df %>%
+  select(RC_ID, RC_Name, Classification, totalPopulation_D, deprivationExposure_D, 
+         totalPopulation_W, deprivationExposure_W)
+
+write.csv(rc_df, "Output Data/RELEASE/Indicators_Part4.csv")
+
+
+
+################################################################
+
+
+
+################################################################
+
+### DEPRIVATION PROFILES
 
 # 2. Deprivation Profile --------------------------------------------------
 
