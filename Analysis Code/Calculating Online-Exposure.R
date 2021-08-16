@@ -11,17 +11,21 @@ library(readxl)
 
 ### Read in centres and drop Northern Irish ones
 rc <- st_read("Output Data/200721_PB_437-01_RC_Boundaries_UPDATED.gpkg")
-rc <- rc %>% 
-  filter(Classification != "Small Local Centre") %>%
-  filter(RC_ID != "RC_NI_484") %>%
-  filter(RC_ID != "RC_EW_3290")
 
-### Read in catchments and drop Northern Irish ones
+### Read in list of centres we're developing indicators for
+rc_list <- read.csv("Output Data/RELEASE/Indicators_Part1.csv")
+
+## Filter only centres we want to dev indicators for
+rc <- rc %>%
+  filter(RC_ID %in% rc_list$RC_ID)
+rc_df <- rc %>%
+  as.data.frame() %>%
+  select(-c(geom))
+
+### Read in catchments and filter to match the indicator centres
 catch <- st_transform(st_read("Output Data/CDRC_RetailCentre_2021_DriveTimes.gpkg"), 27700)
 catch <- catch %>%
-  filter(Classification != "Small Local Centre") %>%
-  filter(RC_ID != "RC_NI_484") %>%
-  filter(RC_ID != "RC_EW_3290")
+  filter(RC_ID %in% rc$RC_ID)
 
 ################################################################################
 
@@ -49,7 +53,6 @@ eng_wal <- eng_wal %>%
 
 ### Scotland
 scot <- read_excel("Input Data/2019_S_estimates.xlsx", sheet = 1,  skip = 5)
-
 scot <- scot %>%
   select(1:2, 4) %>%
   setNames(c("SA_CD", "SA_NM", "Total_Population_2019")) %>%
@@ -100,10 +103,12 @@ pop_iuc <- merge(pop_iuc, z_sub, by = c("IUC_GRP_CD", "IUC_GRP_LABEL"))
 
 ## Merge population, IUC and z scores onto the population weighted centroids
 cent_db <- merge(cent, pop_iuc, by = c("SA_CD"), all.x = TRUE)
+cent_db <- cent_db %>%
+  drop_na()
 
 #############################################################################
 
-### Point in Polygon - get list of LSOAs/DZs in each catchment
+### Get list of LSOAs/DZs in each catchment
 pip <- st_join(cent_db, catch, join = st_within)
 pip <- pip %>%
   mutate_if(is.character, as.factor) %>%
@@ -136,7 +141,6 @@ group_pop <- group_pop %>%
   mutate(IUC_Population_Proportion = (Total_IUC_Population_2019 / Total_Catchment_Population) * 100) %>%
   select(RC_ID, RC_Name, IUC_GRP_CD, IUC_GRP_LABEL, IUC_Population_Proportion)
 
-
 ## Apply weights
 group_pop <- merge(group_pop, z_sub, by = c("IUC_GRP_CD", "IUC_GRP_LABEL"),  all.x = TRUE)
 group_pop$w_IUC_Population_2019 <- group_pop$IUC_Population_Proportion * group_pop$Weight
@@ -149,22 +153,24 @@ online_exposure <- group_pop %>%
   summarise(OE = sum(w_IUC_Population_2019))
 
 ## Merge back onto main dataset and add 0 score for those not overlapping pop centroids
-out <- merge(rc, online_exposure, by = c("RC_ID", "RC_Name"), all.x  = TRUE)
+out <- merge(rc_df, online_exposure, by = c("RC_ID", "RC_Name"), all.x  = TRUE)
+
+### Check none are missing???
+summary(out$OE)
+
+##########################################################################
+
+### Writing Out
+
+### Tidy up output, impute NA where no overlaps are detected
 out <- out %>%
   as.data.frame() %>%
   mutate_if(is.numeric, ~replace_na(., 0)) %>%
-  select(-c(tr_retailN, geometry)) %>%
-  rename(onlineExposure = OE) %>%
-  mutate_at(c("onlineExposure"), ~(scale(.) %>% as.vector))
+  select(-c(tr_retailN)) %>%
+  rename(onlineExposure = OE)
+out$onlineExposure <- scales::rescale(out$onlineExposure, to = c(0, 1))
 
-# ## Print Top & Bottom 10
-# top_10 <- online_exposure %>%
-#   arrange(desc(OE)) 
-# top_10[1:10,]
-# bottom_10 <- online_exposure %>%
-#   arrange(OE)
-# bottom_10[1:10,]
 
 ### Write out
-write.csv(out, "Output Data/CDRC_Retail_Centre_2021_OnlineExposure.csv")
+write.csv(out, "Output Data/RELEASE/Indicators_Part3.csv")
   
