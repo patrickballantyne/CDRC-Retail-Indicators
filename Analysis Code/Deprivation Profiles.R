@@ -286,9 +286,12 @@ rc_df <- rc_df %>%
   select(RC_ID, RC_Name, Classification, totalPopulation_D, deprivationExposure_D, 
          totalPopulation_W, deprivationExposure_W)
 
+## Rescale values
+rc_df$deprivationExposure_D <- scales::rescale(rc_df$deprivationExposure_D, to = c(1, 100))
+rc_df$deprivationExposure_W <- scales::rescale(rc_df$deprivationExposure_W, to = c(1, 100))
+
+## Write out
 write.csv(rc_df, "Output Data/RELEASE/Indicators_Part4.csv")
-
-
 
 ################################################################
 
@@ -298,7 +301,7 @@ write.csv(rc_df, "Output Data/RELEASE/Indicators_Part4.csv")
 
 ### DEPRIVATION PROFILES
 
-# 2. Deprivation Profile --------------------------------------------------
+# 6. Deprivation Profile --------------------------------------------------
 
 ## Join on regional information 
 eng_lookup <- read.csv("Input Data/England_Lookup.csv")
@@ -308,7 +311,7 @@ eng_lookup <- eng_lookup  %>%
   setNames(c("Area_Code", "Region", "Country"))
 
 eng_drive_int_sub <- england_drive_int  %>% as.data.frame() %>%  select(Area_Code, IMD_Score)
-eng_drive_int_lookup <- merge(eng_drive_int_sub, eng_lookup, by.x = "Area_Code", by.y = "LSOA11CD", all.x = TRUE)
+eng_drive_int_lookup <- merge(eng_drive_int_sub, eng_lookup, by = "Area_Code", all.x = TRUE)
 eng_drive_int_lookup <- eng_drive_int_lookup %>% distinct() %>% select(-c(IMD_Score)) %>% setNames(c("Area_Code", "Region", "Country"))
 
 ## Compute average values for each of the IMD indicators and domains per catchment
@@ -375,15 +378,22 @@ scot_nat_avg <- scot_imd %>%
 
 
 ## Merge on National and Regional Averages
-eng_drive_imd_final <- merge(eng_drive_imd_for_reg, eng_nat_avg, by = "Country", all.x = TRUE)
+eng_drive_imd_final <- merge(averages, eng_nat_avg, by = "Country", all.x = TRUE)
 eng_drive_imd_final <- merge(eng_drive_imd_final, eng_reg_avg, by = "Region", all.x = TRUE)
-eng_walk_imd_final <- merge(england_walk_int, eng_lookup, by = "Area_Code", all.x = TRUE)
-eng_walk_imd_final$IMDNational <- eng_nat_avg$IMDNational
-eng_walk_imd_final <- merge(eng_walk_imd_final, eng_reg_avg, by = "Region", all.x = TRUE)
+eng_drive_out <- england_drive_int %>%
+  as.data.frame() %>%
+  select(RC_ID, Area_Code)
+eng_drive_out <- merge(eng_drive_out, eng_drive_imd_final, by = "Area_Code", all.x = TRUE)
+eng_walk_out <- england_walk_int %>%
+  as.data.frame() %>%
+  select(RC_ID, Area_Code)
+eng_walk_out <- merge(eng_walk_out, eng_drive_imd_final, by = "Area_Code", all.x = TRUE)
+
 
 wales_drive_imd_final <- wales_drive_catch_imd
 wales_drive_imd_final$Country <- "Wales"
 wales_drive_imd_final$IMDNational <- wal_nat_avg$IMDNational 
+
 wales_walk_imd_final <- wales_walk_catch_imd
 wales_walk_imd_final$Country <- "Wales"
 wales_walk_imd_final$IMDNational <- wal_nat_avg$IMDNational 
@@ -401,19 +411,19 @@ scot_walk_imd_final$IMDNational <- scot_nat_avg$IMDNational
 ### 1.1 DRIVE-TIME CATCHMENTS
 
 ## Compute average IMD in each retail centre
-eng_drive_imd_out <- eng_drive_imd_final %>%
+eng_rc_drive_out <- eng_drive_out %>%
   as.data.frame() %>%
-  group_by(RC_ID, RC_Name, Classification, Duration, Region, Country, IMDNational, IMDRegional) %>%
+  group_by(RC_ID, Region, Country, IMDNational, IMDRegional) %>%
   summarise(AverageIMD = mean(IMD_Score))
 
 ## Create identifier to illustrate whether IMD & domains are higher/lower than national average
-eng_drive_imd_clean <- eng_drive_imd_out  %>%
+eng_drive_imd_clean <- eng_rc_drive_out  %>%
   mutate(diff_IMDNational = AverageIMD - IMDNational,
          diff_IMDRegional = AverageIMD - IMDRegional) %>%
   mutate(r_IMDNational = case_when(diff_IMDNational < 0 ~ "LESS DEPRIVED", TRUE ~ "MORE DEPRIVED"),
          r_IMDRegional = case_when(diff_IMDRegional < 0 ~ "LESS DEPRIVED", TRUE ~ "MORE DEPRIVED")) %>%
   ungroup() %>%
-  select(RC_ID, RC_Name, Region, Country, AverageIMD, IMDRegional, diff_IMDRegional, r_IMDRegional,
+  select(RC_ID, Region, Country, AverageIMD, IMDRegional, diff_IMDRegional, r_IMDRegional,
          IMDNational, diff_IMDNational, r_IMDNational) %>%
   mutate_if(is.character, as.factor)
 #write.csv(eng_drive_imd_clean, "Output Data/Deprivation/England_RetailCentres_Deprivation_Profile_DRIVETIMES.csv")
@@ -421,9 +431,9 @@ eng_drive_imd_clean <- eng_drive_imd_out  %>%
 ### 1.2 WALKING CATCHMENTS
 
 ## Compute average IMD in each centre
-eng_walk_imd_out <- eng_walk_imd_final %>%
+eng_walk_imd_out <- eng_walk_out %>%
   as.data.frame() %>%
-  group_by(RC_ID, RC_Name, Classification, Duration, Region, Country, IMDNational, IMDRegional) %>%
+  group_by(RC_ID, Region, Country, IMDNational, IMDRegional) %>%
   summarise(AverageIMD = mean(IMD_Score))
 
 ## Create identifier to illustrate whether IMD & domains are higher/lower than national average
@@ -433,9 +443,13 @@ eng_walk_imd_clean <- eng_walk_imd_out  %>%
   mutate(r_IMDNational = case_when(diff_IMDNational < 0 ~ "LESS DEPRIVED", TRUE ~ "MORE DEPRIVED"),
          r_IMDRegional = case_when(diff_IMDRegional < 0 ~ "LESS DEPRIVED", TRUE ~ "MORE DEPRIVED")) %>%
   ungroup() %>%
-  select(RC_ID, RC_Name, Region, Country, AverageIMD, IMDRegional, diff_IMDRegional, r_IMDRegional,
+  select(RC_ID, Region, Country, AverageIMD, IMDRegional, diff_IMDRegional, r_IMDRegional,
          IMDNational, diff_IMDNational, r_IMDNational) %>%
   mutate_if(is.character, as.factor)
+
+
+
+
 
 ## Create identifier to illustrate population-weighted centroids have been used
 eng_walk_imd_clean$whichCentroid <- "Population-Weighted"
