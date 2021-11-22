@@ -15,24 +15,32 @@ We also utilise a series of other datasets to develop the indicators for the cen
 
 ## Indicators
 
-Indicators are developed for a subset of the 6,423 Retail Centres, with sufficient LDC coverage and those larger than 'Small, Local Centres'.
+Indicators are developed for a subset of the 6,423 Retail Centres, with sufficient LDC coverage and those larger than 'Small, Local Centres'. We have developed two types of indicator, both available through the CDRC:
 
-For 823 of the centres, we provide:
+### Open-Access
+
+For a subset of the retail centres we provide:
+- Clone town measure
+- Updated E-resilience score
+- Deprivation indices
+
+We also provide:
+- Drive-time catchments for all centres not classified as 'Small Local Centres'.
+- Walking catchments for all centres.
+
+### Safeguarded
+
+For a subset of the retail centres we provide:
 - Composition indicators: proportions of different types of retail (e.g. Comparison, Service).
 - Diversity indicators: ownership (independent, chains), clone town likelihood score.
 - Vacancy indicators: proportions of vacant units, short & long-term vacancy rates
-
-For 1,620 of the centres we provide:
-- Updated E-Resilience score: supply vulnerability, online exposure
-- Catchments - drive-time and walking catchments, varying in size by centre classification (e.g. Regional Centre).
-- Deprivation Exposure - exposure to neighbourhoods with high/low deprivation.
 
 ## Code
 
 Code is available for some of the indicators:
 
 - [E-Resilience Score: Calculating Online Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Calculating%20Online-Exposure.R).
-- [Drive-Time & Walking Catchments](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Drive-Time%20Catchments.R). 
+- [Drive-Time & Walking Catchments]
 - [Deprivation: Calculating Deprivation Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Calculating%20Deprivation-Exposure.R).
 
 Code for the other variables is unfortunately not available, as these indicators were derived using the secure LDC dataset in the UCL Data Safe Haven.
