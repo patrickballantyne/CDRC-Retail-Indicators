@@ -37,10 +37,10 @@ For a subset of the retail centres we provide:
 
 ## Code
 
-Code is available for some of the indicators:
+Code is available for some of the indicators (those not created inside the UCL Data Safe Haven; reliant on LDC data):
 
 - [E-Resilience Score: Calculating Online Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Calculating%20Online-Exposure.R).
-- [Drive-Time & Walking Catchments]
+- [Drive-Time & Walking Catchments](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Retail%20Centre%20Catchments.R).
 - [Deprivation: Calculating Deprivation Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Calculating%20Deprivation-Exposure.R).
 
 Code for the other variables is unfortunately not available, as these indicators were derived using the secure LDC dataset in the UCL Data Safe Haven.
