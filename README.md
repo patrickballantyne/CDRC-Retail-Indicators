@@ -1,12 +1,12 @@
 # CDRC-Retail-Indicators 
 
-Development of Indicators for CDRC Retail Centres (2021) Release. 
+Welcome to the CDRC Retail Centre Indicators repository. Here we provide detailed supporting information about the creation of indicators for the CDRC Retail Centre Boundaries data product.
 
 ## Indicators
 
-Indicators are developed for a subset of the 2021 release of the CDRC 'Retail Centres' data product, available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries).
+Indicators are developed for a subset of the 2021 release of the CDRC 'Retail Centre Boundaries' data product, available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries).
 
-### Open-Access
+### Open-Access - available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries). 
 
 For a subset of the retail centres we provide:
 - Clone town measure - presence of 'clone' retailers and retail categories.
@@ -17,7 +17,7 @@ We also provide retail centre catchments, delineated using the HERE REST API:
 - Drive-time catchments for all centres not classified as 'Small Local Centres'.
 - Walking catchments for all centres.
 
-### Safeguarded
+### Safeguarded - available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-indicators). 
 
 For a subset of the retail centres we provide:
 - Composition indicators: proportions of different types of retail (e.g. Comparison, Service).
