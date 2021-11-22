@@ -1,6 +1,8 @@
 # CDRC-Retail-Indicators 
 ### Patrick Ballantyne, Les Dolega
 
+----
+
 Welcome to the CDRC Retail Centre Indicators repository. Here we provide detailed supporting information about the creation of indicators for the CDRC Retail Centre Boundaries data product.
 
 ## Indicators
