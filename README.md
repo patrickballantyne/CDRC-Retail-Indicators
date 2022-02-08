@@ -1,13 +1,17 @@
 # CDRC-Retail-Indicators 
-### Patrick Ballantyne, Les Dolega
+### Patrick Ballantyne, Les Dolega, Alex Singleton
 
 ----
 
-Welcome to the CDRC Retail Centre Indicators repository. Here we provide detailed supporting information about the creation of indicators for the CDRC Retail Centre Boundaries data product.
+Welcome to the CDRC Retail Centre Indicators repository. Here we provide detailed supporting information about the creation of some additional indicators for the 2021 release of the CDRC Retail Centres data product.
 
 ## Indicators
 
 Indicators are developed for a subset of the 2021 release of the CDRC 'Retail Centre Boundaries' data product, available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries).
+
+## Explore the Indicators
+
+You can explore our indicators on the new CDRC 'Mapmaker' platform; check it out [HERE](https://mapmaker.cdrc.ac.uk/#/retail-centres?m=pctclon&lon=-2.9737&lat=53.4065&zoom=13.42).
 
 ### Open-Access - available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries). 
 
@@ -18,7 +22,7 @@ For a subset of the retail centres we provide:
 
 We also provide retail centre catchments, delineated using the HERE REST API:
 - Drive-time catchments for all centres not classified as 'Small Local Centres'.
-- Walking catchments for all centres.
+- Walking catchments for all centres not classified as 'Small Local Centres'.
 
 ### Safeguarded - available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-indicators). 
 
