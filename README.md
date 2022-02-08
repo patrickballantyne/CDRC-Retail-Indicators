@@ -17,6 +17,10 @@ You can explore our indicators on the new CDRC 'Mapmaker' platform; check it out
 
 ----
 
+## Download the Indicators
+
+You can download the indicators in two difference formats; Open-Access and SafeGuarded.
+
 ### Open-Access - available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries). 
 
 For a subset of the retail centres we provide:
