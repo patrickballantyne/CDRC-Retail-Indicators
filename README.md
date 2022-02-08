@@ -19,7 +19,7 @@ You can explore our indicators on the new CDRC 'Mapmaker' platform; check it out
 
 ## Download the Indicators
 
-You can download the indicators in two difference formats; Open-Access and SafeGuarded.
+You can download the indicators in two difference formats; Open-Access and SafeGuarded. For the latter, a formal application to the CDRC will be required, outlining how you intend to use the indicators.
 
 ### Open-Access - available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries). 
 
@@ -31,8 +31,6 @@ For a subset of the retail centres we provide:
 We also provide retail centre catchments, delineated using the HERE REST API:
 - Drive-time catchments for all centres not classified as 'Small Local Centres'.
 - Walking catchments for all centres not classified as 'Small Local Centres'.
-
-----
 
 ### Safeguarded - available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-indicators). 
 
