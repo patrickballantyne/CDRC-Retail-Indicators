@@ -145,7 +145,137 @@ input <- split(catchments, catchments$RC_ID)
 out <- do.call(rbind, lapply(input, calculateProfile))
 
 
+# 4. Presentation of Results ----------------------------------------------
 
+## Read in data
+full <- st_read("Output Data/Deprivation/CDRC_RetailCentre_DeprivationProfiles.gpkg")
+
+## Split by country, calculate quintiles and tidy up 
+
+### Scotland
+scot_walk_dep <- full %>%
+  filter(grepl("Scotland", RC_Name)) %>%
+  select(-c(d_AvgIMDScore)) %>%
+  mutate(IMDDecile = ntile(w_AvgIMDScore, 10)) %>%
+  mutate(IMDLookup = case_when(IMDDecile == 1 ~ "10% Least Deprived Nationally",
+                               IMDDecile == 2 ~ "20% Least Deprived Nationally",
+                               IMDDecile == 3 ~ "30% Least Deprived Nationally",
+                               IMDDecile == 4 ~ "40% Least Deprived Nationally",
+                               IMDDecile == 5 ~ "50% Least Deprived Nationally",
+                               IMDDecile == 6 ~ "50% Most Deprived Nationally",
+                               IMDDecile == 7 ~ "40% Most Deprived Nationally",
+                               IMDDecile == 8 ~ "30% Most Deprived Nationally",
+                               IMDDecile == 9 ~ "20% Most Deprived Nationally",
+                               IMDDecile == 10 ~ "10% Most Deprived Nationally")) %>%
+  select(RC_ID, RC_Name, Classification, w_AvgIMDScore, IMDDecile, IMDLookup) %>%
+  rename(AvgIMDScore = w_AvgIMDScore)
+scot_drive_dep <- full %>%
+  filter(grepl("Scotland", RC_Name)) %>%
+  select(-c(w_AvgIMDScore)) %>%
+  mutate(IMDDecile = ntile(d_AvgIMDScore, 10)) %>%
+  mutate(IMDLookup = case_when(IMDDecile == 1 ~ "10% Least Deprived Nationally",
+                               IMDDecile == 2 ~ "20% Least Deprived Nationally",
+                               IMDDecile == 3 ~ "30% Least Deprived Nationally",
+                               IMDDecile == 4 ~ "40% Least Deprived Nationally",
+                               IMDDecile == 5 ~ "50% Least Deprived Nationally",
+                               IMDDecile == 6 ~ "50% Most Deprived Nationally",
+                               IMDDecile == 7 ~ "40% Most Deprived Nationally",
+                               IMDDecile == 8 ~ "30% Most Deprived Nationally",
+                               IMDDecile == 9 ~ "20% Most Deprived Nationally",
+                               IMDDecile == 10 ~ "10% Most Deprived Nationally")) %>%
+  select(RC_ID, RC_Name, Classification, d_AvgIMDScore, IMDDecile, IMDLookup) %>%
+  rename(AvgIMDScore = d_AvgIMDScore)
+
+## England
+england_walk_dep <- full %>%
+  filter(grepl("England", RC_Name)) %>%
+  select(-c(d_AvgIMDScore)) %>%
+  mutate(IMDDecile = ntile(w_AvgIMDScore, 10)) %>%
+  mutate(IMDLookup = case_when(IMDDecile == 1 ~ "10% Least Deprived Nationally",
+                               IMDDecile == 2 ~ "20% Least Deprived Nationally",
+                               IMDDecile == 3 ~ "30% Least Deprived Nationally",
+                               IMDDecile == 4 ~ "40% Least Deprived Nationally",
+                               IMDDecile == 5 ~ "50% Least Deprived Nationally",
+                               IMDDecile == 6 ~ "50% Most Deprived Nationally",
+                               IMDDecile == 7 ~ "40% Most Deprived Nationally",
+                               IMDDecile == 8 ~ "30% Most Deprived Nationally",
+                               IMDDecile == 9 ~ "20% Most Deprived Nationally",
+                               IMDDecile == 10 ~ "10% Most Deprived Nationally")) %>%
+  select(RC_ID, RC_Name, Classification, w_AvgIMDScore, IMDDecile, IMDLookup) %>%
+  rename(AvgIMDScore = w_AvgIMDScore)
+england_drive_dep <- full %>%
+  filter(grepl("England", RC_Name)) %>%
+  select(-c(w_AvgIMDScore)) %>%
+  mutate(IMDDecile = ntile(d_AvgIMDScore, 10)) %>%
+  mutate(IMDLookup = case_when(IMDDecile == 1 ~ "10% Least Deprived Nationally",
+                               IMDDecile == 2 ~ "20% Least Deprived Nationally",
+                               IMDDecile == 3 ~ "30% Least Deprived Nationally",
+                               IMDDecile == 4 ~ "40% Least Deprived Nationally",
+                               IMDDecile == 5 ~ "50% Least Deprived Nationally",
+                               IMDDecile == 6 ~ "50% Most Deprived Nationally",
+                               IMDDecile == 7 ~ "40% Most Deprived Nationally",
+                               IMDDecile == 8 ~ "30% Most Deprived Nationally",
+                               IMDDecile == 9 ~ "20% Most Deprived Nationally",
+                               IMDDecile == 10 ~ "10% Most Deprived Nationally")) %>%
+  select(RC_ID, RC_Name, Classification, d_AvgIMDScore, IMDDecile, IMDLookup) %>%
+  rename(AvgIMDScore = d_AvgIMDScore)
+
+## Wales
+wales_walk_dep <- full %>%
+  filter(grepl("Wales", RC_Name)) %>%
+  select(-c(d_AvgIMDScore)) %>%
+  mutate(IMDDecile = ntile(w_AvgIMDScore, 10)) %>%
+  mutate(IMDLookup = case_when(IMDDecile == 1 ~ "10% Least Deprived Nationally",
+                               IMDDecile == 2 ~ "20% Least Deprived Nationally",
+                               IMDDecile == 3 ~ "30% Least Deprived Nationally",
+                               IMDDecile == 4 ~ "40% Least Deprived Nationally",
+                               IMDDecile == 5 ~ "50% Least Deprived Nationally",
+                               IMDDecile == 6 ~ "50% Most Deprived Nationally",
+                               IMDDecile == 7 ~ "40% Most Deprived Nationally",
+                               IMDDecile == 8 ~ "30% Most Deprived Nationally",
+                               IMDDecile == 9 ~ "20% Most Deprived Nationally",
+                               IMDDecile == 10 ~ "10% Most Deprived Nationally")) %>%
+  select(RC_ID, RC_Name, Classification, w_AvgIMDScore, IMDDecile, IMDLookup) %>%
+  rename(AvgIMDScore = w_AvgIMDScore)
+wales_drive_dep <- full %>%
+  filter(grepl("Wales", RC_Name)) %>%
+  select(-c(w_AvgIMDScore)) %>%
+  mutate(IMDDecile = ntile(d_AvgIMDScore, 10)) %>%
+  mutate(IMDLookup = case_when(IMDDecile == 1 ~ "10% Least Deprived Nationally",
+                               IMDDecile == 2 ~ "20% Least Deprived Nationally",
+                               IMDDecile == 3 ~ "30% Least Deprived Nationally",
+                               IMDDecile == 4 ~ "40% Least Deprived Nationally",
+                               IMDDecile == 5 ~ "50% Least Deprived Nationally",
+                               IMDDecile == 6 ~ "50% Most Deprived Nationally",
+                               IMDDecile == 7 ~ "40% Most Deprived Nationally",
+                               IMDDecile == 8 ~ "30% Most Deprived Nationally",
+                               IMDDecile == 9 ~ "20% Most Deprived Nationally",
+                               IMDDecile == 10 ~ "10% Most Deprived Nationally")) %>%
+  select(RC_ID, RC_Name, Classification, d_AvgIMDScore, IMDDecile, IMDLookup) %>%
+  rename(AvgIMDScore = d_AvgIMDScore)
+
+### Assemble for release
+walk_dep <- rbind(scot_walk_dep, england_walk_dep, wales_walk_dep)
+walk_dep <- walk_dep %>%
+  mutate(Country = case_when(grepl("Scotland", RC_Name) ~ "Scotland",
+                             grepl("England", RC_Name) ~ "England", 
+                             grepl("Wales", RC_Name) ~ "Wales")) %>%
+  select(RC_ID, RC_Name, Country, Classification, AvgIMDScore, IMDDecile, IMDLookup, geom) %>%
+  arrange(-IMDDecile, Country)
+
+
+drive_dep <- rbind(scot_drive_dep, england_drive_dep, wales_drive_dep)
+drive_dep <- drive_dep %>%
+  mutate(Country = case_when(grepl("Scotland", RC_Name) ~ "Scotland",
+                             grepl("England", RC_Name) ~ "England", 
+                             grepl("Wales", RC_Name) ~ "Wales")) %>%
+  select(RC_ID, RC_Name, Country, Classification, AvgIMDScore, IMDDecile, IMDLookup, geom) %>%
+  arrange(-IMDDecile, Country)
+
+
+head(drive_dep)
+
+## Break up values into deciles
 
 # Appendices --------------------------------------------------------------
 
