@@ -106,16 +106,83 @@ rc <- rc %>%
 
 ## Unemployment rates
 
-## Affluence
+## Affluence -------------------------------------------------------------------------------
 
-## Night-time population
+## Use the deprivation profiles for walking catchments
+imd <- st_read("Output Data/Deprivation/CDRC_RetailCentre_WalkingDeprivation.gpkg")
+imd <- imd %>%
+  as.data.frame() %>%
+  select(RC_ID, AvgIMDScore) %>%
+  rename(affluence = AvgIMDScore)
+rc <- merge(rc, imd, by = "RC_ID", all.x = TRUE)
 
-## Day-time population
 
-## Visitors
+## Night-time population -------------------------------------------------------------------
 
-## Rateable value
+### England & Wales
+eng_wal <- readxl::read_excel("Input Data/2019_EW_estimates.xlsx", sheet = 4, skip = 5)
+eng_wal <- eng_wal %>%
+  select(1:2, 7) %>%
+  setNames(c("Area_Code", "Area_Name", "Total_Population_2019")) %>%
+  mutate_if(is.character, as.factor) %>%
+  drop_na()
+
+### Scotland
+scot <- readxl::read_excel("Input Data/2019_S_estimates.xlsx", sheet = 1,  skip = 5)
+scot <- scot %>%
+  select(1:2, 4) %>%
+  setNames(c("Area_Code", "Area_Name", "Total_Population_2019")) %>%
+  mutate_if(is.character, as.factor) %>%
+  drop_na()
+
+### UK Population
+pop <- rbind(eng_wal, scot)
+
+### Shapefiles
+pop_shp <- st_read("Output Data/Deprivation/GB_Deprivation.gpkg")
+pop_shp <- pop_shp %>% select(Area_Code, geom)
+pop <- merge(pop_shp, pop, by = "Area_Code")
+st_write(pop, "Output Data/2019_Population.gpkg")
+
+## Calculate the total population of the walking cacthments
+w_catch <- st_read("Output Data/CDRC_RetailCentre_2021_WalkingIsolines_v4.gpkg")
+w_catch <- w_catch %>%
+  filter(RC_ID %in% rc$RC_ID)
+int <- st_intersection(w_catch, pop)
+int_out <- int %>%
+  as.data.frame() %>%
+  select(RC_ID, Area_Code, Total_Population_2019) %>%
+  group_by(RC_ID) %>%
+  summarise(Population = sum(Total_Population_2019)) %>%
+  rename(nightPopulation = Population)
+rc <- merge(rc, int_out, by = "RC_ID", all.x = TRUE)
+
+## Day-time population ---------------------------------------------------------
+
+### Read in the 2011 WZ Population Data
+wz_pop <- read.csv("Input Data/WZ/WZ_Population_2011.csv")
+wz_pop <- wz_pop %>%
+  select(3:4) %>%
+  setNames(c("Area_Code", "Population"))
+wz_shp <- merge(pop_shp, wz_pop, by = "Area_Code", all.x = TRUE)
+wz_shp <- wz_shp %>%
+  filter(!is.na(Population))
+
+### Calculate total population in catchment
+int <- st_intersection(w_catch, wz_shp)
+int_out <- int %>%
+  as.data.frame() %>%
+  select(RC_ID, Area_Code, Population) %>%
+  group_by(RC_ID) %>%
+  summarise(dayPopulation = sum(Population))
+rc <- merge(rc, int_out, by = "RC_ID", all.x = TRUE)
+
+## Rateable value ???
 
 
 
+# Appendices --------------------------------------------------------------
+
+## Writing Out
+st_write(rc, "Output Data/Multidimensional Typology/Inputs.gpkg")
 
