@@ -262,6 +262,7 @@ walk_dep <- walk_dep %>%
                              grepl("Wales", RC_Name) ~ "Wales")) %>%
   select(RC_ID, RC_Name, Country, Classification, AvgIMDScore, IMDDecile, IMDLookup, geom) %>%
   arrange(-IMDDecile, Country)
+st_write(walk_dep, "Output Data/Deprivation/CDRC_RetailCentre_WalkingDeprivation.gpkg")
 
 
 drive_dep <- rbind(scot_drive_dep, england_drive_dep, wales_drive_dep)
@@ -271,11 +272,9 @@ drive_dep <- drive_dep %>%
                              grepl("Wales", RC_Name) ~ "Wales")) %>%
   select(RC_ID, RC_Name, Country, Classification, AvgIMDScore, IMDDecile, IMDLookup, geom) %>%
   arrange(-IMDDecile, Country)
+st_write(drive_dep, "Output Data/Deprivation/CDRC_RetailCentre_DrivingDeprivation.gpkg")
 
 
-head(drive_dep)
-
-## Break up values into deciles
 
 # Appendices --------------------------------------------------------------
 
