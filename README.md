@@ -3,7 +3,7 @@
 
 ----
 
-Welcome to the CDRC Retail Centre Indicators repository. Here we provide detailed supporting information about the creation of some additional indicators for the 2021 release of the CDRC Retail Centres data product.
+Welcome to the CDRC Retail Centre Indicators repository. Here we provide detailed supporting information about the creation of some additional indicators and a multidimensional typology for the 2021 release of the CDRC Retail Centres data product.
 
 ## Indicators
 
@@ -50,3 +50,10 @@ Code is available to see how some of these indicators were assembled:
 - [Deprivation: Calculating Deprivation Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Postcode-based%20Deprivation%20Profiles.R).
 
 Code for the other indicators (Clone Town likelihood, full E-Resilience score) is unfortunately not available, as these indicators were derived using the secure LDC dataset in the UCL Data Safe Haven.
+
+
+----
+
+## Multidimensional Typology
+
+We are just starting to work on an updated multidimensional typology for the retail centres, an update on the existing version from [Dolega et al. (2019)](https://journals.sagepub.com/doi/full/10.1177/2399808319840666). Check back soon for more updates; variable extraction, clustering, pen portraits etc. 
