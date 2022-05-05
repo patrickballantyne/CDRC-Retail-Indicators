@@ -58,6 +58,7 @@ Code for the other indicators (Clone Town likelihood, full E-Resilience score) i
 
 The 2022 Retail Centre Typology presents an updated multidimensional typology of retail and consumption spaces across Great Britain. Retail presence within towns and city centres has become increasingly combined with other uses such as services and leisure activities, and the expansion of online retailing is causing a net loss of demand for some forms of retail floor space and change in function for others. This data product can be used to understand and comprehend the spatial provision of retailing and service activity, and better unpack the transformed roles and functions of consumption spaces. 
 
-Code used to assemble some of the input variables (those outside the UCL DSH) can be found [HERE](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Assembling%20OPEN%20typology%20variables.R).
+Code is available to see how parts of the typology were assembled:
 
-Code used to assemble the retail centre typology, including feature selection and fitting of PAM can be found [HERE](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Multidimensional%20Typology.R).
+- [Calculating input variables using datasets available outside the DSH](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Assembling%20OPEN%20typology%20variables.R)
+- [Assembling the retail centre typology, including feature selection](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Multidimensional%20Typology.R)
