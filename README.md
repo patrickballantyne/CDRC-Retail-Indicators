@@ -54,6 +54,10 @@ Code for the other indicators (Clone Town likelihood, full E-Resilience score) i
 
 ----
 
-## Multidimensional Typology
+## Retail Centre (Multidimensional) Typology
 
-We are just starting to work on an updated multidimensional typology for the retail centres, an update on the existing version from [Dolega et al. (2019)](https://journals.sagepub.com/doi/full/10.1177/2399808319840666). Check back soon for more updates; variable extraction, clustering, pen portraits etc. 
+The 2022 Retail Centre Typology presents an updated multidimensional typology of retail and consumption spaces across Great Britain. Retail presence within towns and city centres has become increasingly combined with other uses such as services and leisure activities, and the expansion of online retailing is causing a net loss of demand for some forms of retail floor space and change in function for others. This data product can be used to understand and comprehend the spatial provision of retailing and service activity, and better unpack the transformed roles and functions of consumption spaces. 
+
+Code used to assemble some of the input variables (those outside the UCL DSH) can be found [HERE](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Assembling%20OPEN%20typology%20variables.R).
+
+Code used to assemble the retail centre typology, including feature selection and fitting of PAM can be found [HERE](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Multidimensional%20Typology.R).
