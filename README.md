@@ -9,13 +9,7 @@ Welcome to the CDRC Retail Centre Indicators repository. Here we provide detaile
 
 Indicators are developed for a subset of the 2021 release of the CDRC 'Retail Centre Boundaries' data product, available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries).
 
-----
-
-## Explore the Indicators
-
 You can explore our indicators on the new CDRC 'Mapmaker' platform; check it out [HERE](https://mapmaker.cdrc.ac.uk/#/retail-centres?m=pctclon&lon=-2.9737&lat=53.4065&zoom=13.42).
-
-----
 
 ## Download the Indicators
 
@@ -39,8 +33,6 @@ For a subset of the retail centres we provide:
 - Diversity indicators: ownership (independent, chains), clone town likelihood score.
 - Vacancy indicators: proportions of vacant units, short & long-term vacancy rates
 
-----
-
 ## Code
 
 Code is available to see how some of these indicators were assembled:
@@ -50,7 +42,6 @@ Code is available to see how some of these indicators were assembled:
 - [Deprivation: Calculating Deprivation Exposure](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Postcode-based%20Deprivation%20Profiles.R).
 
 Code for the other indicators (Clone Town likelihood, full E-Resilience score) is unfortunately not available, as these indicators were derived using the secure LDC dataset in the UCL Data Safe Haven.
-
 
 ----
 
