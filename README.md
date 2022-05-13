@@ -9,13 +9,7 @@ Welcome to the CDRC Retail Centre Indicators repository. Here we provide detaile
 
 Indicators are developed for a subset of the 2021 release of the CDRC 'Retail Centre Boundaries' data product, available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries).
 
-----
-
-## Explore the Indicators
-
 You can explore our indicators on the new CDRC 'Mapmaker' platform; check it out [HERE](https://mapmaker.cdrc.ac.uk/#/retail-centres?m=pctclon&lon=-2.9737&lat=53.4065&zoom=13.42).
-
-----
 
 ## Download the Indicators
 
@@ -39,8 +33,6 @@ For a subset of the retail centres we provide:
 - Diversity indicators: ownership (independent, chains), clone town likelihood score.
 - Vacancy indicators: proportions of vacant units, short & long-term vacancy rates
 
-----
-
 ## Code
 
 Code is available to see how some of these indicators were assembled:
@@ -51,9 +43,13 @@ Code is available to see how some of these indicators were assembled:
 
 Code for the other indicators (Clone Town likelihood, full E-Resilience score) is unfortunately not available, as these indicators were derived using the secure LDC dataset in the UCL Data Safe Haven.
 
-
 ----
 
-## Multidimensional Typology
+## Retail Centre (Multidimensional) Typology
 
-We are just starting to work on an updated multidimensional typology for the retail centres, an update on the existing version from [Dolega et al. (2019)](https://journals.sagepub.com/doi/full/10.1177/2399808319840666). Check back soon for more updates; variable extraction, clustering, pen portraits etc. 
+The 2022 Retail Centre Typology presents an updated multidimensional typology of retail and consumption spaces across Great Britain. Retail presence within towns and city centres has become increasingly combined with other uses such as services and leisure activities, and the expansion of online retailing is causing a net loss of demand for some forms of retail floor space and change in function for others. This data product can be used to understand and comprehend the spatial provision of retailing and service activity, and better unpack the transformed roles and functions of consumption spaces. 
+
+Code is available to see how parts of the typology were assembled:
+
+- [Calculating input variables using datasets available outside the DSH](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Assembling%20OPEN%20typology%20variables.R)
+- [Assembling the retail centre typology, including feature selection](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Analysis%20Code/Multidimensional%20Typology.R)
