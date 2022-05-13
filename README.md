@@ -5,13 +5,13 @@
 
 Welcome to the CDRC Retail Centre Indicators repository. Here we provide detailed supporting information about the creation of some additional indicators and a multidimensional typology for the 2021 release of the CDRC Retail Centres data product.
 
-## Indicators
+## 1. Indicators
 
 Indicators are developed for a subset of the 2021 release of the CDRC 'Retail Centre Boundaries' data product, available [HERE](https://data.cdrc.ac.uk/dataset/retail-centre-boundaries).
 
 You can explore our indicators on the new CDRC 'Mapmaker' platform; check it out [HERE](https://mapmaker.cdrc.ac.uk/#/retail-centres?m=pctclon&lon=-2.9737&lat=53.4065&zoom=13.42).
 
-## Download the Indicators
+### 1.1 Download the Indicators
 
 You can download the indicators in two difference formats; Open-Access and SafeGuarded. For the latter, a formal application to the CDRC will be required, outlining how you intend to use the indicators.
 
@@ -33,7 +33,7 @@ For a subset of the retail centres we provide:
 - Diversity indicators: ownership (independent, chains), clone town likelihood score.
 - Vacancy indicators: proportions of vacant units, short & long-term vacancy rates
 
-## Code
+### 1.2 Code
 
 Code is available to see how some of these indicators were assembled:
 
@@ -45,13 +45,19 @@ Code for the other indicators (Clone Town likelihood, full E-Resilience score) i
 
 ----
 
-## Retail Centre (Multidimensional) Typology
+## 2. Retail Centre (Multidimensional) Typology
 
 The 2022 Retail Centre Typology presents an updated multidimensional typology of retail and consumption spaces across Great Britain. Retail presence within towns and city centres has become increasingly combined with other uses such as services and leisure activities, and the expansion of online retailing is causing a net loss of demand for some forms of retail floor space and change in function for others. This data product can be used to understand and comprehend the spatial provision of retailing and service activity, and better unpack the transformed roles and functions of consumption spaces. 
 
+### 2.1 Download the Typology
+
 The typology is available to download as a geopackage [HERE](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Output%20Data/Multidimensional%20Typology/RELEASE/typology_2022.gpkg), or as a lookup table [HERE](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Output%20Data/Multidimensional%20Typology/RELEASE/typology_lookup_2022.csv). 
 
+### 2.2 Interpret the Typology
+
 A supporting manual detailing the creation of the typology and pen portraits for the different supergroups and groups is available to download [HERE](https://github.com/patrickballantyne/CDRC-Retail-Indicators/blob/main/Output%20Data/Multidimensional%20Typology/RELEASE/typology2022userguide_v2.docx). 
+
+### 2.3 Code
 
 Code is also available to see how parts of the typology were assembled:
 
