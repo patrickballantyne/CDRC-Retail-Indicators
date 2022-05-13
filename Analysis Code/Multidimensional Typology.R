@@ -10,7 +10,7 @@ library(ggcorrplot)
 library(ggstatsplot)
 library(lares)
 source("Source Code/Michalis_Clustergram.R")
-source("/Users/patrick/Google Drive/Patrick Academic/POSTGRAD/PhD/PhD Work/Papers/PAPER TWO/USRetailCentres/Source Code/Helper Functions - Typology.R")
+source("C:/Users/sgpballa/Google Drive/Patrick Academic/POSTGRAD/PhD/PhD Work/Papers/PAPER TWO/USRetailCentres/Source Code/Helper Functions - Typology.R")
 options(scipen = 999)
 
 
@@ -43,6 +43,8 @@ inputs <- inputs %>%
 
 ## Get ready for analysis
 inputs <- as.data.table (inputs)
+rc <- inputs %>%
+  select(RC_ID)
 
 ## Identify highest correlations
 corr_cross(inputs, # name of dataset
@@ -97,6 +99,22 @@ md <- pm[[2]]
 
 ## Plot medoids
 plot_medoids(pm)
+
+## Extract results
+supergroups <- pm[[1]]
+supergroups <- supergroups %>%
+  select(cluster) %>%
+  dplyr::rename(supergroupID = cluster) %>% 
+  mutate(supergroupName = case_when(supergroupID == 1 ~ "Local 'everyday' goods and service centres",
+                                    supergroupID == 2 ~ "Retail and shopping parks",
+                                    supergroupID == 3 ~ "Leading comparison and leisure destinations",
+                                    supergroupID == 4 ~ "Traditional high streets and market towns")) %>% 
+  cbind(., rc) %>%
+  select(RC_ID, supergroupID, supergroupName) %>%
+  mutate(RC_ID = as.factor(RC_ID),
+         supergroupID = as.factor(supergroupID),
+         supergroupName = as.factor(supergroupName))
+  
 
 ## Plot them individually
 cl1 <- md %>%
@@ -195,7 +213,7 @@ count <- pm_out %>%
 types_g1 <- lapply(n, function(x) get_nested_types(pm_out, cl = 1, medoids = TRUE))
 types_g1_n <- lapply(n, function(x) get_nested_types(pm_out, cl = 1, medoids = FALSE))
 types_g1_un <- do.call(rbind, types_g1)
-types_g2_n <- do.call(rbind, types_g1_n)
+types_g1_n <- do.call(rbind, types_g1_n)
 plot_type_medoids(types_g1_un)
 
 ## Extract nested types - group 2
@@ -219,54 +237,43 @@ types_g4_un <- do.call(rbind, types_g4)
 types_g4_n <- do.call(rbind, types_g4_n)
 plot_type_medoids(types_g4_un)
 
+## Formatting for joining to the main dataset
+groups <- rbind(types_g1_n, types_g2_n, types_g3_n, types_g4_n)
+groups <- groups %>% 
+  select(-c(type)) %>%
+  setNames(c("RC_ID", "supergroupID", "groupID")) %>%
+  mutate(groupIDnew = case_when(groupID == "2.1" ~ "2.2",
+                                groupID == "2.2" ~ "2.1",
+                                TRUE ~ groupID)) %>%
+  select(-c(groupID)) %>%
+  dplyr::rename(groupID = groupIDnew) %>%
+  mutate(groupName = case_when(groupID == "1.1" ~ "Local urban convenience centres",
+                               groupID == "1.2" ~ "District urban service centres",
+                               groupID == "2.1" ~ "Primary shopping centres and premium destinations",
+                               groupID == "2.2" ~ "Secondary retail parks and shopping centres",
+                               groupID == "3.1" ~ "Large regional retail and leisure destinations",
+                               groupID == "3.2" ~ "Sub-regional retail and leisure destinations",
+                               groupID == "4.1" ~ "Mass and value high streets",
+                               groupID == "4.2" ~ "Indie high streets")) %>%
+  mutate(RC_ID = as.factor(RC_ID),
+         supergroupID = as.factor(supergroupID),
+         groupID = as.factor(groupID),
+         groupName = as.factor(groupName))
 
 
-#### EXAMPLES
 
-## Group 1
-g1_n <- merge(types_g1_n, rc[, c("RC_ID", "RC_Name")], by.x = "rcID", by.y = "RC_ID", all.x = TRUE)
-g1_n <- g1_n %>%
-  as.data.frame() %>%
-  select(rcID, RC_Name, typ_id)
 
-## Group 2
-g2_n <- merge(types_g2_n, rc[, c("RC_ID", "RC_Name")], by.x = "rcID", by.y = "RC_ID", all.x = TRUE)
-g2_n <- g2_n %>%
-  as.data.frame() %>%
-  select(rcID, RC_Name, typ_id)
+# 5. Outputs --------------------------------------------------------------
 
-## Group 3
-g3_n <- merge(types_g3_n, rc[, c("RC_ID", "RC_Name")], by.x = "rcID", by.y = "RC_ID", all.x = TRUE)
-g3_n <- g3_n %>%
-  as.data.frame() %>%
-  select(rcID, RC_Name, typ_id)
+## Retail centre shapefile to append to
+rc_shp <- st_read("Output Data/200721_PB_437-01_RC_Boundaries_UPDATED.gpkg")
+rc_shp <- rc_shp %>%
+  select(RC_ID, RC_Name)
 
-## Group 4
-g4_n <- merge(types_g4_n, rc[, c("RC_ID", "RC_Name")], by.x = "rcID", by.y = "RC_ID", all.x = TRUE)
-g4_n <- g4_n %>%
-  as.data.frame() %>%
-  select(rcID, RC_Name, typ_id)
+## Assemble full list of Supergroups and Groups
+typology <- merge(supergroups, groups, by = c("RC_ID", "supergroupID"))
+write.csv(typology, "Output Data/Multidimensional Typology/RELEASE/typology_lookup_2022.csv")
 
-# 5.  Outputs -------------------------------------------------------------
-
-## Retail Centres
-rc <- st_read("Output Data/200721_PB_437-01_RC_Boundaries_UPDATED.gpkg")
-rc <- rc %>%
-  select(RC_ID, RC_Name, Classification, geom)
-
-## Attaching the cluster values
-out <- pm[[1]]
-out$RC_ID <- inputs$RC_ID
-out <- out %>%
-  select(RC_ID, cluster)
-
-## Merge
-rc_cl <- merge(rc, out, by = "RC_ID", all.y = TRUE)
-m <- rc_cl %>%
-  as.data.frame() %>%
-  select(-c(geometry)) %>%
-  filter(cluster == 1) %>%
-  filter(grepl("London", RC_Name))
-head(m)
-mo <- m %>%
-  dplyr::count(Classification)
+## Assemble shapefile
+rc_typ <- merge(rc_shp, typology, by = "RC_ID", all.y = TRUE)
+st_write(rc_typ, "Output Data/Multidimensional Typology/RELEASE/typology_2022.gpkg")
